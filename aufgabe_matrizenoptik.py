@@ -6,6 +6,7 @@ Created on Mon Jun  6 11:07:40 2022
 """
 
 import numpy as np
+from scipy.optimize import fsolve
 
 w0 = 10**(-3)
 wl = 632.8*10**(-9) #wavelength
@@ -16,5 +17,12 @@ f2 = 100*10**(-3)
 z_R = (np.pi*w0**2)/wl
 z_Rp = (np.pi*w0p**2)/wl
 
-L = f1 - (f1*f2**2)/z_R*z_R**2
+
+def f(x): #fehlt noch was
+    C = x/(f1*f2) - (1/f1) - (1/f2)
+    D = 1 - x/f2
+    f = (z_R / ((D**2)+(z_R**2)*C**2)) - z_Rp
+    return f
+
+L = fsolve(f, 0.01)
 print(L)
