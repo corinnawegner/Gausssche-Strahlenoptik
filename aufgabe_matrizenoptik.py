@@ -24,5 +24,6 @@ def f(x): #fehlt noch was
     f = (z_R / ((D**2)+(z_R**2)*C**2)) - z_Rp
     return f
 
-L = fsolve(f, 0.01)
-print(L)
+Lnegative = fsolve(f, 0.01)
+L = fsolve(f, 1)
+print(Lnegative, L)
