@@ -1,0 +1,13 @@
+﻿Abstand Linse-Diode:6cm;Abstand Linse-Faserausgang in cm;Fehler Schraubenpositionen;Fehler Spannungen in mV;
+6cm;15.5;0.1;1;
+Abstand Rasierklinge-Linse: 7.2cm (Fehler 0.2cm);
+Position Schraube ;6.0;8.0;12.1;12.5;12.7;12.9;13.1;14;
+normierte Spannung in mV;41;39;33;27;20;12;7;1;
+Abstand Rasierklinge-Linse: 4.5 cm;
+Position Schraube;0;0.8;1;1.2;1.5;1.7;2;2.5;
+normierte Spannung in mV;40;30;25;18;10;6;3;0;
+Abstand Rasierklinge-Linse:10.5cm;
+Position Schraube;4.8;6.5;6.8;7;7.2;8.1;
+normierte Spannung in mV;40;32;20;13;8;1;
+
+
