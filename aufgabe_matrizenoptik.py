@@ -24,6 +24,6 @@ def f(x): #fehlt noch was
     f = (z_R / ((D**2)+(z_R**2)*C**2)) - z_Rp
     return f
 
-Lnegative = fsolve(f, 0.01)
-L = fsolve(f, 1)
+Lnegative = fsolve(f, 0.01) #0.01 als Schätzwert, von da aus wird bis zur nächsten Nullstelle iteriert
+L = fsolve(f, 0.5)
 print(Lnegative, L)
