@@ -1,16 +1,14 @@
 Abstand Linse 1-Faserausgang in cm; Abstand beide Linsen in cm; Abstand Linse-Photodiode in cm;
 4; 32.5; 5;
-
 Abstand Rasierklinge-Linse 1: 10 cm
 Position Schraube; 5.2; 5.6; 5.7; 5.8; 5.9;
 normierte Spannung in mV; 36; 26; 10; 5; 1;
 Abstand Rasierklinge-Linse 1: 9 cm
 Position Schraube; 5.5; 6.5; 6.6; 6.7;
 normierte Spannung in mV; 27; 7; 2; 1; 
-
 Abstand Rasierklinge-Linse 1: 11 cm
-Position Schraube; 
-normierte Spannung in mV;
+Position Schraube; 2.2; 2.3; 2.4; 2.6;
+normierte Spannung in mV; 22; 8; 4; 1;
 Abstand Rasierklinge-Linse 1: 6 cm 
 Position Schraube; 5.2; 5.5; 5.7; 5.9; 6.1;
 normierte Spannung in mV; 29; 24; 13; 4; 0.1;
