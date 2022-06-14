@@ -1,0 +1,34 @@
+TV1
+Aufbau und Experiment beschreiben
+(Fehlerberechnung)
+Seite 7 Aufgabe 1 umformung in Latex - Garen
+Seite 11 Experimentfragen frag Pooja lichtleistungzeugs (wir haben nur spannungen gemessen) 
+Seite 11 Absatz 2 anteil berechnen und argumentiere bindet sich mit dem oberen ^
+
+
+
+TV2
+Aufbau und Experiment beschreiben
+(Fehlerrechnung)
+Seite 13 Lichtleistungbestimmen unbedingt mal lernen (von Pooja)
+Seite 13 Moden
+
+
+TV3
+Aufbau und Experiment beschreiben
+(Fehlerrechnnung)
+Seite 14 Brechungsindexprofil - ask pooja
+Seite 14 Strahltaile ermitteln (aka verteilung plotten und gauß fitten) - Corinna
+Seite 15 Linsenfehler minimieren orientierung nochmal sneaky fragen (plankonvexe linsen)
+
+
+TV4
+Aufbau und Experiment beschreiben
+(Fehlerrechnung)
+Seite 16 Finesse und Reflektivität (checkt dass R = 1-T und dass t =(t_1*t_2)^0.5 gilt)
+Seite 16 Resonatorconfiguration (antwort confocal)
+AUFGABE Seite 16 kann man beantworten - Beide
+Seite 17 Distanz linse und spiegel (halbe fokallänge)
+Seite 18 erwartete transmissionsfunktion
+Seite 18 Warum 2 transmissionmaxima (lasermoden wegen wärme)
+Seite 18 Verhältnisse free spectral range und Lineanbreite und Finesse
