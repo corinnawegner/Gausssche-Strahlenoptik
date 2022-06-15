@@ -13,6 +13,8 @@
 
 \title{Gaussian beam optics}
 \author{Corinna Elena Wegner, Garen Gregorian}
+\date{June 8, 2022}
+\maketitle %hiermit wird das Deckblatt erst erstellt
 \newpage
 \tableofcontents
 \newpage
@@ -20,21 +22,15 @@
 \section{Einleitung} %dies ist eine Überschrift
 \subsection{Dies ist eine Überschrift zweiten Ranges}
 %Wenn ich \subsection* schreibe (mit *), kommt diese Überschrift nicht in die Gliederung
+
 in diesem Versuch soll das Intensitätsprofil von Gaußschen Strahlen vermessen und die Auswirkungen von optischen Elementen untersucht werden\\
 %Das muss noch auf Englisch übersetzt werden
-
 %\\ macht einen Zeilenumbruch
+%Formeln mit $Formeln$ einfügen
+%Wichtigere Formeln mit \[ Formel \]
 
 \textcolor{red}{Genereller Versuchsaufbau mit Skizze}\\
 %Dinge die nicht Text sind sondern Dinge die noch rein müssen bzw. TO-DOs hab ich für uns zum Überblick rot gemacht 
-
-
-%Formeln
-$ P = U*I $
-Ohmsches Gesetz
-$ U= R* I$
-$P = U^2/R$
-$ \pm $
 
 \section{Measuring the power of the laser}
 
@@ -48,8 +44,17 @@ photodiode. Then we turned the laser off and measured again at the same position
 \ $U_b = (1.2 \pm 0.1)mV$ 
 using the 
 \textcolor{red}{???}
-photodiode. (This is not enough)  
-\\
+photodiode. 
+\textcolor{red}{(This is not enough, and explain if we used different diodes)} 
+
+\paragraph{Calculating the power from the voltage}
+
+When the beam hits the diode, the multimeter detects a voltage $U$. In general, the relation between the electric power and voltage ist given by 
+\[ P = U \cdot I \] 
+\textcolor{red}{Wie Formeln nummerieren?}
+Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
+\[P = \frac{U^2}{R}\]
+The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$.
 
 \textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste?}
 
@@ -70,5 +75,16 @@ In this experiment we measured the intensity of the collimated laser light that 
 Messdaten:
 Messungenauigkeiten Ursachen:
 -At the focal point the multimeter display showed strong fluctuations}
+
+\section{Optical resonator}
+
+In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
+
+The measured signal looks like this:
+\textcolor{red}{Bild einfügen, auch eine Skizze vom Versuchsaufbau}
+
+\paragraph{Determining the transmission of the two reflectors}
+
+
 
 \end{document}
