@@ -8,6 +8,7 @@
 %Sonderzeichen in Latex einfügen: https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Sonderzeichen
 
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
+\usepackage{mathtools} %Das muss man noch installieren (man wird beim ersten Ausführen des Codes darauf hingewiesen und kann das dann direkt mit 'install' tun)
 
 \begin{document} 
 
@@ -69,9 +70,32 @@ Now we measured the voltage from the photodiode behind the cables. Therefor we f
 
 \section{Measuring the beam profile}
 
-In this experiment we measured the intensity of the collimated laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens just behind the fibre end so that the beam was again in the gaussian shape. We measured the profile of the beam at different positions between the two lenses (the second lens focuses the beam into the photodiode). Near the focal point of the lens, where the waist of the gaussian beam lies, we measured three times.
+In this experiment we measured the intensity of the laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens just behind the fibre end so that the beam was focused at the focal point. We measured the profile of the beam at different positions between the two lenses (the second lens focuses the beam into the photodiode). Near the focal point of the first lens, where the waist of the gaussian beam lies, we measured three times. To eliminate influences from ambient light, we normalized the voltage signal with the other photodiode.\\
 
-\textcolor{red}{Beschreibung Plot:
+The total power the photodiode is detecting depends on the position of the razor blade $x$ and is given by:
+\[ P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\cfrac{2(x'-x_0)^2}{\omega^2}} \].
+
+\textcolor{red}{Beantworten: Welches Brechungsindexprofil müßte eine Glasfaser aufweisen, damit die Faser eine ideale Gauß-Mode führt?}
+
+\paragraph{Measuring the cross section profile without focusing the beam}
+
+To calculate the beam radius $\omega (z)$ we fitted the data of our measurement a (see annex)
+\textcolor{red}{Anhang hinzufügen} %and waist $\omega$ 
+to the power integral. In order to do this we calculated the power from the voltage using eq. \\
+\textcolor{red}{Formelnummerierung}
+
+The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure ).
+\textcolor{red}{which figure number?}
+The resulting parameters from the fitting are:
+\textcolor{red}{
+include parameters of csv datei a
+Interpretation!
+alle zahlenwerte
+messungenauigkeiten
+Am Ende Prüfen ob im Pythoncode die richtigen formeln benutzt wurden, Einheit der Leistung in Plot ändern}
+
+\textcolor{red}{
+Beschreibung Plot:
 Messdaten:
 Messungenauigkeiten Ursachen:
 -At the focal point the multimeter display showed strong fluctuations}
