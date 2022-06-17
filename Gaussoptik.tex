@@ -70,7 +70,7 @@ Now we measured the voltage from the photodiode behind the cables. Therefor we f
 
 \section{Measuring the beam profile}
 
-In this experiment we measured the intensity of the laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens just behind the fibre end so that the beam was focused at the focal point. We measured the profile of the beam at different positions between the two lenses (the second lens focuses the beam into the photodiode). Near the focal point of the first lens, where the waist of the gaussian beam lies, we measured three times. To eliminate influences from ambient light, we normalized the voltage signal with the other photodiode.\\
+In this experiment we measured the intensity of the laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens ($f=100mm$) behind the fibre end so that the beam was focused at the focal point. We measured the profile of the beam at different positions between the two lenses (the second lens ($f=50mm$) focuses the beam into the photodiode). Near the focal point of the first lens, where the waist of the gaussian beam lies, we measured three times. To eliminate influences from ambient light, we normalized the voltage signal with the other photodiode.\\
 
 The total power the photodiode is detecting depends on the position of the razor blade $x$ and is given by:
 \[ P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\cfrac{2(x'-x_0)^2}{\omega^2}} \].
@@ -89,10 +89,30 @@ The first two measurements of the series with $Distance razor blade - fibre end 
 The resulting parameters from the fitting are:
 \textcolor{red}{
 include parameters of csv datei a
-Interpretation!
+Interpretation! Ziel war, \omega zu bestimmen.
 alle zahlenwerte
 messungenauigkeiten
+Fehlerquelle: streuendes licht
 Am Ende Prüfen ob im Pythoncode die richtigen formeln benutzt wurden, Einheit der Leistung in Plot ändern}
+
+\paragraph{Measuring the cross section profile with lens ($f=100mm$)}
+
+We measured the beam profile using the razor blade technique at seven distances from the lens. Three measurements were taken near the focal point because here we expected the waist $\omega_{0}$, i.e. the minimum of the beam radius $\omega (z)$. They are related by the equation:
+
+\[ \omega (z) = \omega_{0}\sqrt{1+\cfrac{z^2}{z_{R}^2}} \],
+
+where $z_{R} = \cfrac{\pi\omega_{0}^2 n}{\lambda} $ is the rayleigh length, at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ and the wavelength of the laser is $\lambda = 632.8 nm$.\\
+
+Again, we fitted the measurement series for each razor-lens-distance $z$ to the power integral and obtained the local $\omega(z)$. Then we fitted these together with the corresponding $z$ to eq. []
+\textcolor{red}{nummerierung}.
+From that we obtained the waist 
+\textcolor{red}{$\omega_{0} = ...$ }
+The resulting rayleigh length is 
+\textcolor{red}{zR ...}
+
+\textcolor{red}{
+Begründung warum $n=1$
+Wie müssen Sie eine plankonvexe Linse in diesem Fall orientieren, wenn Sie den Einfluß von Linsenfehlern möglichst gering halten wollen?}
 
 \textcolor{red}{
 Beschreibung Plot:

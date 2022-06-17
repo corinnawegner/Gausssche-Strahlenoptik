@@ -40,9 +40,10 @@ def gaussint(x, I0, w):
 plt.plot(x72, P(a_72.values[1], 10), 'ro', label="8,3cm")
 plt.plot(x45, P(a_45.values[1], 10), 'bo', label="11,0 cm")
 plt.plot(x105, P(a_105.values[1], 10), 'go', label="5,0 cm")
-plt.xlabel("normalized micrometer position")
+plt.xlabel("x-x_0 (normalized micrometer position)")
 plt.ylabel("power in nW")
 plt.legend(title="Distance razor blade - fibre end")
+plt.title("cross section profile of collimated beam")
 
 #8,3cm fit
 popt, cov = curve_fit(gaussint, x72, P(a_72.values[1], 10))
