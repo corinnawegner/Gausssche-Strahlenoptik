@@ -4,5 +4,7 @@
 \contentsline {paragraph}{Calculating the power from the voltage}{3}{}%
 \contentsline {section}{\numberline {3}Coupling the optical fibre cables}{3}{}%
 \contentsline {section}{\numberline {4}Measuring the beam profile}{4}{}%
-\contentsline {section}{\numberline {5}Optical resonator}{4}{}%
-\contentsline {paragraph}{Determining the transmission of the two reflectors}{4}{}%
+\contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{4}{}%
+\contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{5}{}%
+\contentsline {section}{\numberline {5}Optical resonator}{5}{}%
+\contentsline {paragraph}{Determining the transmission of the two reflectors}{6}{}%

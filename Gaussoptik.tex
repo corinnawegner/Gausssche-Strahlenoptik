@@ -50,11 +50,14 @@ photodiode.
 
 \paragraph{Calculating the power from the voltage}
 
-When the beam hits the diode, the multimeter detects a voltage $U$. In general, the relation between the electric power and voltage ist given by 
-\[ P = U \cdot I \] 
-\textcolor{red}{Wie Formeln nummerieren?}
-Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
-\[P = \frac{U^2}{R}\]
+When the beam hits the diode, the multimeter detects a voltage $U$. For photodiodes, the relation between the power and light current ist given by 
+\[ P = \frac{hfI}{e\eta} \]
+Here, $h = 6.62607015*10^{-34} Js$ is the planck constant, $e = 1.602176634*10^{-19} C$ the charge of an electron, $I$ is the current and $\eta = 0.75$ the quantum efficiency of the photodiode. We can replace the frequency $f$ in the formula by the corresponding wavelength $\lambda = 632.8 nm$ of the laser using $c= \lambda f$, with the vacuum speed of light  $c = 299792458 \frac{m}{s}$. Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
+\[P = \frac{hcU}{\lambda Re \eta}\]
+
+\textcolor{red}{Wie Formeln nummerieren? Quellenverzeichnis! https://de.wikipedia.org/wiki/Quantenausbeute}
+
+
 The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$.
 
 \textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste?}
@@ -73,7 +76,7 @@ Now we measured the voltage from the photodiode behind the cables. Therefor we f
 In this experiment we measured the intensity of the laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens ($f=100mm$) behind the fibre end so that the beam was focused at the focal point. We measured the profile of the beam at different positions between the two lenses (the second lens ($f=50mm$) focuses the beam into the photodiode). Near the focal point of the first lens, where the waist of the gaussian beam lies, we measured three times. To eliminate influences from ambient light, we normalized the voltage signal with the other photodiode.\\
 
 The total power the photodiode is detecting depends on the position of the razor blade $x$ and is given by:
-\[ P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\cfrac{2(x'-x_0)^2}{\omega^2}} \].
+\[ P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\frac{2(x'-x_0)^2}{\omega^2}} \].
 
 \textcolor{red}{Beantworten: Welches Brechungsindexprofil müßte eine Glasfaser aufweisen, damit die Faser eine ideale Gauß-Mode führt?}
 
@@ -87,21 +90,15 @@ to the power integral. In order to do this we calculated the power from the volt
 The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure ).
 \textcolor{red}{which figure number?}
 The resulting parameters from the fitting are:
-\textcolor{red}{
-include parameters of csv datei a
-Interpretation! Ziel war, \omega zu bestimmen.
-alle zahlenwerte
-messungenauigkeiten
-Fehlerquelle: streuendes licht
-Am Ende Prüfen ob im Pythoncode die richtigen formeln benutzt wurden, Einheit der Leistung in Plot ändern}
+\textcolor{red}{include parameters of csv datei a;Interpretation! Ziel war, $\omega$ zu bestimmen.;alle zahlenwerte;messungenauigkeiten;Fehlerquelle: streuendes licht; Am Ende Prüfen ob im Pythoncode die richtigen formeln benutzt wurden, Einheit der Leistung in Plot ändern}
 
 \paragraph{Measuring the cross section profile with lens ($f=100mm$)}
 
 We measured the beam profile using the razor blade technique at seven distances from the lens. Three measurements were taken near the focal point because here we expected the waist $\omega_{0}$, i.e. the minimum of the beam radius $\omega (z)$. They are related by the equation:
 
-\[ \omega (z) = \omega_{0}\sqrt{1+\cfrac{z^2}{z_{R}^2}} \],
+\[ \omega (z) = \omega_{0}\sqrt{1+\frac{z^2}{z_{R}^2}} \],
 
-where $z_{R} = \cfrac{\pi\omega_{0}^2 n}{\lambda} $ is the rayleigh length, at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ and the wavelength of the laser is $\lambda = 632.8 nm$.\\
+where $z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda} $ is the rayleigh length, at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ and the wavelength of the laser is $\lambda = 632.8 nm$.\\
 
 Again, we fitted the measurement series for each razor-lens-distance $z$ to the power integral and obtained the local $\omega(z)$. Then we fitted these together with the corresponding $z$ to eq. []
 \textcolor{red}{nummerierung}.

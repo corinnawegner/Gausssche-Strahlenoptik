@@ -29,7 +29,11 @@ x45 = a_45.values[0]-a_45.values[0][0]
 x105 = a_105.values[0]-a_105.values[0][0]
 
 def P(U, R):
-    return (U**2)/R
+    h = 6.62607015*10**(-34)
+    c = 299792458
+    wvl = 632.8*10**(-9)
+    e = 1.602176634*10**(-19)
+    return (h*c*U)/(wvl*R*e*0.75)
 
 def gaussint(x, I0, w):
     inner = lambda xp: np.exp((-2*xp**2)/(w**2))
@@ -41,7 +45,7 @@ plt.plot(x72, P(a_72.values[1], 10), 'ro', label="8,3cm")
 plt.plot(x45, P(a_45.values[1], 10), 'bo', label="11,0 cm")
 plt.plot(x105, P(a_105.values[1], 10), 'go', label="5,0 cm")
 plt.xlabel("x-x_0 (normalized micrometer position)")
-plt.ylabel("power in nW")
+plt.ylabel("power in mW")
 plt.legend(title="Distance razor blade - fibre end")
 plt.title("cross section profile of collimated beam")
 
