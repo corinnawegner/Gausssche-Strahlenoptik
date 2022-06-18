@@ -31,3 +31,6 @@ Seite 17 Distanz linse und spiegel (halbe fokallänge)
 Seite 18 erwartete transmissionsfunktion
 Seite 18 Warum 2 transmissionmaxima (lasermoden wegen wärme)
 Seite 18 Verhältnisse free spectral range und Lineanbreite und Finesse
+
+
+Skizzen und Bilder von den Teilversuchen einfügen

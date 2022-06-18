@@ -6,5 +6,5 @@
 \contentsline {section}{\numberline {4}Measuring the beam profile}{4}{}%
 \contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{4}{}%
 \contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{5}{}%
-\contentsline {section}{\numberline {5}Optical resonator}{5}{}%
-\contentsline {paragraph}{Determining the transmission of the two reflectors}{6}{}%
+\contentsline {section}{\numberline {5}Optical resonator}{8}{}%
+\contentsline {paragraph}{Determining the transmission of the two reflectors}{8}{}%
