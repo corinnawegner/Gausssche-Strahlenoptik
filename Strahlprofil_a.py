@@ -83,7 +83,7 @@ plt.xlabel("x-x_0 in mm (normalized micrometer position)")
 plt.ylabel("power in mW") #Milli weil die Spannungen in mV angegeben sind
 plt.legend(title="Distance razor blade - fibre end")
 plt.title("cross section profile of collimated beam")
-plt.savefig("part a: cross section profile of collimated beam.png")
+plt.savefig("part a: cross section profile of collimated beam.png", dpi=400)
 
 print("waist: (", np.mean(omegas), "+-", np.std(omegas), ") mm")
 rays = [rayleigh(i)/10**6 for i in omegas] #10**6 weil millimeter umrechnen

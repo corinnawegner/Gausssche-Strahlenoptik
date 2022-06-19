@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.15)  18 JUN 2022 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.15)  19 JUN 2022 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -159,8 +159,7 @@ tex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
-)
-No file H3_Gregorian_Wegner.aux.
+) (H3_Gregorian_Wegner.aux)
 \openout1 = `H3_Gregorian_Wegner.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -240,11 +239,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
 {C:/Users/corin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-No file H3_Gregorian_Wegner.toc.
+(H3_Gregorian_Wegner.toc)
 \tf@toc=\write3
 \openout3 = `H3_Gregorian_Wegner.toc'.
 
-[2]
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
@@ -302,7 +301,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
  []
 
 [5 <./part a: cross section profile of collimated beam.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Overfull \hbox (5.52492pt too wide) in paragraph at lines 115--117
+[][]\OT1/cmr/m/n/10 formelnummerierung und Daten aus python-code einf^^?ugen[] 
+The value $\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (7\OML/cmm/m/it/10 cm\OT1/cmr/m/n/
+10 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
@@ -312,7 +328,7 @@ File: Cross section profile focused beam (near focal point).png Graphic file (t
 ype png)
 <use Cross section profile focused beam (near focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (near focal point).
-png  used on input line 126.
+png  used on input line 134.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <Cross section profile focused beam (far from focal point).png, id=35, 433.62pt
  x 289.08pt>
@@ -320,7 +336,7 @@ File: Cross section profile focused beam (far from focal point).png Graphic fil
 e (type png)
 <use Cross section profile focused beam (far from focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (far from focal poi
-nt).png  used on input line 127.
+nt).png  used on input line 135.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <beam waist against razor position from focal point.png, id=36, 433.62pt x 289.
 08pt>
@@ -328,20 +344,20 @@ File: beam waist against razor position from focal point.png Graphic file (type
  png)
 <use beam waist against razor position from focal point.png>
 Package pdftex.def Info: beam waist against razor position from focal point.png
-  used on input line 128.
+  used on input line 136.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 126--129
+Overfull \hbox (15.0pt too wide) in paragraph at lines 134--137
 [][]
  []
 
-[6 <./Cross section profile focused beam (near focal point).png>] [7 <./Cross s
-ection profile focused beam (far from focal point).png> <./beam waist against r
-azor position from focal point.png>] [8] (H3_Gregorian_Wegner.aux) ) 
+[6] [7 <./Cross section profile focused beam (near focal point).png> <./Cross s
+ection profile focused beam (far from focal point).png>] [8 <./beam waist again
+st razor position from focal point.png>] (H3_Gregorian_Wegner.aux) ) 
 Here is how much of TeX's memory you used:
- 3700 strings out of 478582
- 62227 string characters out of 2844344
- 362294 words of memory out of 3000000
+ 3704 strings out of 478582
+ 62397 string characters out of 2844344
+ 362285 words of memory out of 3000000
  21851 multiletter control sequences out of 15000+600000
  474642 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -363,7 +379,7 @@ rs/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 sy10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy5.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb>
-Output written on H3_Gregorian_Wegner.pdf (8 pages, 250659 bytes).
+Output written on H3_Gregorian_Wegner.pdf (8 pages, 788339 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

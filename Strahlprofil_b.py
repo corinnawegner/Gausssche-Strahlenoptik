@@ -66,37 +66,37 @@ for d in data:
 
 #nahe z=0
 #indizierung von maxints und omegas potentielle fehlerquelle
-plt.plot(b_10.values[0]-b_10.values[0][0], P(b_10.values[1], Rd), 'ro', label="(10,0+-0,2) cm")
-plt.plot(b_9.values[0]-b_9.values[0][0], P(b_9.values[1], Rd), 'bo', label="9,0+-0,2 cm")
-plt.plot(b_11.values[0]-b_11.values[0][0], P(b_11.values[1], Rd), 'go', label="11,0+-0,2 cm")
+plt.plot(b_10.values[0]-b_10.values[0][0], P(b_10.values[1], Rd), 'ro', label="0,0 cm")
+plt.plot(b_9.values[0]-b_9.values[0][0], P(b_9.values[1], Rd), 'bo', label="-1,0 cm")
+plt.plot(b_11.values[0]-b_11.values[0][0], P(b_11.values[1], Rd), 'go', label="1,0 cm")
+plt.legend()
 plt.plot(b_10.values[0]-b_10.values[0][0], gaussint(b_10.values[0]-b_10.values[0][0], maxints[3], omegas[3]), 'r')
 plt.plot(b_9.values[0]-b_9.values[0][0], gaussint(b_9.values[0]-b_9.values[0][0], maxints[2], omegas[2]), 'b')
 plt.plot(b_11.values[0]-b_11.values[0][0], gaussint(b_11.values[0]-b_11.values[0][0], maxints[4], omegas[4]), 'g')
 plt.xlabel("x-x_0 in mm")
-plt.ylabel("Power in W")
-plt.legend("Distance lens (f=100mm) - razor blade") #also z-10cm
+plt.ylabel("Power in W") 
 plt.title("Cross section profile focused beam (near focal point)")
-plt.savefig("Cross section profile focused beam (near focal point).png")
+plt.savefig("Cross section profile focused beam (near focal point).png", dpi=400)
 plt.clf()
 #große z
-#data = [b_3, b_6, b_9, b_10, b_11, b_14, b_17]
-plt.plot(b_6.values[0]-b_6.values[0][0], P(b_6.values[1], Rd), 'yo', label="6,0+-0,2 cm")
-plt.plot(b_3.values[0]-b_3.values[0][0], P(b_3.values[1], Rd), 'co', label="3,0+-0,2 cm")
-plt.plot(b_14.values[0]-b_14.values[0][0], P(b_14.values[1], Rd), 'mo', label="14,3+-0,2 cm")
-plt.plot(b_17.values[0]-b_17.values[0][0], P(b_17.values[1], Rd), 'ko', label="17,0+-0,2 cm")
+plt.plot(b_6.values[0]-b_6.values[0][0], P(b_6.values[1], Rd), 'yo', label="-4,0 cm")
+plt.plot(b_3.values[0]-b_3.values[0][0], P(b_3.values[1], Rd), 'co', label="-7,0 cm")
+plt.plot(b_14.values[0]-b_14.values[0][0], P(b_14.values[1], Rd), 'mo', label="4,3 cm")
+plt.plot(b_17.values[0]-b_17.values[0][0], P(b_17.values[1], Rd), 'ko', label="7,0 cm")
+plt.legend()
 plt.plot(b_6.values[0]-b_6.values[0][0], gaussint(b_6.values[0]-b_6.values[0][0], maxints[1], omegas[1]), 'y')
 plt.plot(b_3.values[0]-b_3.values[0][0], gaussint(b_3.values[0]-b_3.values[0][0], maxints[0], omegas[0]), 'c')
 plt.plot(b_14.values[0]-b_14.values[0][0], gaussint(b_14.values[0]-b_14.values[0][0], maxints[5], omegas[5]), 'm')
 plt.plot(b_17.values[0]-b_17.values[0][0], gaussint(b_17.values[0]-b_17.values[0][0], maxints[6], omegas[6]), 'k')
 plt.xlabel("x-x_0 in mm")
-plt.ylabel("Power in W")
-plt.legend("Distance lens (f=100mm) - razor blade") #also z-10cm
+plt.ylabel("Power in W") 
 plt.title("Cross section profile focused beam (far from focal point)")
-plt.savefig("Cross section profile focused beam (far from focal point).png")
+plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
 plt.clf()
 #
 ##waist bestimmen
 ##Fehlerquelle: Mehr Messungen wären nötig
+#Fehlerquellen aus H3 Notes
 ## b_17 liefert negativen waist ??? Vielleicht am ungenausten weil am weitesten von Quelle weg-> am meisten einfluss von störfaktoren
 # dran denken 14,3 cm
 popt, err = curve_fit(localwaist, zvals, omegas[:6], absolute_sigma="True") #fitted localwaist an die z-Werte zusammen mit den dazugehörigen omegas
@@ -106,12 +106,12 @@ for i in zvals:
     localwaists.append(localwaist(i, waist, zR)) #nur weil plt.plot(zvals, localwaist(zvals)) nicht funktioniert
 plt.plot(zvals, localwaists, 'b', label = "fit")
 plt.vlines(0, 0, 1.7, 'y', '--', label="focal position")
-plt.xlabel("x in mm")
+plt.xlabel("z in cm")
 plt.ylabel("omega(z) in mm")
 plt.legend()
 title = "beam waist against razor position from focal point"
 plt.title(title)
-plt.savefig("beam waist against razor position from focal point.png")
+plt.savefig("beam waist against razor position from focal point.png", dpi=400)
 
 print("waist: (", waist, "+-", np.sqrt(err[0,0]), ") mm")
 print("rayleigh length: (", zR, "+-", np.sqrt(err[1,1]), ") mm") 
