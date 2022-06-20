@@ -1,0 +1,90 @@
+\documentclass{article}
+
+%Um mit Latex zu arbeiten braucht man zwei Dinge:
+% https://miktex.org/download
+% https://www.xm1math.net/texmaker/download.html
+
+%Hilfreiche Links:
+%Sonderzeichen in Latex einfügen: https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Sonderzeichen
+
+\usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
+
+\begin{document} 
+
+\title{Gaussian beam optics}
+\author{Corinna Elena Wegner, Garen Gregorian}
+\date{June 8, 2022}
+\maketitle %hiermit wird das Deckblatt erst erstellt
+\newpage
+\tableofcontents
+\newpage
+
+\section{Einleitung} %dies ist eine Überschrift
+\subsection{Dies ist eine Überschrift zweiten Ranges}
+%Wenn ich \subsection* schreibe (mit *), kommt diese Überschrift nicht in die Gliederung
+
+in diesem Versuch soll das Intensitätsprofil von Gaußschen Strahlen vermessen und die Auswirkungen von optischen Elementen untersucht werden\\
+%Das muss noch auf Englisch übersetzt werden
+%\\ macht einen Zeilenumbruch
+%Formeln mit $Formeln$ einfügen
+%Wichtigere Formeln mit \[ Formel \]
+
+\textcolor{red}{Genereller Versuchsaufbau mit Skizze}\\
+%Dinge die nicht Text sind sondern Dinge die noch rein müssen bzw. TO-DOs hab ich für uns zum Überblick rot gemacht 
+
+\section{Measuring the power of the laser}
+
+In the first part we measured the power of the laser itself. First, we put a photodiode with internal resistance 
+\textcolor{red}{???}
+after the first passive reflector and measured the voltage. We measured 
+\ $U=(1.2 \pm 0.1) V$ %So bindet man Formeln in Text ein
+using the 
+\textcolor{red}{???}
+photodiode. Then we turned the laser off and measured again at the same position to eliminate the background light (the windows were covered by curtains). We measured 
+\ $U_b = (1.2 \pm 0.1)mV$ 
+using the 
+\textcolor{red}{???}
+photodiode. 
+\textcolor{red}{(This is not enough, and explain if we used different diodes)} 
+
+\paragraph{Calculating the power from the voltage}
+
+When the beam hits the diode, the multimeter detects a voltage $U$. In general, the relation between the electric power and voltage ist given by 
+\[ P = U \cdot I \] 
+\textcolor{red}{Wie Formeln nummerieren?}
+Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
+\[P = \frac{U^2}{R}\]
+The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$.
+
+\textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste?}
+
+\section{Coupling the optical fibre cables}
+
+After determining the power of the laser we coupled the fibre optic cables into the coupler in the optical path. First, we coupled the multimode cable and adjusted the optical elements such that the conduction was optimized. By variating the angles a little we tried to see different modes on a piece of paper, put behind the cable. Unlike our expectations we could not identify them, instead the dot on the paper disappeared, because too few light was conducted through the cable. We could however see on the paper a dot with a small dark hole in it's center, just like the shape of a donut mode. It is also possible that the small hole was a dust crumb on the lens whatsoever. Unfortunately it was not possible to take a picture of the dot which shows more than a diffuse point, because the mobile phone cameras could not work with the light conditions.\\
+
+Now we measured the voltage from the photodiode behind the cables. Therefor we focused the beam into the photodiode, using another lens. For the multimode cable we measured a maximum voltage of $U=209mV$, but the value fluctuated a lot (about 20mV just from touching the table). After coupling the single mode cable we measured $U=(106 \pm 5)mV$. This is less than for the multimode cable, which makes sense because there is only one mode lead through the single mode cable. With the resistance of the used photodiode, $R = 10k\Omega$, we can calculate the percentage of the power lead through the cable:
+
+\textcolor{red}{Fehlerquellen:
+-kabel Beschädigt: keine perfekte Leitung durch kabel, Fehler aus TV1}
+
+\section{Measuring the beam profile}
+
+In this experiment we measured the intensity of the collimated laser light that is emitted by the fibre. We cut off some of the beam with a razor blade to see how much voltage is still measured by the photodiode. Thereby we obtained a profile of the beam cross section. After that we put a lens just behind the fibre end so that the beam was again in the gaussian shape. We measured the profile of the beam at different positions between the two lenses (the second lens focuses the beam into the photodiode). Near the focal point of the lens, where the waist of the gaussian beam lies, we measured three times.
+
+\textcolor{red}{Beschreibung Plot:
+Messdaten:
+Messungenauigkeiten Ursachen:
+-At the focal point the multimeter display showed strong fluctuations}
+
+\section{Optical resonator}
+
+In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
+
+The measured signal looks like this:
+\textcolor{red}{Bild einfügen, auch eine Skizze vom Versuchsaufbau}
+
+\paragraph{Determining the transmission of the two reflectors}
+
+
+
+\end{document}
