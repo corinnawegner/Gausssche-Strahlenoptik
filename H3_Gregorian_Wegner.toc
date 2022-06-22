@@ -8,6 +8,6 @@
 \contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{5}{}%
 \contentsline {section}{\numberline {5}Optical resonator}{7}{}%
 \contentsline {paragraph}{Determining the transmission of the two reflectors}{7}{}%
-\contentsline {section}{\numberline {6}Annex}{9}{}%
-\contentsline {subsection}{\numberline {6.1}Measurements}{9}{}%
-\contentsline {subsection}{\numberline {6.2}Pythoncode}{13}{}%
+\contentsline {section}{\numberline {6}Annex}{13}{}%
+\contentsline {subsection}{\numberline {6.1}Measurements}{13}{}%
+\contentsline {subsection}{\numberline {6.2}Pythoncode}{14}{}%

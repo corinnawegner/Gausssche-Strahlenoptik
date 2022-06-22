@@ -13,8 +13,13 @@
 \usepackage{tabularx}
 \usepackage{comment}
 \usepackage{mathtools} %Das muss man noch installieren (man wird beim ersten Ausführen des Codes darauf hingewiesen und kann das dann direkt mit 'install' tun)
-
+\usepackage[section]{placeins}
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
+%% Better Listings
+%\usepackage{xcolor}
+%\definecolor{LightGray}{gray}{.9}
+%\usepackage{minted}
 
 \begin{document} 
 
@@ -141,13 +146,13 @@ From that we obtained the waist
 The resulting rayleigh length is 
 \textcolor{red}{zR ...}
 
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{Cross section profile focused beam (near focal point).png} 
 \label{near_focal} 
 \end{figure}
 
-\includegraphics[width=\textwidth]{Cross section profile focused beam (far from focal point).png}
-\includegraphics[width=\textwidth]{beam waist against razor position from focal point.png}
+\includegraphics[width=\textwidth]{Cross section profile focused beam (far from focal point).png}[h!]
+\includegraphics[width=\textwidth]{beam waist against razor position from focal point.png}[h!]
 
 \textcolor{red}{
 Wie müssen Sie eine plankonvexe Linse in diesem Fall orientieren, wenn Sie den Einfluß von Linsenfehlern möglichst gering halten wollen?}
@@ -160,17 +165,19 @@ Messungenauigkeiten Ursachen:
 
 \section{Optical resonator}
 
-In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
-
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{Tv4Aufbau.jpg}
 \caption{Experiment 4: Optical resonator}
 \label{TV4Aufbau}
 \end{figure}
 
+In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
+
+
+
 
 \paragraph{Determining the transmission of the two reflectors}
-The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$of the interferometer is given by:
+The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$ of the interferometer is given by:
 \begin{equation}
 E_{t} = E_{in}\cdot \frac{T}{1-Re^{i\varphi}}
 \end{equation}
@@ -208,13 +215,13 @@ Measurement & ... & Value \\
         &Total Transmission & $T= 0.003774956908934214 \pm 2.6083278256172736e-05$\\
         &Transmission of first mirror & $T_{1}= 0.013578174375179546 \pm 2.6083278256172736e-05$\\
         &Transmission of second mirror & $T_{2}= 0.009497989083596666 \pm 2.6083278256172736e-05$\\
-        &Calculated total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
+        &Total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
 \hline
 \multirow{Reflectivity ($R=1-T$)}
-        & R  &$R=  0.9962250430910657 +- 2.6083278256172736e-05$\\
-        & R' &$R'=  0.9886437087043953 +- 4.173750866526565e-09$\\
-        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 +- 4.970926171216084e-05$\\
-        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 +- 4.149125384224495e-05$\\
+        & R  &$R=  0.9962250430910657 \pm 2.6083278256172736e-05$\\
+        & R' &$R'=  0.9886437087043953 \pm 4.173750866526565e-09$\\
+        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 \pm 4.970926171216084e-05$\\
+        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 \pm 4.149125384224495e-05$\\
 \hline
 \multirow{Finesse}
         & Finesse from total R & $F= 830.6471925693128$\\
@@ -242,7 +249,7 @@ $F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
 
 \textcolor{red}{das ist sehr schlecht und weicht stark von der Finesse ab...}
 
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild.jpg}
 \caption{Osz1}
 \label{Osz1}
@@ -250,7 +257,7 @@ $F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
 
 \begin{comment}
 The next figure shows another oscilloscope signal from which we 
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
 \caption{Osz2}
 \label{Osz2}
@@ -258,7 +265,7 @@ The next figure shows another oscilloscope signal from which we
 \end{comment}
 
 The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 3.jpg}
 \caption{Osz3}
 \label{Osz3}
@@ -266,7 +273,7 @@ The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
 
 In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:\\
 \textcolor{red}{Macht das Sinn? Warum sind nicht die Bilder unter den Beschreibungen? und Annex wird komplett ignoriert...}
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild_mit_eigenmoden_vom_laser.jpg}
 \caption{Eigenmodenlaser}
 \label{Eigenmoden_laser}
@@ -282,6 +289,12 @@ In the following figure \ref{Eigenmoden_laser} we observe that between the peaks
 \verbatiminput{Strahlprofil_b.csv}
 
 \subsection{Pythoncode}
+
+%\begin{listing}
+%	\inputminted[bgclolor=LighGray, fontsize=\scriptsize, lineos]{python}{matrizenoptik.py}
+%	\caption{Caption}
+%	\label{listing:matrizenoptik}
+%\end{listing}
 
 \verbatimimput{matrizenoptik.py} %hier gibts Probleme
 \verbatiminput{Strahlprofil_a.py}
