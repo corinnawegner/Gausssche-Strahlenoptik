@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.19)  20 JUN 2022 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.19)  21 JUN 2022 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,26 +254,160 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.59 $\hspace{3}
+                $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-Overfull \hbox (91.09346pt too wide) in paragraph at lines 61--62
+
+Overfull \hbox (91.09346pt too wide) in paragraph at lines 77--78
 [][]\OT1/cmr/m/n/10 Wie Formeln num-merieren? Quel-len-verze-ich-nis! https://d
 e.wikipedia.org/wiki/Quantenausbeute[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.82 ...ot0.75\cdot100000}=3.13*10^{-5} \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.84 ...5\cdot10^{5}} =\pm 0.27*10^{-5} \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.86 ...ot0.75\cdot10^{4}}=0.03*10^{-5} \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.88 ...5\cdot10^{5}} =\pm 0.27*10^{-7} \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 [4]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.118 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.122 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.126 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.130 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.134 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.138 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[5]
 
 LaTeX Warning: File `part a: cross section profile of collimated beam.png' not 
-found on input line 94.
+found on input line 162.
 
 
 ! Package pdftex.def Error: File `part a: cross section profile of collimated b
@@ -283,116 +417,117 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 ...ss section profile of collimated beam.png}
+l.162 ...s section profile of collimated beam.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 94--95
+Overfull \hbox (15.0pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
 
-Overfull \hbox (9.59584pt too wide) in paragraph at lines 96--99
+Overfull \hbox (9.59584pt too wide) in paragraph at lines 164--167
 []\OT1/cmr/m/n/10 The first two mea-sure-ments of the se-ries with $\OML/cmm/m/
 it/10 Distancerazorblade \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 fibreend \OT1/cm
 r/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Overfull \hbox (5.52492pt too wide) in paragraph at lines 113--115
+Overfull \hbox (5.52492pt too wide) in paragraph at lines 181--183
 [][]\OT1/cmr/m/n/10 formelnummerierung und Daten aus python-code einf^^?ugen[] 
 The value $\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (7\OML/cmm/m/it/10 cm\OT1/cmr/m/n/
 10 ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-<Cross section profile focused beam (near focal point).png, id=32, 433.62pt x 2
+[7]
+<Cross section profile focused beam (near focal point).png, id=39, 433.62pt x 2
 89.08pt>
 File: Cross section profile focused beam (near focal point).png Graphic file (t
 ype png)
 <use Cross section profile focused beam (near focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (near focal point).
-png  used on input line 132.
+png  used on input line 200.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-<Cross section profile focused beam (far from focal point).png, id=34, 433.62pt
+<Cross section profile focused beam (far from focal point).png, id=41, 433.62pt
  x 289.08pt>
 File: Cross section profile focused beam (far from focal point).png Graphic fil
 e (type png)
 <use Cross section profile focused beam (far from focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (far from focal poi
-nt).png  used on input line 133.
+nt).png  used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-<beam waist against razor position from focal point.png, id=35, 433.62pt x 289.
+<beam waist against razor position from focal point.png, id=42, 433.62pt x 289.
 08pt>
 File: beam waist against razor position from focal point.png Graphic file (type
  png)
 <use beam waist against razor position from focal point.png>
 Package pdftex.def Info: beam waist against razor position from focal point.png
-  used on input line 134.
+  used on input line 202.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 132--135
+Overfull \hbox (15.0pt too wide) in paragraph at lines 200--203
 [][]
  []
 
-[6] [7 <./Cross section profile focused beam (near focal point).png> <./Cross s
-ection profile focused beam (far from focal point).png>] [8 <./beam waist again
-st razor position from focal point.png>] (H3_Gregorian_Wegner.aux) ) 
+[8 <./Cross section profile focused beam (near focal point).png> <./Cross secti
+on profile focused beam (far from focal point).png>] [9 <./beam waist against r
+azor position from focal point.png>] (H3_Gregorian_Wegner.aux) ) 
 Here is how much of TeX's memory you used:
  3744 strings out of 478582
  63968 string characters out of 2844816
- 362285 words of memory out of 3000000
+ 364285 words of memory out of 3000000
  21877 multiletter control sequences out of 15000+600000
  474810 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,76p,904b,193s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/U
-ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
-/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/U
-ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmtt10.pfb>
-Output written on H3_Gregorian_Wegner.pdf (8 pages, 615833 bytes).
+ 68i,12n,76p,904b,193s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/User/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Use
+rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb>
+Output written on H3_Gregorian_Wegner.pdf (9 pages, 628406 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -45,7 +45,22 @@ using the
 10k$\Omega$
 photodiode. 
 
-\textcolor{red}{add answer, fehlerrechnung, make sure to say we incoroprated the fact that the diode resistances were different and add sktech of experimental set up, answer all questions page 11} 
+\textcolor{red}{add answer, fehlerrechnung, make sure to say we incoroprated the fact that the diode resistances were different and add sktech of experimental set up, answer all questions page 11}
+
+Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $V_m$ one can conclude the photocurrent $I_p = V_m \cdot R_m$. To ensure an accurate measurement, we would want $R_m >>R_i$ since
+
+\paragraph{}
+
+$\frac{1}{R_{total}}= \frac{1}{R_m}+\frac{1}{R_i}$
+
+\paragraph{}
+
+and for sufficiently large $R_i$:
+$\hspace{3}$
+$\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$
+
+
+
 
 \paragraph{Calculating the power from the voltage}
 
@@ -58,10 +73,33 @@ Here, $h = 6.62607015*10^{-34} Js$ is the planck constant, $e = 1.602176634*10^{
 P = \frac{hcU}{\lambda Re \eta}
 \end{equation}
 
+
 \textcolor{red}{Wie Formeln nummerieren? Quellenverzeichnis! https://de.wikipedia.org/wiki/Quantenausbeute}
 
-The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$.
+The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:
+\paragraph{}
 
+$P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} \vspace{2}$
+
+$\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-5} \vspace{2}$
+
+$P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{4}}=0.03*10^{-5} \vspace{2}$
+
+$\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-7} \vspace{2}$
+
+
+\paragraph{}
+
+Thus by subtraction we can determine the power of the laser without any background influence as
+
+\paragraph{}
+
+
+$P^{'}_{Laser} = 3.13*10^{-5}- 0.03*10^{-5} =3.10*10^{-5} \pm 0.27*10^{-5}$
+
+\paragraph{}
+Since the background power is outside of the measurement error of
+the laser power measurement, we cannot ignore the background power, however the difference is so low that one can safely expect results to not change much in a dimmed and normally lit room. A lit room, however, allows for more accurate measurements since observation of scales and thus of measurements becomes easier to the human eye and there are fewer risks of bumping into instruments or the table, thus reducing the chance of misallignments and accidentally influencing measurements.
 \textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste?}
 
 \section{Coupling the optical fibre cables}
@@ -70,6 +108,36 @@ After determining the power of the laser we coupled the fibre optic cables into 
 
 Now we measured the voltage from the photodiode behind the cables. Therefor we focused the beam into the photodiode, using another lens. For the multimode cable we measured a maximum voltage of $U=209mV$, but the value fluctuated a lot (about 20mV just from touching the table). After coupling the single mode cable we measured $U=(106 \pm 5)mV$. This is less than for the multimode cable, which makes sense because there is only one mode lead through the single mode cable. With the resistance of the used photodiode, $R = 10k\Omega$, we can calculate the percentage of the power lead through the cable:
 
+
+\paragraph{}
+The corrected laser power translates to a corrected voltage value for the Laser of 
+\paragraph{}
+
+$U'_{Laser}= 1.19 \pm 0.11 V$
+
+$\vspace{1}$
+
+$U_{single-mode} =(106 \pm 5)mV  \hspace{1cm} U_{multi-mode} = (209\pm 20)mV$
+
+$\vspace{1}$
+
+$\eta_{single-mode} = \frac{106}{1.19*10^3} = 8.93\% \hspace{1cm} \eta_{single-mode} = \frac{209}{1.19*10^3} = 17.61\%$
+
+$\vspace{1}$
+
+$\Delta\eta_{sinlge-mode} = \pm8.93\%\cdot(\frac{5}{106}+ \frac{0.11}{1.19})= \pm 1.25\%$
+
+$\vspace{1}$
+
+$\Delta\eta_{single-mode} =\pm17.61\%\cdot(\frac{20}{209}+\frac{0.11}{1.19})= \pm 3.32\%$
+
+$\vspace{1}$
+
+$\xrightarrow[]{} \eta_{single-mode} = 8.93\pm 1.25\%\hspace{1cm}\Delta\eta_{sinlge-mode}=17.61\pm 3.32\%$
+
+$\vspace{1}$
+
+As expected, the multi mode cable has a higher efficiency since it allows for more modes to be transmitted. The measured efficiency was highly dependent on the sensitive alignment of the laser. This is especially true for the single mode photodiode since it has a smaller lens diameter. We can therefore expect that energy has been lost due to imperfect alignment and other various smaller inefficiencies, such as optical instruments heating up. The influence of dust particles on the lens of the photodiode is also noteworthy as a factor that further lowers efficiency. During the experiment it had a significant impact on the observed laser projection.
 \textcolor{red}{Fehlerquellen:
 -kabel Beschädigt: keine perfekte Leitung durch kabel, Fehler aus TV1}
 
