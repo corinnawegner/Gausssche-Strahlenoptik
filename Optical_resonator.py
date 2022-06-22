@@ -70,8 +70,4 @@ print("Finesse from total R: F=", Finesse(Reflectivity(T[0])))
 print("Finesse from Rp: Fp =", Finesse(Reflectivity(Tp[0])))
 print("Finesse from figure: Ffig = ", Finesse_from_figure(10, 3, 1)[0], "+-", Finesse_from_figure(10, 3, 1)[1])
 
-
-
-
-
- 
+print(Total_Transmission_from_Single_Ts(Reflectivity(T1[0]), Reflectivity(T2[0]), T1[1], T2[1]))
