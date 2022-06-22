@@ -1,6 +1,6 @@
 TV1
-Aufbau und Experiment beschreiben
-(Fehlerberechnung)
+Aufbau und Experiment beschreiben - Garen
+(Fehlerberechnung) - Garen
 Seite 7 Aufgabe 1 umformung in Latex - Garen
 Seite 11 Experimentfragen frag Pooja lichtleistungzeugs (wir haben nur spannungen gemessen) 
 Seite 11 Absatz 2 anteil berechnen und argumentiere bindet sich mit dem oberen ^
@@ -15,7 +15,7 @@ Seite 13 Moden
 
 TV3
 Aufbau und Experiment beschreiben
-(Fehlerrechnnung)
+(Fehlerrechnnung) -Corinna
 Seite 14 Brechungsindexprofil - ask pooja
 Seite 14 Strahltaile ermitteln (aka verteilung plotten und gauß fitten) - Corinna
 Seite 15 Linsenfehler minimieren orientierung nochmal sneaky fragen (plankonvexe linsen)
