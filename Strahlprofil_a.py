@@ -89,9 +89,5 @@ print("waist: (", np.mean(omegas), "+-", np.std(omegas), ") mm")
 rays = [rayleigh(i)/10**6 for i in omegas] #10**6 weil millimeter umrechnen
 print("rayleigh length: (", np.mean(rays), "+-", np.std(rays), ") mm")
 
-#Muss noch y-Werte in Lichtleistungen umrechnen (und ylabel anpassen!)
 #Aufgaben Seite 14 und 15
-#Fehler bei 8,3 cm: Wahrscheinlich nicht als ersten Wert die stelle gewählt, an der die Rasierklinge
-#gerade noch so nicht in den strahl hineinragt, sondern schon früher gemessen (rasierklinge war noch lange nicht am strahl dran)
 #Offset durch Hintergrundhelligkeit abziehen: wurde gemacht durch normalisierte spannung
-# 11,0 cm : omega negativ... wahrscheinlich zu große entfernung von kabelausgang, sodass fehler wahrscheinlicher werden

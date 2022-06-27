@@ -76,7 +76,7 @@ plt.plot(b_11.values[0]-b_11.values[0][0], gaussint(b_11.values[0]-b_11.values[0
 plt.xlabel("x-x_0 in mm")
 plt.ylabel("Power in W") 
 plt.title("Cross section profile focused beam (near focal point)")
-plt.savefig("Cross section profile focused beam (near focal point).png", dpi=400)
+#plt.savefig("Cross section profile focused beam (near focal point).png", dpi=400)
 plt.clf()
 #große z
 plt.plot(b_6.values[0]-b_6.values[0][0], P(b_6.values[1], Rd), 'yo', label="-4,0 cm")
@@ -91,7 +91,7 @@ plt.plot(b_17.values[0]-b_17.values[0][0], gaussint(b_17.values[0]-b_17.values[0
 plt.xlabel("x-x_0 in mm")
 plt.ylabel("Power in W") 
 plt.title("Cross section profile focused beam (far from focal point)")
-plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
+#plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
 plt.clf()
 #
 ##waist bestimmen
@@ -111,7 +111,7 @@ plt.ylabel("omega(z) in mm")
 plt.legend()
 title = "beam waist against razor position from focal point"
 plt.title(title)
-plt.savefig("beam waist against razor position from focal point.png", dpi=400)
+#plt.savefig("beam waist against razor position from focal point.png", dpi=400)
 
 print("waist: (", waist, "+-", np.sqrt(err[0,0]), ") mm")
 print("rayleigh length: (", zR, "+-", np.sqrt(err[1,1]), ") mm") 
