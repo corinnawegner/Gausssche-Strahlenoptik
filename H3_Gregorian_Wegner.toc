@@ -1,31 +1,21 @@
 \contentsline {section}{\numberline {1}Einleitung}{2}{}%
 \contentsline {subsection}{\numberline {1.1}Dies ist eine Überschrift zweiten Ranges}{2}{}%
 \contentsline {section}{\numberline {2}Measuring the power of the laser}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {paragraph}{}{2}{}%
 \contentsline {paragraph}{Calculating the power from the voltage}{2}{}%
-\contentsline {section}{\numberline {3}Coupling the optical fibre cables}{2}{}%
-\contentsline {section}{\numberline {4}Measuring the beam profile}{3}{}%
-\contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {section}{\numberline {3}Coupling the optical fibre cables}{3}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {section}{\numberline {4}Measuring the beam profile}{4}{}%
+\contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{5}{}%
 \contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{5}{}%
-\contentsline {section}{\numberline {5}Optical resonator}{7}{}%
-\contentsline {paragraph}{Determining the transmission of the two reflectors}{7}{}%
-\contentsline {section}{\numberline {6}Annex}{9}{}%
-\contentsline {subsection}{\numberline {6.1}Measurements}{9}{}%
-\contentsline {subsection}{\numberline {6.2}Pythoncode}{13}{}%
-\contentsline {section}{\numberline {1}Einleitung}{3}{}%
-\contentsline {subsection}{\numberline {1.1}Dies ist eine Überschrift zweiten Ranges}{3}{}%
-\contentsline {section}{\numberline {2}Measuring the power of the laser}{3}{}%
-\contentsline {paragraph}{}{3}{}%
-\contentsline {paragraph}{}{3}{}%
-\contentsline {paragraph}{Calculating the power from the voltage}{3}{}%
-\contentsline {paragraph}{}{4}{}%
-\contentsline {paragraph}{}{4}{}%
-\contentsline {paragraph}{}{4}{}%
-\contentsline {paragraph}{}{4}{}%
-\contentsline {section}{\numberline {3}Coupling the optical fibre cables}{4}{}%
-\contentsline {paragraph}{}{5}{}%
-\contentsline {paragraph}{}{5}{}%
-\contentsline {section}{\numberline {4}Measuring the beam profile}{5}{}%
-\contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{6}{}%
-\contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{7}{}%
 \contentsline {section}{\numberline {5}Optical resonator}{9}{}%
 \contentsline {paragraph}{Determining the transmission of the two reflectors}{9}{}%
+\contentsline {section}{\numberline {6}Annex}{13}{}%
+\contentsline {subsection}{\numberline {6.1}Measurements}{13}{}%
+\contentsline {subsection}{\numberline {6.2}Pythoncode}{14}{}%

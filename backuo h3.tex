@@ -9,23 +9,14 @@
 
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
 \usepackage{graphicx}
-\usepackage{verbatim}
-\usepackage{tabularx}
-\usepackage{comment}
 \usepackage{mathtools} %Das muss man noch installieren (man wird beim ersten Ausführen des Codes darauf hingewiesen und kann das dann direkt mit 'install' tun)
-
-\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
 
 \begin{document} 
 
-\begin{titlepage}
 \title{Gaussian beam optics}
-%\includegraphics[\textwidth]{TV3-aufbau.jpg}
 \author{Corinna Elena Wegner, Garen Gregorian}
 \date{June 8, 2022}
 \maketitle %hiermit wird das Deckblatt erst erstellt
-\end{titlepage}
-
 \newpage
 \tableofcontents
 \newpage
@@ -88,13 +79,13 @@ P = \frac{hcU}{\lambda Re \eta}
 The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:
 \paragraph{}
 
-$P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} W \vspace{2}$
+$P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} \vspace{2}$
 
-$\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3*10^{-5}W \vspace{2}$
+$\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-5} \vspace{2}$
 
-$P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{4}}=0.03*10^{-5}W \vspace{2}$
+$P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{4}}=0.03*10^{-5} \vspace{2}$
 
-$\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3*10^{-7}W \vspace{2}$
+$\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-7} \vspace{2}$
 
 
 \paragraph{}
@@ -104,12 +95,12 @@ Thus by subtraction we can determine the power of the laser without any backgrou
 \paragraph{}
 
 
-$P^{'}_{Laser} = 3.13*10^{-5}- 0.03*10^{-5} =3.10*10^{-5} \pm 0.3*10^{-5}W$
+$P^{'}_{Laser} = 3.13*10^{-5}- 0.03*10^{-5} =3.10*10^{-5} \pm 0.27*10^{-5}$
 
 \paragraph{}
-Since the background power is comparable to the measurement error of
+Since the background power is outside of the measurement error of
 the laser power measurement, we cannot ignore the background power, however the difference is so low that one can safely expect results to not change much in a dimmed and normally lit room. A lit room, however, allows for more accurate measurements since observation of scales and thus of measurements becomes easier to the human eye and there are fewer risks of bumping into instruments or the table, thus reducing the chance of misallignments and accidentally influencing measurements.
-\textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste?}
+\textcolor{red}{Fehlerquellen: Lichtstrahl hat Diode nicht perfekt fokussiert, verluste? alle fehler auf 1 sig fig runden und dem entsprechend auch der resultat und einheiten!!} 
 
 \section{Coupling the optical fibre cables}
 
@@ -126,7 +117,7 @@ $U'_{Laser}= 1.19 \pm 0.11 V$
 
 $\vspace{1}$
 
-$U_{single-mode} =(106 \pm 5)mV  \hspace{1cm} U_{multi-mode} = (210\pm 20)mV$
+$U_{single-mode} =(106 \pm 5)mV  \hspace{1cm} U_{multi-mode} = (209\pm 20)mV$
 
 $\vspace{1}$
 
@@ -134,15 +125,15 @@ $\eta_{single-mode} = \frac{106}{1.19*10^3} = 8.93\% \hspace{1cm} \eta_{single-m
 
 $\vspace{1}$
 
-$\Delta\eta_{sinlge-mode} = \pm8.93\%\cdot(\frac{5}{106}+ \frac{0.11}{1.19})= \pm 1.3\%$
+$\Delta\eta_{sinlge-mode} = \pm8.93\%\cdot(\frac{5}{106}+ \frac{0.11}{1.19})= \pm 1.25\%$
 
 $\vspace{1}$
 
-$\Delta\eta_{single-mode} =\pm17.61\%\cdot(\frac{20}{209}+\frac{0.11}{1.19})= \pm 4\%$
+$\Delta\eta_{single-mode} =\pm17.61\%\cdot(\frac{20}{209}+\frac{0.11}{1.19})= \pm 3.32\%$
 
 $\vspace{1}$
 
-$\xrightarrow[]{} \eta_{single-mode} = 8.9\pm 1.4\%\hspace{1cm}\Delta\eta_{sinlge-mode}=18\pm 4\%$
+$\xrightarrow[]{} \eta_{single-mode} = 8.93\pm 1.25\%\hspace{1cm}\Delta\eta_{sinlge-mode}=17.61\pm 3.32\%$
 
 $\vspace{1}$
 
@@ -167,11 +158,8 @@ To calculate the beam radius $\omega (z)$ we fitted the data of our measurement 
 \textcolor{red}{Anhang hinzufügen} %and waist $\omega$ 
 to the power integral. In order to do this we calculated the power from the voltage using eq. \\
 \textcolor{red}{Formelnummerierung}
-\begin{figure}
+
 \includegraphics[width=\textwidth]{part a: cross section profile of collimated beam.png}
-\caption{cross section profile of collimated beam}
-\label{part_a_fig} %Man kann mit \ref{part_a_fig} auf dieses Bild verweisen
-\end{figure}
 
 The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure ).
 \textcolor{red}{which figure number?}
@@ -209,11 +197,7 @@ From that we obtained the waist
 The resulting rayleigh length is 
 \textcolor{red}{zR ...}
 
-\begin{figure}
-\includegraphics[width=\textwidth]{Cross section profile focused beam (near focal point).png} 
-\label{near_focal} 
-\end{figure}
-
+\includegraphics[width=\textwidth]{Cross section profile focused beam (near focal point).png} %muss noch richtig skalieren
 \includegraphics[width=\textwidth]{Cross section profile focused beam (far from focal point).png}
 \includegraphics[width=\textwidth]{beam waist against razor position from focal point.png}
 
@@ -230,130 +214,11 @@ Messungenauigkeiten Ursachen:
 
 In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
 
-\begin{figure}
-\includegraphics[width=\textwidth]{Tv4Aufbau.jpg}
-\caption{Experiment 4: Optical resonator}
-\label{TV4Aufbau}
-\end{figure}
-
+The measured signal looks like this:
+\textcolor{red}{Bild einfügen, auch eine Skizze vom Versuchsaufbau}
 
 \paragraph{Determining the transmission of the two reflectors}
-The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$of the interferometer is given by:
-\begin{equation}
-E_{t} = E_{in}\cdot \frac{T}{1-Re^{i\varphi}}
-\end{equation}
 
-Here, $E_{in}$ is the incoming amplitude of the light. The intensity $I_{t}$ of the light is then proportional to $E_{t}^{2}$. In general, the intensity is given by the power divided by the area A ($I=\frac{P}{A}$). The electric power is proportional to the voltage ($P=UI$), where $I$ is the current. In total we obtain the relation:
 
-\begin{equation}
-\abs{I_{t}} \propto \abs{E_{t}}^{2} \propto U^{2}
-\end{equation}
-
-The transmittivity is then defined as the intensity of the transmitted light divided by the intensity of the incoming light:
-\begin{equation}
-T = \frac{I_{t}{I_{in}}} = \frac{U_{t}^{2}}{U_{in}^{2}}
-\end{equation}
-
-The opposite of the transmissivity $T$ is the reflectivity $R$, if we assume that no light is absorbed by the mirrors they fulfil $R+T=1$. The total transmittivity can be calculated from the transmittivities of the single mirrors by $T = \sqrt{T_{1}T_{2}}$, and analogously  $R = \sqrt{R_{1}R_{2}}$. Having the reflectivity, we can calculate the finesse $F$, a measurement for the quality of the resonator:
-
-\begin{equation}
-F= \frac{\pi\sqrt{R}}{1-R}
-\end{equation}
-
-We measured the following:\\
-$U_b = (29\pm1)mV$ voltage with both mirrors
-$U_1 = (55\pm1)mV$  Spiegel voltage with first mirror
-$U_2 = (46\pm1)mV$  voltage with second mirror
-$U_o = (472\pm1)mV$ voltage without mirrors
-
-From that we obtain 
-
-\begin{comment}
-\begin{tabularx}{\textwidth}{p{0.25\textwidth}|r|X|r}
-Measurement & ... & Value \\
-\hline
-\multirow{Transmissivity}
-        &Total Transmission & $T= 0.003774956908934214 \pm 2.6083278256172736e-05$\\
-        &Transmission of first mirror & $T_{1}= 0.013578174375179546 \pm 2.6083278256172736e-05$\\
-        &Transmission of second mirror & $T_{2}= 0.009497989083596666 \pm 2.6083278256172736e-05$\\
-        &Calculated total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
-\hline
-\multirow{Reflectivity ($R=1-T$)}
-        & R  &$R=  0.9962250430910657 +- 2.6083278256172736e-05$\\
-        & R' &$R'=  0.9886437087043953 +- 4.173750866526565e-09$\\
-        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 +- 4.970926171216084e-05$\\
-        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 +- 4.149125384224495e-05$\\
-\hline
-\multirow{Finesse}
-        & Finesse from total R & $F= 830.6471925693128$\\
-        & Finesse from Rp & $Fp = 275.0636820971334$ \\
-\end{tabularx} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
-\end{comment}
-
-\textcolor{red}{Fehler der Finesse einfügen, Messfehler vielleicht erhöhen, Tabelle fixen} %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
-
-\textcolor{red}{
-Pythoncode einbringen
-Bestimmen Sie zuerst die Transmission der Spiegel für die vorhandene Wellenlänge. Welche
-Reflektivität R und Finesse F sind zu erwarten
-Welcher Resonatorkonfiguration entspricht diese Anordnung? Welchen Strahlparameter w0 der Gaußschen Moden erwartenSie für das Lichtfeld im Resonator? Wie groß sollte der Abstand der Linse vom Einkoppelspiegel sein?
-Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum bei dem gerade aufgebauten Resonator? \\
-In einer Periode sollten jetzt nur noch zwei beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise?}\\
-
-From the signal detected by the oszilloscope \ref{Osz1} we can also determine the Finesse $F$. The full width at half maximum $\Delta\omega_{FWHM}$ and the free spectral range $\Delta\omega_{FSR}$, which is the distance of two peaks, are related by 
-\begin{equation}
-\Delta\omega_{FWHM} = \frac{\Delta\omega_{FSR}}{F}
-\label{FinesseOszilloskopbild}
-\end{equation}
-Using the cursors, we see that the full width at half maximum is $\Delta\omega_{FWHM} =3 \pm 1$ units of the oszilloscope pattern. For the free spectral range we see that it is $\Delta\omega_{FSR} = 10 \pm 1$ units wide. Therefore we get a Finesse:\\
-$F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
-
-\textcolor{red}{das ist sehr schlecht und weicht stark von der Finesse ab...}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{oszilloskopbild.jpg}
-\caption{Osz1}
-\label{Osz1}
-\end{figure}
-
-\begin{comment}
-The next figure shows another oscilloscope signal from which we 
-\begin{figure}
-\includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
-\caption{Osz2}
-\label{Osz2}
-\end{figure}
-\end{comment}
-
-The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
-\begin{figure}
-\includegraphics[width=\textwidth]{oszilloskopbild 3.jpg}
-\caption{Osz3}
-\label{Osz3}
-\end{figure}
-
-In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:\\
-\textcolor{red}{Macht das Sinn? Warum sind nicht die Bilder unter den Beschreibungen? und Annex wird komplett ignoriert...}
-\begin{figure}
-\includegraphics[width=\textwidth]{oszilloskopbild_mit_eigenmoden_vom_laser.jpg}
-\caption{Eigenmodenlaser}
-\label{Eigenmoden_laser}
-\end{figure}
-
-\section{Annex}
-
-\textcolor{red}{Annex noch besser beschriften, Wikipediaquelle}
-
-\subsection{Measurements}
-
-\verbatiminput{Strahlprofil_a.csv}
-\verbatiminput{Strahlprofil_b.csv}
-
-\subsection{Pythoncode}
-
-\verbatimimput{matrizenoptik.py} %hier gibts Probleme
-\verbatiminput{Strahlprofil_a.py}
-\verbatiminput{Strahlprofil_b.py}
-\verbatimimput{Optical_resonator.py}
 
 \end{document}

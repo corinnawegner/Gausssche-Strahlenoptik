@@ -1,5 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.15)  21 JUN 2022 13:16
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.19)  21 JUN 2022 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.19)  22 JUN 2022 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,9 +6,9 @@ entering extended mode
 (H3_Gregorian_Wegner.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,15 +23,15 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
@@ -44,39 +43,36 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-)
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
-)
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read2
-)
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen141
 \ar@mcellbox=\box50
@@ -94,13 +90,14 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@cols=\count193
 \TX@ftn=\toks20
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count194
 \calc@Bcount=\count195
@@ -113,27 +110,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count196
 \calc@Cskip=\skip53
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen150
 ))
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count197
@@ -186,8 +183,8 @@ LaTeX Info: Redefining \] on input line 2939.
 \xmathstrut@box=\box54
 \xmathstrut@dim=\dimen166
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box55
@@ -209,8 +206,8 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen167
@@ -224,34 +221,35 @@ ii
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks27
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
+y
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
- (C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -265,12 +263,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
-{C:/Users/corin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (H3_Gregorian_Wegner.toc)
 \tf@toc=\write4
 \openout4 = `H3_Gregorian_Wegner.toc'.
@@ -288,7 +286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.59 $\hspace{3}
+l.68 $\hspace{3}
                 $
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -297,39 +295,72 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Overfull \hbox (91.09346pt too wide) in paragraph at lines 70--71
 
-Overfull \hbox (91.09346pt too wide) in paragraph at lines 77--78
+Overfull \hbox (91.09346pt too wide) in paragraph at lines 86--87
 [][]\OT1/cmr/m/n/10 Wie Formeln num-merieren? Quel-len-verze-ich-nis! https://d
 e.wikipedia.org/wiki/Quantenausbeute[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.91 ...0.75\cdot100000}=3.13*10^{-5} W \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.93 ...5\cdot10^{5}} =\pm 0.3*10^{-5}W \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.95 ...t0.75\cdot10^{4}}=0.03*10^{-5}W \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.97 ...5\cdot10^{5}} =\pm 0.3*10^{-7}W \vspace{2}
+                                                  $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<part a: cross section profile of collimated beam.png, id=21, 433.62pt x 289.08
-pt>
-File: part a: cross section profile of collimated beam.png Graphic file (type p
-ng)
-<use part a: cross section profile of collimated beam.png>
-Package pdftex.def Info: part a: cross section profile of collimated beam.png  
-used on input line 103.
-(pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-[3]
-Overfull \hbox (9.59584pt too wide) in paragraph at lines 108--111
 [3]
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.82 ...ot0.75\cdot100000}=3.13*10^{-5} \vspace{2}
-                                                  $
+l.127 $\vspace{1}
+                 $
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -340,8 +371,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.84 ...5\cdot10^{5}} =\pm 0.27*10^{-5} \vspace{2}
-                                                  $
+l.131 $\vspace{1}
+                 $
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -352,8 +383,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.86 ...ot0.75\cdot10^{4}}=0.03*10^{-5} \vspace{2}
-                                                  $
+l.135 $\vspace{1}
+                 $
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -364,8 +395,32 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.88 ...5\cdot10^{5}} =\pm 0.27*10^{-7} \vspace{2}
-                                                  $
+l.139 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.143 $\vspace{1}
+                 $
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.147 $\vspace{1}
+                 $
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -374,92 +429,14 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 [4]
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.118 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.122 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.126 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.130 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.134 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.138 $\vspace{1}
-                 $
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-[5]
 
 LaTeX Warning: File `part a: cross section profile of collimated beam.png' not 
-found on input line 162.
+found on input line 171.
 
 
 ! Package pdftex.def Error: File `part a: cross section profile of collimated b
@@ -469,80 +446,57 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 ...s section profile of collimated beam.png}
+l.171 ...s section profile of collimated beam.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 162--163
-[][] 
- []
-
-
-Overfull \hbox (9.59584pt too wide) in paragraph at lines 164--167
+Overfull \hbox (9.59584pt too wide) in paragraph at lines 176--179
 []\OT1/cmr/m/n/10 The first two mea-sure-ments of the se-ries with $\OML/cmm/m/
 it/10 Distancerazorblade \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 fibreend \OT1/cm
 r/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
-Underfull \hbox (badness 10000) in paragraph at lines 164--167
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-[4 <./part a: cross section profile of collimated beam.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Overfull \hbox (5.52492pt too wide) in paragraph at lines 125--127
-Overfull \hbox (5.52492pt too wide) in paragraph at lines 181--183
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[5] [6]
+Overfull \hbox (5.52492pt too wide) in paragraph at lines 193--195
 [][]\OT1/cmr/m/n/10 formelnummerierung und Daten aus python-code einf^^?ugen[] 
 The value $\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (7\OML/cmm/m/it/10 cm\OT1/cmr/m/n/
 10 ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
-<Cross section profile focused beam (near focal point).png, id=34, 433.62pt x 2
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
-
- []
-
-[7]
 <Cross section profile focused beam (near focal point).png, id=39, 433.62pt x 2
 89.08pt>
 File: Cross section profile focused beam (near focal point).png Graphic file (t
 ype png)
 <use Cross section profile focused beam (near focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (near focal point).
-png  used on input line 145.
-(pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-<Cross section profile focused beam (far from focal point).png, id=35, 433.62pt
-png  used on input line 200.
+png  used on input line 213.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <Cross section profile focused beam (far from focal point).png, id=41, 433.62pt
  x 289.08pt>
@@ -550,10 +504,7 @@ File: Cross section profile focused beam (far from focal point).png Graphic fil
 e (type png)
 <use Cross section profile focused beam (far from focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (far from focal poi
-nt).png  used on input line 149.
-(pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-<beam waist against razor position from focal point.png, id=36, 433.62pt x 289.
-nt).png  used on input line 201.
+nt).png  used on input line 217.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <beam waist against razor position from focal point.png, id=42, 433.62pt x 289.
 08pt>
@@ -561,62 +512,62 @@ File: beam waist against razor position from focal point.png Graphic file (type
  png)
 <use beam waist against razor position from focal point.png>
 Package pdftex.def Info: beam waist against razor position from focal point.png
-  used on input line 150.
+  used on input line 218.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 149--151
+Overfull \hbox (15.0pt too wide) in paragraph at lines 217--219
 [][]
  []
 
-[5] [6 <./Cross section profile focused beam (near focal point).png> <./Cross s
-ection profile focused beam (far from focal point).png>]
-<Tv4Aufbau.jpg, id=46, 3011.25pt x 1865.46938pt>
+[7 <./Cross section profile focused beam (near focal point).png>] [8 <./Cross s
+ection profile focused beam (far from focal point).png> <./beam waist against r
+azor position from focal point.png>]
+<Tv4Aufbau.jpg, id=52, 3011.25pt x 1865.46938pt>
 File: Tv4Aufbau.jpg Graphic file (type jpg)
 <use Tv4Aufbau.jpg>
-Package pdftex.def Info: Tv4Aufbau.jpg  used on input line 166.
+Package pdftex.def Info: Tv4Aufbau.jpg  used on input line 234.
 (pdftex.def)             Requested size: 345.0pt x 213.71323pt.
- [7 <./beam waist against razor position from focal point.png>] Excluding 'comm
-ent' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+ [9 <./Tv4Aufbau.jpg>]
+Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-[8 <./Tv4Aufbau.jpg>]
-<oszilloskopbild.jpg, id=54, 2055.68pt x 1541.76pt>
+<oszilloskopbild.jpg, id=56, 2055.68pt x 1541.76pt>
 File: oszilloskopbild.jpg Graphic file (type jpg)
 <use oszilloskopbild.jpg>
-Package pdftex.def Info: oszilloskopbild.jpg  used on input line 246.
+Package pdftex.def Info: oszilloskopbild.jpg  used on input line 314.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
- Excluding 'comment' comment.
-<oszilloskopbild 3.jpg, id=55, 2055.68pt x 1541.76pt>
+Excluding 'comment' comment.
+<oszilloskopbild 3.jpg, id=57, 2055.68pt x 1541.76pt>
 File: oszilloskopbild 3.jpg Graphic file (type jpg)
 <use oszilloskopbild 3.jpg>
-Package pdftex.def Info: oszilloskopbild 3.jpg  used on input line 262.
+Package pdftex.def Info: oszilloskopbild 3.jpg  used on input line 330.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
-<oszilloskopbild_mit_eigenmoden_vom_laser.jpg, id=56, 2055.68pt x 1541.76pt>
+<oszilloskopbild_mit_eigenmoden_vom_laser.jpg, id=58, 2055.68pt x 1541.76pt>
 File: oszilloskopbild_mit_eigenmoden_vom_laser.jpg Graphic file (type jpg)
 <use oszilloskopbild_mit_eigenmoden_vom_laser.jpg>
 Package pdftex.def Info: oszilloskopbild_mit_eigenmoden_vom_laser.jpg  used on 
-input line 270.
+input line 338.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
+ [10] [11 <./oszilloskopbild.jpg>] [12 <./oszilloskopbild 3.jpg>]
 File: "Strahlprofil_a.csv"  (verbatim)
 
-Overfull \hbox (221.99506pt too wide) in paragraph at lines 281--281
+Overfull \hbox (221.99506pt too wide) in paragraph at lines 349--349
 []\OT1/cmtt/m/n/10 #Abstand Linse-Diode:6cm;Abstand Linse-Faserausgang in cm;Fe
 hler Schraubenpositionen;Fehler Spannungen in mV[] 
  []
 
-[9] [10 <./oszilloskopbild.jpg>] [11 <./oszilloskopbild 3.jpg>] [12 <./oszillos
-kopbild_mit_eigenmoden_vom_laser.jpg>]
+[13 <./oszilloskopbild_mit_eigenmoden_vom_laser.jpg>]
 File: "Strahlprofil_b.csv"  (verbatim)
 
-Overfull \hbox (153.74565pt too wide) in paragraph at lines 282--282
+Overfull \hbox (153.74565pt too wide) in paragraph at lines 350--350
 []\OT1/cmtt/m/n/10 Abstand Linse 1-Faserausgang in cm; Abstand beide Linsen in 
 cm; Abstand Linse-Photodiode in cm;[] 
  []
 
 ! Undefined control sequence.
-l.286 \verbatimimput
+l.354 \verbatimimput
                     {matrizenoptik.py} %hier gibts Probleme
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -626,364 +577,364 @@ and I'll forget about whatever was undefined.
 
 File: "Strahlprofil_a.py"  (verbatim)
 
-Overfull \hbox (258.74474pt too wide) in paragraph at lines 287--287
+Overfull \hbox (258.74474pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 from functools import partial #https://stackoverflow.com/que
 stions/61675014/integral-with-variable-limits-in-python[] 
  []
 
-[13]
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 287--287
+[14]
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 csv_path_a = r"C:/Users/corin/Gausssche-Strahlenoptik/Strahl
 profil_a.csv"[] 
  []
 
 
-Overfull \hbox (279.74455pt too wide) in paragraph at lines 287--287
+Overfull \hbox (279.74455pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 csv_path_b = r"C:/Users/corin/Gausssche-Strahlenoptik/Strahl
 profil_b.csv" # Vielleicht Teil b in eigenen Code auslagern[] 
  []
 
 
-Overfull \hbox (305.99432pt too wide) in paragraph at lines 287--287
+Overfull \hbox (305.99432pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 a_72 = pd.read_csv(csv_path_a, delimiter=";", header=None, s
 kiprows=3, nrows=2, usecols=[1,2,3,4,5,6,7,8]) #Daten f^^?ur 7,2 cm[] 
  []
 
 
-Overfull \hbox (211.49515pt too wide) in paragraph at lines 287--287
+Overfull \hbox (211.49515pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 a_45 = pd.read_csv(csv_path_a, delimiter=";", header=None, s
 kiprows=6, nrows=2, usecols=[1,2,3,4,5,6,7,8])[] 
  []
 
 
-Overfull \hbox (195.74529pt too wide) in paragraph at lines 287--287
+Overfull \hbox (195.74529pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 a_105 = pd.read_csv(csv_path_a, delimiter=";", header=None, 
 skiprows=9, nrows=2, usecols=[1,2,3,4,5,6])[] 
  []
 
 
-Overfull \hbox (179.99542pt too wide) in paragraph at lines 287--287
+Overfull \hbox (179.99542pt too wide) in paragraph at lines 355--355
 []    \OT1/cmtt/m/n/10 #inteqrate.quad kann keine Integrationsgrenzen als Varia
 blen haben, darum kompliziertere L^^?osung:[] 
  []
 
 
-Overfull \hbox (95.99615pt too wide) in paragraph at lines 287--287
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 355--355
 []    \OT1/cmtt/m/n/10 integral = np.array(list(map(partial(integrate.quad, inn
 er, b=np.inf), x)))[:,0][] 
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 287--287
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 plt.plot(x45, P(a_45.values[1], Rd), 'bo', label="11,0 +- 0,
 2 cm")[] 
  []
 
 
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 287--287
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 plt.plot(x105, P(a_105.values[1], Rd), 'go', label="5,0 +- 0
 ,2 cm")[] 
  []
 
 
-Overfull \hbox (153.74565pt too wide) in paragraph at lines 287--287
+Overfull \hbox (153.74565pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 plt.plot(x72, gaussint(x72, maxintensity, omega), 'r--') #Di
 e ersten beiden Werte sind schlecht[] 
  []
 
 
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 287--287
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 popt, cov = curve_fit(gaussint, x72new[2:], P((a_72.values[1
 ]), Rd)[2:])[] 
  []
 
-[14]
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 287--287
+[15]
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 plt.ylabel("power in mW") #Milli weil die Spannungen in mV a
 ngegeben sind[] 
  []
 
 
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 287--287
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 plt.savefig("part a: cross section profile of collimated bea
 m.png", dpi=400)[] 
  []
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 287--287
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 rays = [rayleigh(i)/10**6 for i in omegas] #10**6 weil milli
 meter umrechnen[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 287--287
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 print("rayleigh length: (", np.mean(rays), "+-", np.std(rays
 ), ") mm")[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 287--287
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 #Muss noch y-Werte in Lichtleistungen umrechnen (und ylabel 
 anpassen!)[] 
  []
 
 
-Overfull \hbox (179.99542pt too wide) in paragraph at lines 287--287
+Overfull \hbox (179.99542pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 #Fehler bei 8,3 cm: Wahrscheinlich nicht als ersten Wert die
  stelle gew^^?ahlt, an der die Rasierklinge[] 
  []
 
 
-Overfull \hbox (326.99414pt too wide) in paragraph at lines 287--287
+Overfull \hbox (326.99414pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 #gerade noch so nicht in den strahl hineinragt, sondern scho
 n fr^^?uher gemessen (rasierklinge war noch lange nicht am strahl dran)[] 
  []
 
 
-Overfull \hbox (116.99597pt too wide) in paragraph at lines 287--287
+Overfull \hbox (116.99597pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 #Offset durch Hintergrundhelligkeit abziehen: wurde gemacht 
 durch normalisierte spannung[] 
  []
 
 
-Overfull \hbox (279.74455pt too wide) in paragraph at lines 287--287
+Overfull \hbox (279.74455pt too wide) in paragraph at lines 355--355
 []\OT1/cmtt/m/n/10 # 11,0 cm : omega negativ... wahrscheinlich zu gro^^Ye entfe
 rnung von kabelausgang, sodass fehler wahrscheinlicher werden[] 
  []
 
 File: "Strahlprofil_b.py"  (verbatim)
-[15]
-Overfull \hbox (143.24574pt too wide) in paragraph at lines 288--288
+[16]
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 #Waist w0 dieses Strahls mithilfe eines Fit-Programms. Dabei
  passen Sie die Funktion von w(z)[] 
  []
 
 
-Overfull \hbox (164.24556pt too wide) in paragraph at lines 288--288
+Overfull \hbox (164.24556pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 #nach Gl. (11) an die gemessenen Werte w1(z1), w2(z2),... an
 . Die Position des waist z0 ist dabei[] 
  []
 
 
-Overfull \hbox (122.24593pt too wide) in paragraph at lines 288--288
+Overfull \hbox (122.24593pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 #ein unbekannter Parameter, welcher gleichzeitig angepasst w
 erden muss. Bestimmen Sie aus[] 
  []
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 288--288
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 csv_path_b = r"C:/Users/corin/Gausssche-Strahlenoptik/Strahl
 profil_b.csv"[] 
  []
 
 
-Overfull \hbox (179.99542pt too wide) in paragraph at lines 288--288
+Overfull \hbox (179.99542pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_10 = pd.read_csv(csv_path_b, delimiter=";", header=None, s
 kiprows=3, nrows=2, usecols=[1,2,3,4,5])[] 
  []
 
 
-Overfull \hbox (164.24556pt too wide) in paragraph at lines 288--288
+Overfull \hbox (164.24556pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_9 = pd.read_csv(csv_path_b, delimiter=";", header=None, sk
 iprows=6, nrows=2, usecols=[1,2,3,4])[] 
  []
 
 
-Overfull \hbox (169.49551pt too wide) in paragraph at lines 288--288
+Overfull \hbox (169.49551pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_11 = pd.read_csv(csv_path_b, delimiter=";", header=None, s
 kiprows=9, nrows=2, usecols=[1,2,3,4])[] 
  []
 
 
-Overfull \hbox (179.99542pt too wide) in paragraph at lines 288--288
+Overfull \hbox (179.99542pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_6 = pd.read_csv(csv_path_b, delimiter=";", header=None, sk
 iprows=12, nrows=2, usecols=[1,2,3,4,5])[] 
  []
 
 
-Overfull \hbox (190.49533pt too wide) in paragraph at lines 288--288
+Overfull \hbox (190.49533pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_3 = pd.read_csv(csv_path_b, delimiter=";", header=None, sk
 iprows=15, nrows=2, usecols=[1,2,3,4,5,6])[] 
  []
 
 
-Overfull \hbox (237.74492pt too wide) in paragraph at lines 288--288
+Overfull \hbox (237.74492pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_14 = pd.read_csv(csv_path_b, delimiter=";", header=None, s
 kiprows=18, nrows=2, usecols=[1,2,3,4,5,6]) #14,3cm[] 
  []
 
 
-Overfull \hbox (195.74529pt too wide) in paragraph at lines 288--288
+Overfull \hbox (195.74529pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 b_17 = pd.read_csv(csv_path_b, delimiter=";", header=None, s
 kiprows=21, nrows=2, usecols=[1,2,3,4,5,6])[] 
  []
 
-[16]
-Overfull \hbox (179.99542pt too wide) in paragraph at lines 288--288
+[17]
+Overfull \hbox (179.99542pt too wide) in paragraph at lines 356--356
 []    \OT1/cmtt/m/n/10 #inteqrate.quad kann keine Integrationsgrenzen als Varia
 blen haben, darum kompliziertere L^^?osung:[] 
  []
 
 
-Overfull \hbox (95.99615pt too wide) in paragraph at lines 288--288
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 356--356
 []    \OT1/cmtt/m/n/10 integral = np.array(list(map(partial(integrate.quad, inn
 er, b=np.inf), x)))[:,0][] 
  []
 
 
-Overfull \hbox (95.99615pt too wide) in paragraph at lines 288--288
+Overfull \hbox (95.99615pt too wide) in paragraph at lines 356--356
 []    \OT1/cmtt/m/n/10 popt, cov = curve_fit(gaussint, d.values[0]-d.values[0][
 0] , P(d.values[1], Rd))[] 
  []
 
 
-Overfull \hbox (111.74602pt too wide) in paragraph at lines 288--288
+Overfull \hbox (111.74602pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_10.values[0]-b_10.values[0][0], P(b_10.values[1],
  Rd), 'ro', label="0,0 cm")[] 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 288--288
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_9.values[0]-b_9.values[0][0], P(b_9.values[1], Rd
 ), 'bo', label="-1,0 cm")[] 
  []
 
 
-Overfull \hbox (111.74602pt too wide) in paragraph at lines 288--288
+Overfull \hbox (111.74602pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_11.values[0]-b_11.values[0][0], P(b_11.values[1],
  Rd), 'go', label="1,0 cm")[] 
  []
 
 
-Overfull \hbox (253.49478pt too wide) in paragraph at lines 288--288
+Overfull \hbox (253.49478pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_10.values[0]-b_10.values[0][0], gaussint(b_10.val
 ues[0]-b_10.values[0][0], maxints[3], omegas[3]), 'r')[] 
  []
 
 
-Overfull \hbox (232.49496pt too wide) in paragraph at lines 288--288
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_9.values[0]-b_9.values[0][0], gaussint(b_9.values
 [0]-b_9.values[0][0], maxints[2], omegas[2]), 'b')[] 
  []
 
 
-Overfull \hbox (253.49478pt too wide) in paragraph at lines 288--288
+Overfull \hbox (253.49478pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_11.values[0]-b_11.values[0][0], gaussint(b_11.val
 ues[0]-b_11.values[0][0], maxints[4], omegas[4]), 'g')[] 
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 288--288
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.title("Cross section profile focused beam (near focal po
 int)")[] 
  []
 
 
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 288--288
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.savefig("Cross section profile focused beam (near focal 
 point).png", dpi=400)[] 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 288--288
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_6.values[0]-b_6.values[0][0], P(b_6.values[1], Rd
 ), 'yo', label="-4,0 cm")[] 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 288--288
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_3.values[0]-b_3.values[0][0], P(b_3.values[1], Rd
 ), 'co', label="-7,0 cm")[] 
  []
 
 
-Overfull \hbox (111.74602pt too wide) in paragraph at lines 288--288
+Overfull \hbox (111.74602pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_14.values[0]-b_14.values[0][0], P(b_14.values[1],
  Rd), 'mo', label="4,3 cm")[] 
  []
 
 
-Overfull \hbox (111.74602pt too wide) in paragraph at lines 288--288
+Overfull \hbox (111.74602pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_17.values[0]-b_17.values[0][0], P(b_17.values[1],
  Rd), 'ko', label="7,0 cm")[] 
  []
 
 
-Overfull \hbox (232.49496pt too wide) in paragraph at lines 288--288
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_6.values[0]-b_6.values[0][0], gaussint(b_6.values
 [0]-b_6.values[0][0], maxints[1], omegas[1]), 'y')[] 
  []
 
 
-Overfull \hbox (232.49496pt too wide) in paragraph at lines 288--288
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_3.values[0]-b_3.values[0][0], gaussint(b_3.values
 [0]-b_3.values[0][0], maxints[0], omegas[0]), 'c')[] 
  []
 
 
-Overfull \hbox (253.49478pt too wide) in paragraph at lines 288--288
+Overfull \hbox (253.49478pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_14.values[0]-b_14.values[0][0], gaussint(b_14.val
 ues[0]-b_14.values[0][0], maxints[5], omegas[5]), 'm')[] 
  []
 
 
-Overfull \hbox (253.49478pt too wide) in paragraph at lines 288--288
+Overfull \hbox (253.49478pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.plot(b_17.values[0]-b_17.values[0][0], gaussint(b_17.val
 ues[0]-b_17.values[0][0], maxints[6], omegas[6]), 'k')[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 288--288
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.title("Cross section profile focused beam (far from foca
 l point)")[] 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 288--288
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.savefig("Cross section profile focused beam (far from fo
 cal point).png", dpi=400)[] 
  []
 
-[17]
-Overfull \hbox (353.24391pt too wide) in paragraph at lines 288--288
+
+Overfull \hbox (353.24391pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 ## b_17 liefert negativen waist ??? Vielleicht am ungenauste
 n weil am weitesten von Quelle weg-> am meisten einfluss von st^^?orfaktoren[] 
 
  []
 
-
-Overfull \hbox (426.74327pt too wide) in paragraph at lines 288--288
+[18]
+Overfull \hbox (426.74327pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 popt, err = curve_fit(localwaist, zvals, omegas[:6], absolut
 e_sigma="True") #fitted localwaist an die z-Werte zusammen mit den dazugeh^^?or
 igen omegas[] 
  []
 
 
-Overfull \hbox (242.99487pt too wide) in paragraph at lines 288--288
+Overfull \hbox (242.99487pt too wide) in paragraph at lines 356--356
 []    \OT1/cmtt/m/n/10 localwaists.append(localwaist(i, waist, zR)) #nur weil p
 lt.plot(zvals, localwaist(zvals)) nicht funktioniert[] 
  []
 
 
-Overfull \hbox (64.49643pt too wide) in paragraph at lines 288--288
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 plt.savefig("beam waist against razor position from focal po
 int.png", dpi=400)[] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 288--288
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 # standardabweichung gr^^?o^^Yer als  eigentlicher wert bei 
 rayleigh length[] 
  []
 
 
-Overfull \hbox (158.9956pt too wide) in paragraph at lines 288--288
+Overfull \hbox (158.9956pt too wide) in paragraph at lines 356--356
 []\OT1/cmtt/m/n/10 #waist mit 0.8 mm wahrscheinlich zu gro^^Y, weit ^^?uber dem
  gemessenen minimum (siehe figure letzte)[] 
  []
 
 ! Undefined control sequence.
-l.289 \verbatimimput
+l.357 \verbatimimput
                     {Optical_resonator.py}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -994,13 +945,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.289 \verbatimimput{Optical_
+l.357 \verbatimimput{Optical_
                              resonator.py}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.289 \verbatimimput{Optical_resonator.py}
+l.357 \verbatimimput{Optical_resonator.py}
                                           
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1011,83 +962,44 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.290 
+l.358 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[18] (H3_Gregorian_Wegner.aux) )
+[19] (H3_Gregorian_Wegner.aux) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 289 ({)
+### simple group (level 1) entered at line 357 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3989 strings out of 478582
- 68065 string characters out of 2844344
- 367195 words of memory out of 3000000
- 22116 multiletter control sequences out of 15000+600000
+ 4025 strings out of 478582
+ 69593 string characters out of 2844816
+ 368196 words of memory out of 3000000
+ 22140 multiletter control sequences out of 15000+600000
  474810 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,76p,904b,281s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/corin/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/corin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/corin/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/c
-orin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr17.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr5.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/corin/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/corin/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/corin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on H3_Gregorian_Wegner.pdf (19 pages, 4086067 bytes).
+ 68i,12n,76p,904b,278s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/User/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on H3_Gregorian_Wegner.pdf (20 pages, 3911686 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
-  used on input line 202.
-(pdftex.def)             Requested size: 345.0pt x 230.01158pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 200--203
-[][]
- []
-
-[8 <./Cross section profile focused beam (near focal point).png> <./Cross secti
-on profile focused beam (far from focal point).png>] [9 <./beam waist against r
-azor position from focal point.png>] (H3_Gregorian_Wegner.aux) ) 
-Here is how much of TeX's memory you used:
- 3744 strings out of 478582
- 63968 string characters out of 2844816
- 364285 words of memory out of 3000000
- 21877 multiletter control sequences out of 15000+600000
- 474810 words of font info for 48 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 68i,12n,76p,904b,193s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/User/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Use
-rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb>
-Output written on H3_Gregorian_Wegner.pdf (9 pages, 628406 bytes).
-PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
