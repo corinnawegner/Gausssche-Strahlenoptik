@@ -10,7 +10,7 @@
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
 \usepackage{graphicx}
 \usepackage{verbatim}
-\usepackage{tabularx}
+\usepackage{multirow}
 \usepackage{comment}
 \usepackage{mathtools} %Das muss man noch installieren (man wird beim ersten Ausführen des Codes darauf hingewiesen und kann das dann direkt mit 'install' tun)
 \usepackage[section]{placeins}
@@ -280,34 +280,34 @@ F= \frac{\pi\sqrt{R}}{1-R}
 \end{equation}
 
 We measured the following:\\
-$U_b = (29\pm1)mV$ voltage with both mirrors
-$U_1 = (55\pm1)mV$  Spiegel voltage with first mirror
-$U_2 = (46\pm1)mV$  voltage with second mirror
-$U_o = (472\pm1)mV$ voltage without mirrors
+$U_b = (29\pm1)mV$ voltage with both mirrors\\
+$U_1 = (55\pm1)mV$  Spiegel voltage with first mirror\\
+$U_2 = (46\pm1)mV$  voltage with second mirror\\
+$U_o = (472\pm1)mV$ voltage without mirrors\\
 
-From that we obtain 
+From that we obtain \\
 
-\begin{comment}
-\begin{tabularx}{\textwidth}{p{0.25\textwidth}|r|X|r}
+\begin{tabular}{|p{3cm}|p{3cm}|p{6cm}|}
+\hline
 Measurement & ... & Value \\
 \hline
-\multirow{Transmissivity}
+\multirow{1}{*}{Transmissivity}
         &Total Transmission & $T= 0.003774956908934214 \pm 2.6083278256172736e-05$\\
         &Transmission of first mirror & $T_{1}= 0.013578174375179546 \pm 2.6083278256172736e-05$\\
         &Transmission of second mirror & $T_{2}= 0.009497989083596666 \pm 2.6083278256172736e-05$\\
         &Total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
 \hline
-\multirow{Reflectivity ($R=1-T$)}
+\multirow{1}{*}{Reflectivity ($R=1-T$)}
         & R  &$R=  0.9962250430910657 \pm 2.6083278256172736e-05$\\
         & R' &$R'=  0.9886437087043953 \pm 4.173750866526565e-09$\\
         & Reflectivity of the first mirror &$ R1=  0.9864218256248205 \pm 4.970926171216084e-05$\\
         & Reflectivity of the second mirror  &$R2=  0.9905020109164033 \pm 4.149125384224495e-05$\\
 \hline
-\multirow{Finesse}
+\multirow{1}{*}{Finesse}
         & Finesse from total R & $F= 830.6471925693128$\\
         & Finesse from Rp & $Fp = 275.0636820971334$ \\
-\end{tabularx} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
-\end{comment}
+\hline
+\end{tabular} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
 
 \textcolor{red}{Fehler der Finesse einfügen, Messfehler vielleicht erhöhen, Tabelle fixen} %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 
