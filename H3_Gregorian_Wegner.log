@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.15)  6 JUL 2022 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.15)  6 JUL 2022 19:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -282,188 +282,188 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \openout4 = `H3_Gregorian_Wegner.toc'.
 
  [1]
-Overfull \hbox (9.3873pt too wide) in paragraph at lines 54--62
-$\OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 M[]M[]M[] \OT1/cmr/m/n/1
-0 = [] [] [] = [] [] =
+Overfull \hbox (70.47734pt too wide) in paragraph at lines 55--63
+ \OT1/cmr/bx/n/10 Prob-lem 1[] $\OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = \OML/cmm/m
+/it/10 M[]M[]M[] \OT1/cmr/m/n/10 = [] [] [] = [] [] =
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Overfull \hbox (14.53506pt too wide) in paragraph at lines 100--139
+Overfull \hbox (14.53506pt too wide) in paragraph at lines 101--140
 \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^A [] ^^A [] \OT1/cmr/m/n/10 = []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--139
+Underfull \hbox (badness 10000) in paragraph at lines 101--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--166
+Underfull \hbox (badness 10000) in paragraph at lines 149--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--166
+Underfull \hbox (badness 10000) in paragraph at lines 149--167
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 167--187
+Underfull \hbox (badness 10000) in paragraph at lines 168--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--187
+Underfull \hbox (badness 10000) in paragraph at lines 168--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--195
+Underfull \hbox (badness 10000) in paragraph at lines 189--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--206
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--206
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--206
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--342
 
  []
 
@@ -473,22 +473,22 @@ File: part a: cross section profile of collimated beam.png Graphic file (type p
 ng)
 <use part a: cross section profile of collimated beam.png>
 Package pdftex.def Info: part a: cross section profile of collimated beam.png  
-used on input line 343.
+used on input line 344.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 
-Overfull \hbox (9.59584pt too wide) in paragraph at lines 348--349
+Overfull \hbox (9.59584pt too wide) in paragraph at lines 349--350
 []\OT1/cmr/m/n/10 The first two mea-sure-ments of the se-ries with $\OML/cmm/m/
 it/10 Distancerazorblade \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 fibreend \OT1/cm
 r/m/n/10 =
  []
 
 [10 <./part a: cross section profile of collimated beam.png>] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--390
+Underfull \hbox (badness 10000) in paragraph at lines 386--391
 
  []
 
@@ -498,7 +498,7 @@ File: Cross section profile focused beam (near focal point).png Graphic file (t
 ype png)
 <use Cross section profile focused beam (near focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (near focal point).
-png  used on input line 392.
+png  used on input line 393.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <Cross section profile focused beam (far from focal point).png, id=58, 433.62pt
  x 289.08pt>
@@ -506,7 +506,7 @@ File: Cross section profile focused beam (far from focal point).png Graphic fil
 e (type png)
 <use Cross section profile focused beam (far from focal point).png>
 Package pdftex.def Info: Cross section profile focused beam (far from focal poi
-nt).png  used on input line 396.
+nt).png  used on input line 397.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 <beam waist against razor position from focal point.png, id=59, 433.62pt x 289.
 08pt>
@@ -514,15 +514,15 @@ File: beam waist against razor position from focal point.png Graphic file (type
  png)
 <use beam waist against razor position from focal point.png>
 Package pdftex.def Info: beam waist against razor position from focal point.png
-  used on input line 397.
+  used on input line 398.
 (pdftex.def)             Requested size: 345.0pt x 230.01158pt.
 
-Overfull \hbox (28.88893pt too wide) in paragraph at lines 396--398
+Overfull \hbox (28.88893pt too wide) in paragraph at lines 397--399
 [][]\OT1/cmr/m/n/10 [h!]
  []
 
 
-Overfull \hbox (13.88893pt too wide) in paragraph at lines 396--398
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 397--399
 []\OT1/cmr/m/n/10 [h!] 
  []
 
@@ -532,48 +532,37 @@ Overfull \hbox (13.88893pt too wide) in paragraph at lines 396--398
 <Tv4Aufbau.jpg, id=70, 3011.25pt x 1865.46938pt>
 File: Tv4Aufbau.jpg Graphic file (type jpg)
 <use Tv4Aufbau.jpg>
-Package pdftex.def Info: Tv4Aufbau.jpg  used on input line 404.
+Package pdftex.def Info: Tv4Aufbau.jpg  used on input line 405.
 (pdftex.def)             Requested size: 345.0pt x 213.71323pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 [14 <./Tv4Aufbau.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 426--431
+Underfull \hbox (badness 10000) in paragraph at lines 427--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
 
-Overfull \hbox (1.51126pt too wide) in paragraph at lines 438--438
+Overfull \hbox (1.51126pt too wide) in paragraph at lines 439--439
 []\OT1/cmr/m/n/10 Measurement| 
  []
 
 
-Overfull \hbox (6.6224pt too wide) in paragraph at lines 440--441
+Overfull \hbox (6.6224pt too wide) in paragraph at lines 441--442
 [][]| 
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 441--442
+Underfull \hbox (badness 1052) in paragraph at lines 442--443
 []$\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 T \OT1/cmr/m/n/10 = 0\
 OML/cmm/m/it/10 :\OT1/cmr/m/n/10 06144067796610169 \OMS/cmsy/m/n/10 ^^F
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
-[]\OT1/cmr/m/n/10 Transmission of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-[]$\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 11
-652542372881355 \OMS/cmsy/m/n/10 ^^F
  []
 
 
@@ -583,62 +572,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--443
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 443--444
+[]$\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 11
+652542372881355 \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+[]\OT1/cmr/m/n/10 Transmission of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 []$\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 09
 745762711864406 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 []$\OML/cmm/m/it/10 T[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 10
 656590118609569 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Overfull \hbox (49.52501pt too wide) in paragraph at lines 446--447
+Overfull \hbox (49.52501pt too wide) in paragraph at lines 447--448
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 []$\OML/cmm/m/it/10 R \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9385
 593220338984 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
 []$\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 89
 34340988139043 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 1 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 883
 4745762711864 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 []$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 2 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 902
 542372881356 \OMS/cmsy/m/n/10 ^^F
  []
 
 
-Overfull \hbox (3.98029pt too wide) in paragraph at lines 436--457
+Overfull \hbox (3.98029pt too wide) in paragraph at lines 437--458
  [][] 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 464--468
+Underfull \hbox (badness 10000) in paragraph at lines 465--469
 
  []
 
 <oszilloskopbild.jpg, id=77, 2055.68pt x 1541.76pt>
 File: oszilloskopbild.jpg Graphic file (type jpg)
 <use oszilloskopbild.jpg>
-Package pdftex.def Info: oszilloskopbild.jpg  used on input line 470.
+Package pdftex.def Info: oszilloskopbild.jpg  used on input line 471.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
 [16] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 484--486
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
@@ -646,13 +646,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--486
 File: oszilloskopbild_mit_eigenmoden_vom_laser.jpg Graphic file (type jpg)
 <use oszilloskopbild_mit_eigenmoden_vom_laser.jpg>
 Package pdftex.def Info: oszilloskopbild_mit_eigenmoden_vom_laser.jpg  used on 
-input line 488.
+input line 489.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
 [17 <./oszilloskopbild.jpg>]
 <oszilloskopbild 2.jpg, id=85, 2055.68pt x 1541.76pt>
 File: oszilloskopbild 2.jpg Graphic file (type jpg)
 <use oszilloskopbild 2.jpg>
-Package pdftex.def Info: oszilloskopbild 2.jpg  used on input line 494.
+Package pdftex.def Info: oszilloskopbild 2.jpg  used on input line 495.
 (pdftex.def)             Requested size: 345.0pt x 258.73161pt.
 
 
@@ -661,14 +661,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [18 <./oszilloskopbild_mit_eigenmoden_vom_laser.jpg>]
 File: "Strahlprofil_a.csv"  (verbatim)
 
-Overfull \hbox (221.99506pt too wide) in paragraph at lines 505--505
+Overfull \hbox (221.99506pt too wide) in paragraph at lines 506--506
 []\OT1/cmtt/m/n/10 #Abstand Linse-Diode:6cm;Abstand Linse-Faserausgang in cm;Fe
 hler Schraubenpositionen;Fehler Spannungen in mV 
  []
 
 File: "Strahlprofil_b.csv"  (verbatim)
 
-Overfull \hbox (153.74565pt too wide) in paragraph at lines 506--506
+Overfull \hbox (153.74565pt too wide) in paragraph at lines 507--507
 []\OT1/cmtt/m/n/10 Abstand Linse 1-Faserausgang in cm; Abstand beide Linsen in 
 cm; Abstand Linse-Photodiode in cm; 
  []
@@ -677,12 +677,12 @@ cm; Abstand Linse-Photodiode in cm;
 (C:\Users\corin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 (aufgabe16.py [20])
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
@@ -693,7 +693,7 @@ Overfull \hbox (267.00623pt too wide) in paragraph at lines 27--28
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
@@ -836,13 +836,13 @@ Overfull \hbox (105.00458pt too wide) in paragraph at lines 87--88
  []
 
 )
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 88--537
+Overfull \hbox (75.00427pt too wide) in paragraph at lines 88--538
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
@@ -1013,12 +1013,12 @@ Overfull \hbox (129.00482pt too wide) in paragraph at lines 103--105
  []
 
 )
-Overfull \hbox (39.0039pt too wide) in paragraph at lines 106--539
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 106--540
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
@@ -1098,58 +1098,54 @@ Overfull \hbox (15.00366pt too wide) in paragraph at lines 59--60
  []
 
 )
-Overfull \hbox (321.00677pt too wide) in paragraph at lines 60--542
+Overfull \hbox (321.00677pt too wide) in paragraph at lines 60--543
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\OT1/cmr/m/n/10 Wikipedia "Quan-te-naus-beute", $\OT1/cmtt/m/n/10 https : / /
  de . wikipedia . org / wiki /
  []
 
 [27]
-Underfull \hbox (badness 3849) in paragraph at lines 548--549
+Underfull \hbox (badness 3849) in paragraph at lines 549--550
 []\OT1/cmr/m/n/10 Wikipedia "Op-tis-cher Res-onator", $\OT1/cmtt/m/n/10 https :
  / / de . wikipedia . org / wiki /
  []
 
-[28] (H3_Gregorian_Wegner.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[28] (H3_Gregorian_Wegner.aux) ) 
 Here is how much of TeX's memory you used:
  5712 strings out of 478582
  87354 string characters out of 2844344
- 656470 words of memory out of 3000000
+ 656474 words of memory out of 3000000
  23816 multiletter control sequences out of 15000+600000
  475974 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,13n,76p,1558b,1874s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\corin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk> <C:\Users\corin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcti1000.pk><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/corin/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/corin/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/corin/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cor
-in/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr5.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/corin/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/corin/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/corin/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/c
-orin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.
-pfb>
-Output written on H3_Gregorian_Wegner.pdf (29 pages, 4155609 bytes).
+ <C:\Users\corin\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\corin\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk><C:/Users/corin/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/corin/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/corin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/corin/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/corin/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/corin/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/corin
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Use
+rs/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mti10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb><C:/Users/corin/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/latxfont/line10.pfb>
+Output written on H3_Gregorian_Wegner.pdf (29 pages, 4155852 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
