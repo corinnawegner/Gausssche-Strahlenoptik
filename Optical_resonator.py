@@ -5,18 +5,6 @@ Created on Mon Jun 20 15:41:36 2022
 @author: corin
 """
 import numpy as np
- 
-#check if T+R=1, wie kann man die Reflektivität unabhängig von T messen?
-# Welchen Strahlparameter 
-# w0 der Gaußschen Moden erwarten Sie für das Lichtfeld im Resonator?
-# Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, 
-# der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle
-# trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum 
-# bei dem gerade aufgebauten Resonator?
-# In einer Periode sollten jetzt nur noch zwei
-# beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken
-# Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien 
-# Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise?
 
 Rd = 100*10**(4) # Widerstand der Diode (bessere Messung)
 U_b = 29*10**(-3) # Spannung mit beiden Spiegeln

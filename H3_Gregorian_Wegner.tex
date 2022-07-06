@@ -360,16 +360,6 @@ We were also asked to check if the relation $T = \sqrt{T_{1}T_{2}}$ is valid. In
 
 \subsection{Pythoncode}
 
-\begin{comment}	
-\begin{listing}
-	\inputminted[bgclolor=LighGray, fontsize=\scriptsize, lineos]{python
-{matrizenoptik.py}
-	\caption{Caption}
-	\label{listing:matrizenoptik}
-\end{listing}
-\end{comment}
-
-
 \lstset{literate=
   {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
   {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
@@ -387,18 +377,21 @@ We were also asked to check if the relation $T = \sqrt{T_{1}T_{2}}$ is valid. In
   {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
   {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1 {¡}{{!`}}1 
 }
-\paragraph{Problems in the practical notes}
-%\textcolor{red}{notes}
+
+\textcolor{blue}{Problem from page 16 of the experimental introduction}\\
+\lstinputlisting[language=python]{aufgabe16.py}
+
+
+\textcolor{blue}{Problem from page 7 of the experimental introduction}\\
 \lstinputlisting[language=python]{matrizenoptik.py}
 
-%\verbatimimput{matrizenoptik.py} %hier gibts Probleme
-\paragraph{Measuring the beam profile}
-%\textcolor{red}{beamprofilea}
+
+\textcolor{blue}{Measuring the beam profile (a)}\\
 \lstinputlisting[language=python]{Strahlprofil_a.py}
-%\textcolor{red}{beamprofileb}
+\textcolor{blue}{Measuring the beam profile (b)}\\
 \lstinputlisting[language=python]{Strahlprofil_b.py}
-\paragraph{Optical resonator}
-%\textcolor{red}{optres}
+
+\textcolor{blue}{Optical resonator}\\
 \lstinputlisting[language=python]{optical_resonator_if_PpropU.py}
 
 \subsection{References}
