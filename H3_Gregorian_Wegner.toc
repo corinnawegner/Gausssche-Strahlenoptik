@@ -1,11 +1,11 @@
-\contentsline {section}{\numberline {1}Einleitung}{2}{}%
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
 \contentsline {subsection}{\numberline {1.1}Problems from the experimental instructions}{2}{}%
 \contentsline {paragraph}{Problem 1}{2}{}%
 \contentsline {paragraph}{Problem 2}{3}{}%
 \contentsline {section}{\numberline {2}Measuring the power of the laser}{4}{}%
 \contentsline {paragraph}{Calculating the power from the voltage}{5}{}%
-\contentsline {section}{\numberline {3}Coupling the optical fibre cables}{7}{}%
-\contentsline {section}{\numberline {4}Measuring the beam profile}{9}{}%
+\contentsline {section}{\numberline {3}Coupling the optical fibre cables}{6}{}%
+\contentsline {section}{\numberline {4}Measuring the beam profile}{8}{}%
 \contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{9}{}%
 \contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{11}{}%
 \contentsline {section}{\numberline {5}Optical resonator}{14}{}%

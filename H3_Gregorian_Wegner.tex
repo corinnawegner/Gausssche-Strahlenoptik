@@ -46,17 +46,16 @@
 %Wenn ich \subsection* schreibe (mit *), kommt diese Überschrift nicht in die Gliederung
 
 In this experiment, the properties of a gaussian beam were investigated using photodiodes and a Fabry-Perot interferometer.
-\\
-\textcolor{red}{übersetzen und noch mehr schreiben??}
-\textcolor{red}{Genereller Versuchsaufbau mit Skizze}
 
 \subsection{Problems from the experimental instructions}
 
-We are asked to calculate the necessary distance between two lenses in order to change the waist of a given gaussian beam to a given value.
+\paragraph{Problem 1}
+
+On page 7 we are asked to calculate the necessary distance between two lenses in order to change the waist of a given gaussian beam to a given value.
 
 Representing the propagation of the beam through our optical system using transfermatrices:
 
-\paragraph{Problem 1}
+
  $M = M_{f_2}M_{Prop}M_{f_1}=\begin{pmatrix}1 & 0\\ \frac{-1}{f_2} & 1
 \end{pmatrix}\begin{pmatrix}1 & L\\ 0 & 1
 \end{pmatrix}\begin{pmatrix}1 & 0\\ \frac{-1}{f_1} & 1
@@ -68,13 +67,11 @@ Representing the propagation of the beam through our optical system using transf
 
 \setlength{\parskip}{2em}
 
-q' and q are defined as:
-$
-q=0+iz_r$\par$
-{q}'={z}'+i{z_r}'
-$
+q' and q are defined as:\\
+$q=0+iz_r$\\
+${q}'={z}'+i{z_r}'$
 
-And using the ABCD rule for gaussian beams on q' we get: 
+And using the ABCD rule for gaussian beams on q' we get:\\ 
 ${q}'=\frac{Aq+B}{Cq+D}=\frac{iz_r(1-\frac{L}{f_1})+L}{iz_r(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})+1-\frac{L}{f_2}}=\frac{i\frac{\pi\omega_0^2}{\lambda}(1-\frac{L}{f_1})+L}{i\frac{\pi\omega_0^2}{\lambda}(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})+1-\frac{L}{f_2}}\mbeq i\frac{\pi\omega_0^2}{\lambda}+{z}'$ 
 
 
@@ -103,7 +100,6 @@ $\Rightarrow{} {z}'\mbeq \frac{b{b}'+z_r^2(1-\frac{L}{f_1})(\frac{L}{f_1 f_2}-\f
 \paragraph{Problem 2}
 
  In the task on page 16 we were asked to calculate the theoretical values for the experiment on optical resonators. We were given $R=50mm$ for both plano-convex lenses, $L=45mm$ distance between the lenses. The lenses have a width $b=6.35mm$ and a refraction index $n_{L} = 1.515$ The wavelength of the light will be $\lambda = 632nm$ for the following calculations.\\
-\\
 
 Upon hitting the first mirror, for the light we have in Matrix representation
 \\\\
@@ -215,7 +211,7 @@ Hence, we see that the beam has a focus around 5.37 cm after the optical cavity 
 
 \section{Measuring the power of the laser}
 
-In the first part we measured the power of the laser itself. First, we put a photodiode with internal resistance 100k$\Omega$
+In the first part we measured the power of the laser itself. First, we put a photodiode with internal resistance $R= 100k\Omega$
 after the first passive reflector and measured the voltage
 \ $U=(1.2 \pm 0.1) V$ %So bindet man Formeln in Text ein
 . Then we turned the laser off and measured again at the same position to eliminate the background light (the windows were covered by curtains). We measured 
@@ -225,14 +221,13 @@ using the
 photodiode. 
 
 
-Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $V_m$ one can conclude the photocurrent $I_p = V_m \cdot R_m$. To ensure an accurate measurement, we would want $R_m >>R_i$ since\\
+Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $U_m$ one can conclude the photocurrent $I_p = \frac{U_m}{R_m}$. To ensure an accurate measurement, we would want $R_m >>R_i$ since\\
 
 $\frac{1}{R_{total}}= \frac{1}{R_m}+\frac{1}{R_i}$\\
 
 and for sufficiently large $R_i$:\\
 $\hspace{3cm}$\\
-$\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$\\
-
+$\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$
 
 \paragraph{Calculating the power from the voltage}
 
@@ -241,31 +236,30 @@ When the beam hits the diode, the multimeter detects a voltage $U$. For photodio
 \begin{equation} 
 P = \frac{hfI}{e\eta}
 \end{equation}
-.  
+ 
 Here, $h = 6.62607015*10^{-34} Js$ is the planck constant, $e = 1.602176634*10^{-19} C$ the charge of an electron, $I$ is the current and $\eta = 0.75$ the quantum efficiency of the photodiode. We can replace the frequency $f$ in the formula by the corresponding wavelength $\lambda = 632.8 nm$ of the laser using $c= \lambda f$, with the vacuum speed of light  $c = 299792458 \frac{m}{s}$. Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
 \begin{equation}
 P = \frac{hcU}{\lambda Re \eta}
 \label{powerfromvoltage}
 \end{equation}
 
-The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:
-\\
+The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:\\
 
-$P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} W \vspace{2cm}$
+$P_{Laser} =  \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634\cdot10^{-19}\cdot0.75\cdot100000}\approx3.1\cdot10^{-5} W$\\
 
 
-$\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-5} W\vspace{2cm}$\\
+$\Delta P_{Laser}= \pm \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634\cdot10^{-19}\cdot0.75\cdot10^{5}}\approx\pm 0.3\cdot10^{-5} W$\\
 
-$P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{4}}=0.03*10^{-5}W \vspace{2cm}$\\
+$P_{Background} =  \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot1.2\cdot10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634\cdot10^{-19}\cdot0.75\cdot10^{4}}\approx3.1\cdot10^{-7}W $\\
 
-$\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-7}W \vspace{2cm}$\\
+$\Delta P_{Background} = \pm \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634\cdot10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3\cdot10^{-7}W$\\
 
 Thus by subtraction we can determine the power of the laser without any background influence as\\
 
-$P^{'}_{Laser} = 3.13*10^{-5}- 0.03*10^{-5} =3.10*10^{-5} \pm 0.27*10^{-5}W$\\
+$P^{'}_{Laser} = (3.1\pm 0.3) \cdot 10^{-5} W$\\
 
 Since the background power is outside of the measurement error of
-the laser power measurement, we cannot ignore the background power, however the difference is so low that one can safely expect results to not change much in a dimmed and normally lit room. A lit room, however, allows for more accurate measurements since observation of scales and thus of measurements becomes easier to the human eye and there are fewer risks of bumping into instruments or the table, thus reducing the chance of misallignments and accidentally influencing measurements.
+the laser power measurement, we can ignore the background power, however the difference is so low that one can safely expect results to not change much in a dimmed and normally lit room. A lit room, however, allows for more accurate measurements since observation of scales and thus of measurements becomes easier to the human eye and there are fewer risks of bumping into instruments or the table, thus reducing the chance of misallignments and accidentally influencing measurements.
 
 It is worth noting that imperfections in the fine adjustment of the system or other errors such as dust particles on the diode lenses overall lowered the power output of the laser. Therefore, one can expect the relevance of background power to decrease as the adjustment of the optical system get better.
 
