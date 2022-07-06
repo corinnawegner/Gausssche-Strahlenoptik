@@ -1,4 +1,9 @@
 \documentclass{article}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage{cancel}
+\newcommand{\mbeq}{\overset{!}{=}}
+
 
 %Für Berechnungen siehe aufgabe16.py
 
@@ -23,5 +28,70 @@ $z_{R} = \frac{\pi4.9*10^(-8) m}{632} = 1.2*10^{-8} m$\\
 
 %Nützliche Formeln
 $D = \frac{n_{L}-1}{R}$
+
+Upon hitting the first mirror, for the light we have
+\\\\
+$M_{boundary 1}= \begin{pmatrix}
+1 & 0\\
+D_{12}& 1
+\end{pmatrix}$ with $D_{12} = -\frac{n_{mirror 1}-n_{air}}{R}$
+\\\\
+Then for propagation through the first mirror
+\\\\
+$M_{propagation 1}= \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix}$
+\\\\
+When leaving the mirror
+\\\\
+$M_{boundary 2}= \begin{pmatrix}
+1 & 0\\
+D_{23} & 1
+\end{pmatrix}$ with $D_{23} = -\frac{n_{air}-n_{mirror 1}}{R'}$
+\\\\
+Thus in total we have
+$M_{mirror 1}= M_{boundary 1} \cdot M_{propagation 1} \cdot M_{boundary 2} 
+\\\\
+= \begin{pmatrix}
+1 & 0\\
+D_{12} & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & 0\\
+D_{23} & 1
+\end{pmatrix}= \begin{pmatrix}
+\frac{n_2-b \cdot D_{23}}{n_2} & \frac{b}{n_2}\\
+-\frac{-D_{12} \cdot n_2 - D_{23}(-D_{12}b+n_2)}{n_2} & \frac{-D_{12}b+n_2}{n_2}
+\end{pmatrix}$
+\\\\
+Since, $n_{mirror1} = n_{mirror 2} \equiv n_2$ and $D_{12} = \frac{n_{mirror 1}-n_{air}}{R}$ and $R \xrightarrow[]{} \infty$ for the first square boundary, $D_{12} \xrightarrow[]{} 0$
+
+$\Rightarrow{} M_{mirror 1}=\begin{pmatrix}
+\frac{n_2-b \cdot D_{23}}{n_2} & \frac{b}{n_2}\\
+\frac{D_{23}n_2}{n_2} & 1
+\end{pmatrix}$
+\\
+Applying the same method to the second mirror
+\\
+
+$M_{mirror 2}= M_{boundary 3} \cdot M_{propagation 2} \cdot M_{boundary 4}$
+\\\\
+$M_{mirror 2} = \begin{pmatrix}
+1 & 0\\
+D_{12}' & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & 0\\
+0 & 1
+\end{pmatrix}=\begin{pmatrix}
+1 & \frac{b}{n_2}\\
+D'_{12} & \frac{D_{23}b+n_2}{n_2}
+\end{pmatrix}$
+\\
 
 \end{document}
