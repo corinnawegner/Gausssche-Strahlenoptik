@@ -1,0 +1,162 @@
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage{cancel}
+\newcommand{\mbeq}{\overset{!}{=}}
+
+Problem 1:  Preparation of a Laserbeam with a known waist
+
+The Matrix M of this optical system is given by:
+
+ $M = M_{f_2}M_{Prop}M_{f_1}=\begin{pmatrix}1 & 0\\ \frac{-1}{f_2} & 1
+\end{pmatrix}\begin{pmatrix}1 & L\\ 0 & 1
+\end{pmatrix}\begin{pmatrix}1 & 0\\ \frac{-1}{f_1} & 1
+\end{pmatrix} =\begin{pmatrix}1 & 0\\ \frac{-1}{f_2} & 1
+\end{pmatrix}\begin{pmatrix} 1-\frac{L}{f_2} & L\\ \frac{-1}{f_2} & 1
+\end{pmatrix} = \begin{pmatrix} 1-\frac{L}{f_2} & L\\ \frac{-1}{f_2}+\frac{L}{f_2 f_2}-\frac{1}{f_2} & 1-\frac{L}{f_2}
+\end{pmatrix}
+ = \begin{pmatrix} A&B\\C&D\end{pmatrix}$
+
+\setlength{\parskip}{2em}
+
+
+since $q=0+iz_r$ and ${q}'={z}'+i{z_r}'
+$
+
+And using the ABCD rule for gaussian beams:
+
+${q}'=\frac{Aq+B}{Cq+D}=\frac{iz_r(1-\frac{L}{f_1})+L}{iz_r(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})+1-\frac{L}{f_2}}=\frac{i\frac{\pi\omega_0^2}{\lambda}(1-\frac{L}{f_1})+L}{i\frac{\pi\omega_0^2}{\lambda}(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})+1-\frac{L}{f_2}}\mbeq i\frac{\pi\omega_0^2}{\lambda}+{z}'$ 
+
+
+For a general quotient of complex numbers:
+
+$\frac{ai+b}{{a}'i+{b}'}=\frac{(ai+b)(-{a}'i+b)}{({a}'i+{b}')(-{a}'i+{b}')}=\frac{a{a}'+b{b}'+i(a{b}'-{a}'b)}{{a}'^2+{b}'^2}
+$
+
+it follows that:
+
+$\Rightarrow{} {q}' = \frac{b{b}'+z_r^2(1-\frac{L}{f_1})(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})}{z_r^2(\frac{L}{f_1 f_2})-\frac{1}{f_2})^2+(1-\frac{L}{f_2})^2}+i\frac{z_r(1-\frac{L}{f_1})(1-\frac{L}{f_2})-z_r(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})L}{z_r^2(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})^2+(1-\frac{L}{f_2})^2}
+$
+
+$\Rightarrow{} {z}'\mbeq \frac{b{b}'+z_r^2(1-\frac{L}{f_1})(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})}{z_r^2(\frac{L}{f_1 f_2})-\frac{1}{f_2})^2+(1-\frac{L}{f_2})^2} $
+ and
+ $\Rightarrow{}{} {z_r}' \frac{z_r(1-\frac{L}{f_1})(1-\frac{L}{f_2})-z_r(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})L}{z_r^2(\frac{L}{f_1 f_2}-\frac{1}{f_2}-\frac{1}{f_1})^2+(1-\frac{L}{f_2})^2}$
+ 
+ Thus to determine ${z_r}'$
+ 
+ ${z_r}'=z_r\frac{(1-\cancel{\frac{L}{f_2}}-\cancel{\frac{L}{f_1}}+\cancel{\frac{L^2}{f_2 f_1}}-\cancel{\frac{L^2}{f_2 f_1}}+\cancel{\frac{L}{f_2}}+\cancel{\frac{L}{f_1}})}{z_r^2(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})^2+(1+\frac{1}{f_2})^2}=\frac{z_r}{z_r^2(z_r^2(\frac{L}{f_1 f_2}-\frac{1}{f_1}-\frac{1}{f_2})^2+(1+\frac{1}{f_2})^2)} 
+ $
+ 
+ using the attached python code, this yields
+ 
+ $L \approx 0,35 m$
+ \\
+\\
+Problem 2
+\\
+
+Upon hitting the first mirror, for the light we have
+\\\\
+$M_{boundary 1}= \begin{pmatrix}
+1 & 0\\
+D_{12}& 1
+\end{pmatrix}$ with $D_{12} = -\frac{n_{mirror 1}-n_{air}}{R}$
+\\\\
+Then for propagation through the first mirror
+\\\\
+$M_{propagation 1}= \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix}$
+\\\\
+When leaving the mirror
+\\\\
+$M_{boundary 2}= \begin{pmatrix}
+1 & 0\\
+D_{23} & 1
+\end{pmatrix}$ with $D_{23} = -\frac{n_{air}-n_{mirror 1}}{R'}$
+\\\\
+Thus in total we have
+$M_{mirror 1}= M_{boundary 1} \cdot M_{propagation 1} \cdot M_{boundary 2} 
+\\\\
+= \begin{pmatrix}
+1 & 0\\
+D_{12} & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & 0\\
+D_{23} & 1
+\end{pmatrix}= \begin{pmatrix}
+\frac{n_2-b \cdot D_{23}}{n_2} & \frac{b}{n_2}\\
+-\frac{-D_{12} \cdot n_2 - D_{23}(-D_{12}b+n_2)}{n_2} & \frac{-D_{12}b+n_2}{n_2}
+\end{pmatrix}$
+\\\\
+Since, $n_{mirror1} = n_{mirror 2} \equiv n_2$ and $D_{12} = \frac{n_{mirror 1}-n_{air}}{R}$ and $R \xrightarrow[]{} \infty$ for the first square boundary, $D_{12} \xrightarrow[]{} 0$
+
+$\Rightarrow{} M_{mirror 1}=\begin{pmatrix}
+\frac{n_2-b \cdot D_{23}}{n_2} & \frac{b}{n_2}\\
+\frac{D_{23}n_2}{n_2} & 1
+\end{pmatrix}$
+\\
+Applying the same method to the second mirror
+\\
+
+$M_{mirror 2}= M_{boundary 3} \cdot M_{propagation 2} \cdot M_{boundary 4}$
+\\\\
+$M_{mirror 2} = \begin{pmatrix}
+1 & 0\\
+D_{12}' & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & \frac{b_1}{n_{mirror 1}}\\
+0 & 1
+\end{pmatrix} \cdot \begin{pmatrix}
+1 & 0\\
+0 & 1
+\end{pmatrix}=\begin{pmatrix}
+1 & \frac{b}{n_2}\\
+D'_{12} & \frac{D_{23}b+n_2}{n_2}
+\end{pmatrix}$
+\\
+with $ D_{12}' = -\frac{n_{mirror 2}-n_{air}}{R'}$, but this time with a finite $R'$
+\\
+
+Therefore, overall
+\\\\
+$M_{total}= M_{mirror 2} \cdot M'_{prop} \cdot M_{mirror 1}  
+\\\\
+M_{total}= \begin{pmatrix}
+1 & \frac{b}{n_2}\\
+D'_{12} & \frac{D_{23}b+n_2}{n_2}
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+1 & 2R'\\
+0 & 1
+\end{pmatrix} \cdot
+\begin{pmatrix}
+\frac{n_2-b \cdot D_{23}}{n_2} & \frac{b}{n_2}\\
+D_{23} & 1
+\end{pmatrix} 
+$
+\\\\
+Now we use $\frac{n-1}{R'} = \frac{1}{f} = 10 m^{-1}, R = 50mm, n=1.515, b=6.35mm $
+
+and calculate
+\\\\
+$M_{total}= \begin{pmatrix}
+2.00 & 0.11\\
+30 & 2.08
+\end{pmatrix}
+$
+
+Using $q = z+iz_R = iz_R$, $z_R = 0.025m$ since $z_R = \frac{\pi \omega^2_0}{\lambda} = \sqrt{\frac{L}{2}(R-\frac{L}{2})}$ since $L=R$ in our confocal arrangement we conclude $z_R=\frac{R}{2}=0.025m$ and thus $q' = \frac{2.00q+0.11}{30q+2.08} = \frac{i2.0(0.025)+0.11}{i30(0.025)+2.08}$
+\\\\
+Thus:
+\\\\
+$z'_R = Im(q') = 0.0046692 \approx 4.67\cdot10^{-3}m
+\\\\
+z' = Re(q') =  0.0536883 \approx 5.37\cdot10^{-2}m
+$
+\\\\
+Hence, we see that the beam has a focus around 5.37 cm after the optical cavity and that the Rayleigh length has decreased considerably, meaning that the beam has further lost collimation.
