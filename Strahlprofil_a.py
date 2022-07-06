@@ -66,8 +66,6 @@ print("8,3cm:\n", "I_0:", maxintensity, "Strahltaille:", omega)
 #11cm fit
 popt, cov = curve_fit(gaussint, x45, P(a_45.values[1], Rd))
 maxintensity, omega = popt
-#maxints.append(maxintensity)
-#omegas.append(omega)
 plt.plot(x45, gaussint(x45, maxintensity, omega), 'b')
 print("11cm:\n", "I_0:", maxintensity, "Strahltaille:", omega)
 
@@ -88,6 +86,3 @@ plt.savefig("part a: cross section profile of collimated beam.png", dpi=400)
 print("waist: (", np.mean(omegas), "+-", np.std(omegas), ") mm")
 rays = [rayleigh(i)/10**6 for i in omegas] #10**6 weil millimeter umrechnen
 print("rayleigh length: (", np.mean(rays), "+-", np.std(rays), ") mm")
-
-#Aufgaben Seite 14 und 15
-#Offset durch Hintergrundhelligkeit abziehen: wurde gemacht durch normalisierte spannung

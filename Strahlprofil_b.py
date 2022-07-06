@@ -5,12 +5,6 @@ Created on Sat Jun 11 00:53:58 2022
 @author: corin
 """
 
-# Task: d bestimmen Sie aus dem Verlauf von w(z) den
-#Waist w0 dieses Strahls mithilfe eines Fit-Programms. Dabei passen Sie die Funktion von w(z)
-#nach Gl. (11) an die gemessenen Werte w1(z1), w2(z2),... an. Die Position des waist z0 ist dabei
-#ein unbekannter Parameter, welcher gleichzeitig angepasst werden muss. Bestimmen Sie aus
-#dem Waist w0 auch die Rayleigh-Länge zR
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -65,7 +59,6 @@ for d in data:
     print("I_0:", maxintensity, "Strahltaille:", omega)
 
 #nahe z=0
-#indizierung von maxints und omegas potentielle fehlerquelle
 plt.plot(b_10.values[0]-b_10.values[0][0], P(b_10.values[1], Rd), 'ro', label="0,0 cm")
 plt.plot(b_9.values[0]-b_9.values[0][0], P(b_9.values[1], Rd), 'bo', label="-1,0 cm")
 plt.plot(b_11.values[0]-b_11.values[0][0], P(b_11.values[1], Rd), 'go', label="1,0 cm")
@@ -93,12 +86,8 @@ plt.ylabel("Power in W")
 plt.title("Cross section profile focused beam (far from focal point)")
 #plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
 plt.clf()
-#
+
 ##waist bestimmen
-##Fehlerquelle: Mehr Messungen wären nötig
-#Fehlerquellen aus H3 Notes
-## b_17 liefert negativen waist ??? Vielleicht am ungenausten weil am weitesten von Quelle weg-> am meisten einfluss von störfaktoren
-# dran denken 14,3 cm
 popt, err = curve_fit(localwaist, zvals, omegas[:6], absolute_sigma="True") #fitted localwaist an die z-Werte zusammen mit den dazugehörigen omegas
 waist, zR = popt
 plt.plot(zvals, omegas[:6], 'ro', label="data")
@@ -115,5 +104,3 @@ plt.title(title)
 
 print("waist: (", waist, "+-", np.sqrt(err[0,0]), ") mm")
 print("rayleigh length: (", zR, "+-", np.sqrt(err[1,1]), ") mm") 
-# standardabweichung größer als  eigentlicher wert bei rayleigh length
-#waist mit 0.8 mm wahrscheinlich zu groß, weit über dem gemessenen minimum (siehe figure letzte)

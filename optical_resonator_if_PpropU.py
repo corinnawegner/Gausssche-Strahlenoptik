@@ -6,18 +6,6 @@ Created on Mon Jun 20 15:41:36 2022
 @author: corin
 """
 import numpy as np
- 
-# Welchen Strahlparameter #
-#Check if T = T'
-# w0 der Gaußschen Moden erwarten Sie für das Lichtfeld im Resonator?
-# Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, 
-# der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle
-# trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum 
-# bei dem gerade aufgebauten Resonator?
-# In einer Periode sollten jetzt nur noch zwei
-# beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken
-# Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien 
-# Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise?
 
 Rd = 10*10**(4) # Widerstand der Diode (bessere Messung)
 U_b = 29*10**(-3) # Spannung mit beiden Spiegeln
@@ -70,5 +58,3 @@ print("Finesse:")
 print("Finesse from total R: F=", Finesse(Reflectivity(T[0])))
 print("Finesse from Rp: Fp =", Finesse(Reflectivity(Tp[0])))
 print("Finesse from figure: Ffig = ", Finesse_from_figure(10, 3, 1)[0], "+-", Finesse_from_figure(10, 3, 1)[1])
-
-#print(Total_Transmission_from_Single_Ts(Reflectivity(T1[0]), Reflectivity(T2[0]), T1[1], T2[1]))
