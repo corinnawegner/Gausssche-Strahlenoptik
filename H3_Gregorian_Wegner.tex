@@ -301,14 +301,6 @@ Measurement & ... & Value \\
 \end{table}
 %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 
-\textcolor{red}{
-Pythoncode einbringen
-Bestimmen Sie zuerst die Transmission der Spiegel für die vorhandene Wellenlänge. Welche
-Reflektivität R und Finesse F sind zu erwarten
-Welcher Resonatorkonfiguration entspricht diese Anordnung? Welchen Strahlparameter w0 der Gaußschen Moden erwartenSie für das Lichtfeld im Resonator? Wie groß sollte der Abstand der Linse vom Einkoppelspiegel sein?
-Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum bei dem gerade aufgebauten Resonator? \\
-In einer Periode sollten jetzt nur noch zwei beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise? Passen die berechneten T aus Gesamt und einzelnen zusammen?}\\
-
 From the signal detected by the oszilloscope (figure \ref{Osz1}) we can also determine the Finesse $F$. The full width at half maximum $\Delta\omega_{FWHM}$ and the free spectral range $\Delta\omega_{FSR}$, which is the distance of two peaks, are related by 
 \begin{equation}
 \Delta\omega_{FWHM} = \frac{\Delta\omega_{FSR}}{F}
@@ -318,7 +310,7 @@ Using the cursors, we see that the full width at half maximum is $\Delta\omega_{
 $F_{fig} = 3.3 \pm 1.1$\\
 This is a very low value compared to the calculated values. As typical finesses are from 10 to up to 100000 \cite{optres} we expect the calculated values to be more accurate. Zooming into the peak of the oscilloscope would probably improve the resolution of the peak and thus lead to a better reading of the signal.\\
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{oszilloskopbild.jpg}
 \caption{Oscilloscope image}
 \label{Osz1}
@@ -336,16 +328,15 @@ The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
 In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:
 \textcolor{red}{Macht das Sinn?} \\
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{oszilloskopbild_mit_eigenmoden_vom_laser.jpg}
 \caption{Other oscilloscope image}
 \label{Eigenmoden_laser}
 \end{figure}
 
-Figure \ref{Osz2} shows another oscilloscope signal that we took.
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
-\caption{Third signal image}
+\caption{Another oscilloscope signal that we took}
 \label{Osz2}
 \end{figure}
 
