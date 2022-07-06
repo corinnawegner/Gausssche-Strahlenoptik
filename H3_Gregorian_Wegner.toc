@@ -11,3 +11,4 @@
 \contentsline {section}{\numberline {6}Appendix}{16}{}%
 \contentsline {subsection}{\numberline {6.1}Measurements}{16}{}%
 \contentsline {subsection}{\numberline {6.2}Pythoncode}{17}{}%
+\contentsline {subsection}{\numberline {6.3}References}{21}{}%
