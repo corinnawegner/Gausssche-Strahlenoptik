@@ -7,10 +7,10 @@
 \contentsline {section}{\numberline {3}Coupling the optical fibre cables}{6}{}%
 \contentsline {section}{\numberline {4}Measuring the beam profile}{8}{}%
 \contentsline {paragraph}{Measuring the cross section profile without focusing the beam}{9}{}%
-\contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{11}{}%
-\contentsline {section}{\numberline {5}Optical resonator}{14}{}%
-\contentsline {paragraph}{Determining the transmission of the two reflectors}{15}{}%
-\contentsline {section}{\numberline {6}Appendix}{19}{}%
-\contentsline {subsection}{\numberline {6.1}Measurements}{19}{}%
-\contentsline {subsection}{\numberline {6.2}Pythoncode}{20}{}%
-\contentsline {subsection}{\numberline {6.3}References}{28}{}%
+\contentsline {paragraph}{Measuring the cross section profile with lens ($f=100mm$)}{10}{}%
+\contentsline {section}{\numberline {5}Optical resonator}{13}{}%
+\contentsline {paragraph}{Determining the transmission of the two reflectors}{14}{}%
+\contentsline {section}{\numberline {6}Appendix}{18}{}%
+\contentsline {subsection}{\numberline {6.1}Measurements}{18}{}%
+\contentsline {subsection}{\numberline {6.2}Pythoncode}{19}{}%
+\contentsline {subsection}{\numberline {6.3}References}{27}{}%
