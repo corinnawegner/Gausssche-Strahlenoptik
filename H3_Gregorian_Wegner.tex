@@ -99,9 +99,9 @@ $\Rightarrow{} {z}'\mbeq \frac{b{b}'+z_r^2(1-\frac{L}{f_1})(\frac{L}{f_1 f_2}-\f
 
 \paragraph{Problem 2}
 
- In the task on page 16 we were asked to calculate the theoretical values for the experiment on optical resonators. We were given $R=50mm$ for both plano-convex lenses, $L=45mm$ distance between the lenses. The lenses have a width $b=6.35mm$ and a refraction index $n_{L} = 1.515$ The wavelength of the light will be $\lambda = 632nm$ for the following calculations.\\
+ In the task on page 16 we were asked to calculate the theoretical values for the experiment on optical resonators. We were given $R=50mm$ for both plano-convex lenses, $L=45mm$ distance between the lenses. The lenses have a width $b=6.35mm$ and a refraction index $n_{L} = 1.515$. The wavelength of the light will be $\lambda = 632nm$ for the following calculations.\\
 
-Upon hitting the first mirror, for the light we have in Matrix representation
+Upon hitting the first mirror, for the light we have in matrix representation
 \\\\
 $M_{boundary 1}= \begin{pmatrix}
 1 & 0\\
@@ -254,6 +254,7 @@ $P_{Background} =  \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot1.2\cdot10^{-
 
 $\Delta P_{Background} = \pm \frac{6.62607015\cdot10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634\cdot10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3\cdot10^{-7}W$\\
 
+[Note that this is not a copy error, we indeed measured the same values except for the decimal place]\\
 Since the background power is within the measurement error of
 the laser power measurement, we can ignore the background power. The difference is so low that one can safely expect results to not change much in a dimmed and normally lit room. A lit room, however, allows for more accurate measurements since observation of scales and thus of measurements becomes easier to the human eye and there are fewer risks of bumping into instruments or the table, thus reducing the chance of misallignments and accidentally influencing measurements.\\
 
@@ -317,7 +318,7 @@ z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda}
 \label{rayleighlength}
 \end{equation}
 at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ is the refraction index of the medium (air) and the wavelength of the laser is $\lambda =632.8 nm$. The resulting rayleigh length is:
-$65 \pm 48) mm$.\\
+$(65 \pm 48) mm$.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{part a: cross section profile of collimated beam.png}
@@ -495,7 +496,7 @@ We were also asked to check if the relation $T = \sqrt{T_{1}T_{2}}$ is valid. In
 \verbatiminput{Strahlprofil_a.csv}
 \verbatiminput{Strahlprofil_b.csv}
 
-\subsection{Pythoncode}
+\subsection{Python code}
 
 \lstset{literate=
   {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1

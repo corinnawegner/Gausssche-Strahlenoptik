@@ -12,5 +12,5 @@
 \contentsline {paragraph}{Determining the transmission of the two reflectors}{13}{}%
 \contentsline {section}{\numberline {6}Appendix}{17}{}%
 \contentsline {subsection}{\numberline {6.1}Measurements}{17}{}%
-\contentsline {subsection}{\numberline {6.2}Pythoncode}{18}{}%
+\contentsline {subsection}{\numberline {6.2}Python code}{18}{}%
 \contentsline {subsection}{\numberline {6.3}References}{26}{}%
