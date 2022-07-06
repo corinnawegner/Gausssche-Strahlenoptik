@@ -1,0 +1,27 @@
+\documentclass{article}
+
+%Für Berechnungen siehe aufgabe16.py
+
+\begin{document}
+ In the task on page 16 we were asked to calculate the theoretical values for the experiment. We were given $R=50mm$ for both plano-convex lenses, $L=45mm$ distance between the lenses. The lenses have a width $b=6.35mm$ and a refraction index $n_{L} = 1.515$ The wavelength of the light will be $\lambda = 632nm$ for the following calculations.\\
+
+ Using the given equation for the waist within the optical resonator
+
+\begin{equation}
+\omega_{0}^2 = \frac{\lambda}{\pi}\sqrt{\frac{L}{2}(R-\frac{L}{2})}
+\label{omegawithinres}
+\end{equation}
+
+we obtain\\
+
+$\omega_{0}^2 = \frac{632nm}{\pi}\sqrt{\frac{4.5mm}{2}(50mm-\frac{4.5mm}{2})} = 4.9*10^(-8) m$\\
+
+The resulting rayleigh length is then\\
+
+$z_{R} = \frac{\pi4.9*10^(-8) m}{632} = 1.2*10^{-8} m$\\
+%z_{R} = \frac{\pi*\omega_{0}^2 n}{\lambda} ist schon definiert: \ref{rayleighlength}
+
+%Nützliche Formeln
+$D = \frac{n_{L}-1}{R}$
+
+\end{document}

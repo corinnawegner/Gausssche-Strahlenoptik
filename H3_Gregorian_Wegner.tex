@@ -10,11 +10,16 @@
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
 \usepackage{graphicx}
 \usepackage{verbatim}
-\usepackage{tabularx}
+\usepackage{multirow}
 \usepackage{comment}
 \usepackage{mathtools} %Das muss man noch installieren (man wird beim ersten Ausführen des Codes darauf hingewiesen und kann das dann direkt mit 'install' tun)
-
+\usepackage[section]{placeins}
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
+%% Better Listings
+%\usepackage{xcolor}
+%\definecolor{LightGray}{gray}{.9}
+%\usepackage{minted}
 
 \begin{document} 
 
@@ -43,6 +48,8 @@ in diesem Versuch soll das Intensitätsprofil von Gaußschen Strahlen vermessen 
 \textcolor{red}{Genereller Versuchsaufbau mit Skizze}\\
 %Dinge die nicht Text sind sondern Dinge die noch rein müssen bzw. TO-DOs hab ich für uns zum Überblick rot gemacht 
 
+\textcolor{red}{Aufgabe 7 vom Skript noch einfügen}
+
 \section{Measuring the power of the laser}
 
 In the first part we measured the power of the laser itself. First, we put a photodiode with internal resistance 100k$\Omega$
@@ -56,19 +63,15 @@ photodiode.
 
 \textcolor{red}{add answer, fehlerrechnung, make sure to say we incoroprated the fact that the diode resistances were different and add sktech of experimental set up, answer all questions page 11}
 
-Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $V_m$ one can conclude the photocurrent $I_p = V_m \cdot R_m$. To ensure an accurate measurement, we would want $R_m >>R_i$ since
-
-\paragraph{}
-
-$\frac{1}{R_{total}}= \frac{1}{R_m}+\frac{1}{R_i}$
-
-\paragraph{}
-
-and for sufficiently large $R_i$:
-$\hspace{3}$
-$\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$
+Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $V_m$ one can conclude the photocurrent $I_p = V_m \cdot R_m$. To ensure an accurate measurement, we would want $R_m >>R_i$ since\\
 
 
+$\frac{1}{R_{total}}= \frac{1}{R_m}+\frac{1}{R_i}$\\
+
+
+and for sufficiently large $R_i$:\\
+$\hspace{3cm}$\\
+$\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$\\
 
 
 \paragraph{Calculating the power from the voltage}
@@ -77,17 +80,27 @@ When the beam hits the diode, the multimeter detects a voltage $U$. For photodio
 \begin{equation} 
 P = \frac{hfI}{e\eta}
 \end{equation}
+\cite{https://de.wikipedia.org/wiki/Quantenausbeute}
+\textcolor{red}{Wie zitieren?}
 Here, $h = 6.62607015*10^{-34} Js$ is the planck constant, $e = 1.602176634*10^{-19} C$ the charge of an electron, $I$ is the current and $\eta = 0.75$ the quantum efficiency of the photodiode. We can replace the frequency $f$ in the formula by the corresponding wavelength $\lambda = 632.8 nm$ of the laser using $c= \lambda f$, with the vacuum speed of light  $c = 299792458 \frac{m}{s}$. Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
 \begin{equation}
 P = \frac{hcU}{\lambda Re \eta}
+\label{powerfromvoltage}
 \end{equation}
 
+The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:\\
 
-\textcolor{red}{Wie Formeln nummerieren? Quellenverzeichnis! https://de.wikipedia.org/wiki/Quantenausbeute}
+$P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} \vspace{2cm}$
 
-The resistance $R$ can be read from the photodiode. In the experiment we used two diodes, mainly diode 1 with $R=10 k\Omega$. Diode 2 has $R= 100 k\Omega$. Thus by plugging the respective values in, we can calculate:
-\paragraph{}
+\textcolor{red}{Einheiten fehlen}
 
+$\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-5} \vspace{2cm}$\\
+
+$P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{4}}=0.03*10^{-5} \vspace{2cm}$\\
+
+$\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.27*10^{-7} \vspace{2cm}$\\
+
+Thus by subtraction we can determine the power of the laser without any background influence as\\
 $P_{Laser} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot100000}=3.13*10^{-5} W \vspace{2}$
 
 $\Delta P_{Laser}= \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3*10^{-5}W \vspace{2}$
@@ -96,7 +109,9 @@ $P_{Background} =  \frac{6.62607015*10^{-34}\cdot299792458\cdot1.2*10^{-3}}{632.
 
 $\Delta P_{Background} = \pm \frac{6.62607015*10^{-34}\cdot299792458\cdot0.1}{632.8\cdot10^{-9}\cdot1.602176634*10^{-19}\cdot0.75\cdot10^{5}} =\pm 0.3*10^{-7}W \vspace{2}$
 
+$P^{'}_{Laser} = 3.13*10^{-5}- 0.03*10^{-5} =3.10*10^{-5} \pm 0.27*10^{-5}$\\
 
+Since the background power is outside of the measurement error of
 \paragraph{}
 
 Thus by subtraction we can determine the power of the laser without any background influence as
@@ -115,40 +130,38 @@ the laser power measurement, we cannot ignore the background power, however the 
 
 After determining the power of the laser we coupled the fibre optic cables into the coupler in the optical path. First, we coupled the multimode cable and adjusted the optical elements such that the conduction was optimized. By variating the angles a little we tried to see different modes on a piece of paper, put behind the cable. Unlike our expectations we could not identify them, instead the dot on the paper disappeared, because too few light was conducted through the cable. We could however see on the paper a dot with a small dark hole in it's center, just like the shape of a donut mode. It is also possible that the small hole was a dust crumb on the lens whatsoever. Unfortunately it was not possible to take a picture of the dot which shows more than a diffuse point, because the mobile phone cameras could not work with the light conditions.\\
 
-Now we measured the voltage from the photodiode behind the cables. Therefor we focused the beam into the photodiode, using another lens. For the multimode cable we measured a maximum voltage of $U=209mV$, but the value fluctuated a lot (about 20mV just from touching the table). After coupling the single mode cable we measured $U=(106 \pm 5)mV$. This is less than for the multimode cable, which makes sense because there is only one mode lead through the single mode cable. With the resistance of the used photodiode, $R = 10k\Omega$, we can calculate the percentage of the power lead through the cable:
+Now we measured the voltage from the photodiode behind the cables. Therefor we focused the beam into the photodiode, using another lens. For the multimode cable we measured a maximum voltage of $U=209mV$, but the value fluctuated a lot (about 20mV just from touching the table). After coupling the single mode cable we measured $U=(106 \pm 5)mV$. This is less than for the multimode cable, which makes sense because there is only one mode lead through the single mode cable. With the resistance of the used photodiode, $R = 10k\Omega$, we can calculate the percentage of the power lead through the cable:\\
 
 
-\paragraph{}
-The corrected laser power translates to a corrected voltage value for the Laser of 
-\paragraph{}
+
+The corrected laser power translates to a corrected voltage value for the Laser of \\
 
 $U'_{Laser}= 1.19 \pm 0.11 V$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 $U_{single-mode} =(106 \pm 5)mV  \hspace{1cm} U_{multi-mode} = (210\pm 20)mV$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 $\eta_{single-mode} = \frac{106}{1.19*10^3} = 8.93\% \hspace{1cm} \eta_{single-mode} = \frac{209}{1.19*10^3} = 17.61\%$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 $\Delta\eta_{sinlge-mode} = \pm8.93\%\cdot(\frac{5}{106}+ \frac{0.11}{1.19})= \pm 1.3\%$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 $\Delta\eta_{single-mode} =\pm17.61\%\cdot(\frac{20}{209}+\frac{0.11}{1.19})= \pm 4\%$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 $\xrightarrow[]{} \eta_{single-mode} = 8.9\pm 1.4\%\hspace{1cm}\Delta\eta_{sinlge-mode}=18\pm 4\%$
 
-$\vspace{1}$
+$\vspace{1cm}$
 
 As expected, the multi mode cable has a higher efficiency since it allows for more modes to be transmitted. The measured efficiency was highly dependent on the sensitive alignment of the laser. This is especially true for the single mode photodiode since it has a smaller lens diameter. We can therefore expect that energy has been lost due to imperfect alignment and other various smaller inefficiencies, such as optical instruments heating up. The influence of dust particles on the lens of the photodiode is also noteworthy as a factor that further lowers efficiency. During the experiment it had a significant impact on the observed laser projection.
-\textcolor{red}{Fehlerquellen:
--kabel Beschädigt: keine perfekte Leitung durch kabel, Fehler aus TV1}
+\textcolor{red}{Fehlerquellen: -kabel Beschädigt: keine perfekte Leitung durch kabel, Fehler aus TV1}
 
 \section{Measuring the beam profile}
 
@@ -157,88 +170,111 @@ In this experiment we measured the intensity of the laser light that is emitted 
 The total power the photodiode is detecting depends on the position of the razor blade $x$ and is given by:
 \begin{equation}
 P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\frac{2(x'-x_0)^2}{\omega^2}}.
+\label{powerintegral}
 \end{equation}
 
 \textcolor{red}{Beantworten: Welches Brechungsindexprofil müßte eine Glasfaser aufweisen, damit die Faser eine ideale Gauß-Mode führt?}
 
 \paragraph{Measuring the cross section profile without focusing the beam}
 
-To calculate the beam radius $\omega (z)$ we fitted the data of our measurement a (see annex)
-\textcolor{red}{Anhang hinzufügen} %and waist $\omega$ 
-to the power integral. In order to do this we calculated the power from the voltage using eq. \\
-\textcolor{red}{Formelnummerierung}
+To calculate the beam radius $\omega (z)$ we fitted the data of our measurement a (see appendix) to \ref{powerintegral}. In order to do this we calculated the power from the voltage using \ref{powerfromvoltage}. \\
+
+The output parameters of the fit are:
+
+\begin{tabular}{ccc}
+\hline
+Label & $I_{0}$ & waist \\ 
+\hline
+$8.3cm$ & 0.008019362898045088 & 1.829220656900651 \\ 
+\hline
+$11.0 cm$ & 0.006615023526005974 & -2.7527937817950208 \\ 
+\hline
+$5.0cm$ & 0.003761871655984494 & 4.766691950975467 \\
+\hline
+%\label{part_a_results}
+\end{tabular}
+
+ For $Distance razor blade - fibre end = 11.0 cm$ the waist is negative, which is impossible and therefore we left this value out in the calculation of the average waist. Since this measurement series was taken at the furthest point from the beam origin, we assume that generally the influence of error sources are much higher than for measurements taken close to the beam origin.\\
+
+ The average waist is then $(3.3\pm 1.4) mm$. From that we also calculated the rayleigh length 
+\begin{equation}
+z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda} 
+\label{rayleighlength}
+\end{equation}
+at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ is the refraction index of the medium (air) and the wavelength of the laser is $\lambda =632.8 nm$. The resulting rayleigh length is:
+$65 \pm 48) mm$\\
+
 \begin{figure}
 \includegraphics[width=\textwidth]{part a: cross section profile of collimated beam.png}
 \caption{cross section profile of collimated beam}
 \label{part_a_fig} %Man kann mit \ref{part_a_fig} auf dieses Bild verweisen
 \end{figure}
 
-The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure ).
-\textcolor{red}{which figure number?}
-The resulting parameters from the fitting are: \\
+The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see \ref{part_a_fig}).
 
-For $Distance razor blade - fibre end = 11.0 cm$ the waist is negative, which is impossible and therefore we left this value out in the calculation of the average waist. Since this measurement series was taken at the furthest point from the beam origin, we assume that generally the influence of error sources are much higher than for measurements taken close to the beam origin.\\
-
-\textcolor{red}{include parameters of csv datei a;Interpretation! Ziel war, $\omega$ zu bestimmen.;alle zahlenwerte;messungenauigkeiten;Fehlerquelle: streuendes licht; Am Ende Prüfen ob im Pythoncode die richtigen formeln benutzt wurden, outputs von pythoncode einfügen und diskutieren}
+The relatively high errors can be explained by the strong fluctuations of the multimeter display, making it hard to measure the voltage. This can be seen when looking at the following figure, where the measurement points differ quite a lot from the fit curves. However, one can see that the shapes of the fit curves look similar. Another problem of the experiment was that there could be scattering light from the ambient or laser, which influences the photodiode. Furthermore the razor did not really suit the transversal intensity profile of the beam. It only cuts off the beam from one direction, leaving the other direction always open. Therefore there is a systematic error in the experiment. Using an apperture would have been a better way to measure the beam profile. Also, in order to measure at certain distances from the fibre end, we had to put the razor mount into a place between the threads where you can fix the mount on the table. This could lead to a non orthogonal angle between razor and beam, which would mean that you have to turn the micrometer screw more to get the same decrease of intensity. Besides, at the edge of the razor there is diffraction happening, as we have examined in a previous practical. This could also falsify the measurements. At last it was hard to measure the distances in the $z$-direction having only a ruler. The experiment was very barred by the coupler and other optical instruments, so a caliper would have helped to increase the quality of those measurements.
 
 \paragraph{Measuring the cross section profile with lens ($f=100mm$)}
 
 We measured the beam profile using the razor blade technique at seven distances from the lens. Three measurements were taken near the focal point because here we expected the waist $\omega_{0}$, i.e. the minimum of the beam radius $\omega (z)$. They are related by the equation:
 \begin{equation}
-\omega (z) = \omega_{0}\sqrt{1+\frac{z^2}{z_{R}^2}},
+\omega (z) = \omega_{0}\sqrt{1+\frac{z^2}{z_{R}^2}}
+\label{omegaofz}
 \end{equation}
 
-The razorblade positions z from which we measured the beam profile are $-(7.0\pm 0.2)cm, -(4.0\pm 0.2)cm, -(1.0\pm 0.2)cm, (0.0\pm 0.2)cm, (1.0\pm 0.2)cm, (4.3\pm 0.2) cm$ and $(7.0\pm 0.2)cm$, where $z=0$ is the focal point. For better clearness we plotted the data near focal point in an extra plot. The plots show the calculated powers (eq.) from the measuring data along with the corresponding Fit to the gaussian integral (eq.). From the fit we obtained $I_{0}$ and $\omega(z)$.: \\ 
+The razorblade positions z from which we measured the beam profile are $-(7.0\pm 0.2)cm, -(4.0\pm 0.2)cm, -(1.0\pm 0.2)cm, (0.0\pm 0.2)cm, (1.0\pm 0.2)cm, (4.3\pm 0.2) cm$ and $(7.0\pm 0.2)cm$, where $z=0$ is the focal point. For better clearness we plotted the data near focal point in an extra plot. The plots show the calculated powers (\ref{powerfromvoltage}) from the measuring data along with the corresponding fit to the gaussian integral \ref{powerintegral}. From the fit we obtained $I_{0}$ and $\omega(z)$:
 
-\textcolor{red}{formelnummerierung und Daten aus pythoncode einfügen}
-The value $\omega(7cm) = ... $ is negative and therefore illogical. Therefore we left it out from further calculations. Again this measurement series was taken from the furthest point from the fibre end, so we assume generally higher influence from error sources of any kind\\
+\begin{tabular}{ccc} 
+  \hline
+  Label & $I_{0}$ & waist \\ 
+  \hline
+  $-7.0 cm$ &$ 0.006360231677816774$ &$ 1.7189349221192924 $\\ 
+  \hline
+  $-4.0 cm$ &$ 0.011671364316655813$ &$ 1.1276882272690187 $\\ 
+  \hline
+  $-1.0cm$ &$ 0.007839724060919795$ &$ 1.440227080283796 $\\
+  \hline
+  $0.0 cm$ &$ 0.015986220284139128$ &$ 0.9913725114260791 $\\ 
+  \hline
+  $1.0 cm$ &$ 0.03579668252236531$ &$ 0.252042108041255 $ \\
+  \hline
+  $4.3 cm$ &$ 0.03333418800700897$ & $ 0.33766227836023854$ \\ 
+  \hline
+  $7.0 cm$ & $0.0048537944018923511$ & $-2.2479931087206224$\\
+  \hline 
+%\label{part_b_results}
+\end{tabular}
 
-We fitted the values $\omega(z)$ to eq. $\omega (z) = \omega_{0}\sqrt{1+\frac{z^2}{z_{R}^2}}$ and eventually obtained the waist $\omega_{0}$ and rayleigh length $z_{R}$ as fit parameters: 
-\textcolor{red}{include results} 
+The value $\omega(7cm) = -2.2... $ is negative and therefore illogical. Therefore we left it out from further calculations. Again this measurement series was taken from the furthest point from the fibre end, so we assume generally higher influence from error sources of any kind\\
 
-where 
-\begin{equation}
-z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda} 
-\end{equation}
- is the rayleigh length, at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ is the refraction index of the medium (air) and the wavelength of the laser is $\lambda = 632.8 nm$.\\
+Again, we fitted the measurement series for each razor-lens-distance $z$ to the \ref{powerintegral} and obtained the local $\omega(z)$. Then we fitted these together with the corresponding $z$ to \ref{omegaofz}.
+From that we obtained the waist\\ 
+$\omega_{0} = ( 0.8 \pm 0.6 ) mm $\\
+The resulting rayleigh length is\\
+$z_{R} =  ( 5 \pm 6 ) mm $\\
 
-Again, we fitted the measurement series for each razor-lens-distance $z$ to the power integral and obtained the local $\omega(z)$. Then we fitted these together with the corresponding $z$ to eq. []
-\textcolor{red}{nummerierung}.
-From that we obtained the waist 
-\textcolor{red}{$\omega_{0} = ...$ }
-The resulting rayleigh length is 
-\textcolor{red}{zR ...}
-
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{Cross section profile focused beam (near focal point).png} 
 \label{near_focal} 
 \end{figure}
 
-\includegraphics[width=\textwidth]{Cross section profile focused beam (far from focal point).png}
-\includegraphics[width=\textwidth]{beam waist against razor position from focal point.png}
+\includegraphics[width=\textwidth]{Cross section profile focused beam (far from focal point).png}[h!]
+\includegraphics[width=\textwidth]{beam waist against razor position from focal point.png}[h!]
 
-\textcolor{red}{
-Wie müssen Sie eine plankonvexe Linse in diesem Fall orientieren, wenn Sie den Einfluß von Linsenfehlern möglichst gering halten wollen?}
-
-\textcolor{red}{
-Beschreibung Plot:
-Messdaten:
-Messungenauigkeiten Ursachen:
--At the focal point the multimeter display showed strong fluctuations}
+As in the previous part, we see that the standard deviations of $\omega_{0}$ and $z_{R}$ are relatively high. This time for the rayleigh length is is even higher than the value itself, which is illogical because it includes negative values within the error range. Since the experiments are very similar, the discussed error sources apply as well here. Furthermore, we observed extreme fluctuations on the multimeter display especially when measuring near the focal point. A reason for this could be that the waist is so small such that even the tiniest micrometer screw turn makes a lot of difference. In fact, sometimes only shoring softly on the table changed the displayed voltage by about 20 mV. To avoid abberations we made sure the beam enters the plano-convex lens on its curved surface, such that the refraction takes place on both surfaces of the lens. Nevertheless we could only approximately determine the center of the lens and thereby abberations can not be excluded totally.
 
 \section{Optical resonator}
 
-In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
-
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{Tv4Aufbau.jpg}
 \caption{Experiment 4: Optical resonator}
 \label{TV4Aufbau}
 \end{figure}
 
+In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
 
 \paragraph{Determining the transmission of the two reflectors}
-The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$of the interferometer is given by:
+The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$ of the interferometer is given by:
 \begin{equation}
 E_{t} = E_{in}\cdot \frac{T}{1-Re^{i\varphi}}
 \end{equation}
@@ -251,7 +287,8 @@ Here, $E_{in}$ is the incoming amplitude of the light. The intensity $I_{t}$ of 
 
 The transmittivity is then defined as the intensity of the transmitted light divided by the intensity of the incoming light:
 \begin{equation}
-T = \frac{I_{t}{I_{in}}} = \frac{U_{t}^{2}}{U_{in}^{2}}
+T = \frac{I_{t}}{I_{in}} = \frac{U_{t}^{2}}{U_{in}^{2}}
+\label{transmittivitybyvoltage}
 \end{equation}
 
 The opposite of the transmissivity $T$ is the reflectivity $R$, if we assume that no light is absorbed by the mirrors they fulfil $R+T=1$. The total transmittivity can be calculated from the transmittivities of the single mirrors by $T = \sqrt{T_{1}T_{2}}$, and analogously  $R = \sqrt{R_{1}R_{2}}$. Having the reflectivity, we can calculate the finesse $F$, a measurement for the quality of the resonator:
@@ -261,34 +298,34 @@ F= \frac{\pi\sqrt{R}}{1-R}
 \end{equation}
 
 We measured the following:\\
-$U_b = (29\pm1)mV$ voltage with both mirrors
-$U_1 = (55\pm1)mV$  Spiegel voltage with first mirror
-$U_2 = (46\pm1)mV$  voltage with second mirror
-$U_o = (472\pm1)mV$ voltage without mirrors
+$U_b = (29\pm1)mV$ voltage with both mirrors\\
+$U_1 = (55\pm1)mV$  Spiegel voltage with first mirror\\
+$U_2 = (46\pm1)mV$  voltage with second mirror\\
+$U_o = (472\pm1)mV$ voltage without mirrors\\
 
-From that we obtain 
+From that we obtain \\
 
-\begin{comment}
-\begin{tabularx}{\textwidth}{p{0.25\textwidth}|r|X|r}
+\begin{tabular}{|p{3cm}|p{3cm}|p{6cm}|}
+\hline
 Measurement & ... & Value \\
 \hline
-\multirow{Transmissivity}
+\multirow{1}{*}{Transmissivity}
         &Total Transmission & $T= 0.003774956908934214 \pm 2.6083278256172736e-05$\\
         &Transmission of first mirror & $T_{1}= 0.013578174375179546 \pm 2.6083278256172736e-05$\\
         &Transmission of second mirror & $T_{2}= 0.009497989083596666 \pm 2.6083278256172736e-05$\\
-        &Calculated total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
+        &Total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
 \hline
-\multirow{Reflectivity ($R=1-T$)}
-        & R  &$R=  0.9962250430910657 +- 2.6083278256172736e-05$\\
-        & R' &$R'=  0.9886437087043953 +- 4.173750866526565e-09$\\
-        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 +- 4.970926171216084e-05$\\
-        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 +- 4.149125384224495e-05$\\
+\multirow{1}{*}{Reflectivity ($R=1-T$)}
+        & R  &$R=  0.9962250430910657 \pm 2.6083278256172736e-05$\\
+        & R' &$R'=  0.9886437087043953 \pm 4.173750866526565e-09$\\
+        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 \pm 4.970926171216084e-05$\\
+        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 \pm 4.149125384224495e-05$\\
 \hline
-\multirow{Finesse}
+\multirow{1}{*}{Finesse}
         & Finesse from total R & $F= 830.6471925693128$\\
         & Finesse from Rp & $Fp = 275.0636820971334$ \\
-\end{tabularx} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
-\end{comment}
+\hline
+\end{tabular} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
 
 \textcolor{red}{Fehler der Finesse einfügen, Messfehler vielleicht erhöhen, Tabelle fixen} %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 
@@ -298,7 +335,7 @@ Bestimmen Sie zuerst die Transmission der Spiegel für die vorhandene Wellenlän
 Reflektivität R und Finesse F sind zu erwarten
 Welcher Resonatorkonfiguration entspricht diese Anordnung? Welchen Strahlparameter w0 der Gaußschen Moden erwartenSie für das Lichtfeld im Resonator? Wie groß sollte der Abstand der Linse vom Einkoppelspiegel sein?
 Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum bei dem gerade aufgebauten Resonator? \\
-In einer Periode sollten jetzt nur noch zwei beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise?}\\
+In einer Periode sollten jetzt nur noch zwei beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise? Passen die berechneten T aus Gesamt und einzelnen zusammen?}\\
 
 From the signal detected by the oszilloscope \ref{Osz1} we can also determine the Finesse $F$. The full width at half maximum $\Delta\omega_{FWHM}$ and the free spectral range $\Delta\omega_{FSR}$, which is the distance of two peaks, are related by 
 \begin{equation}
@@ -310,7 +347,7 @@ $F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
 
 \textcolor{red}{das ist sehr schlecht und weicht stark von der Finesse ab...}
 
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild.jpg}
 \caption{Osz1}
 \label{Osz1}
@@ -318,7 +355,7 @@ $F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
 
 \begin{comment}
 The next figure shows another oscilloscope signal from which we 
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
 \caption{Osz2}
 \label{Osz2}
@@ -326,7 +363,7 @@ The next figure shows another oscilloscope signal from which we
 \end{comment}
 
 The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 3.jpg}
 \caption{Osz3}
 \label{Osz3}
@@ -334,13 +371,13 @@ The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
 
 In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:\\
 \textcolor{red}{Macht das Sinn? Warum sind nicht die Bilder unter den Beschreibungen? und Annex wird komplett ignoriert...}
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild_mit_eigenmoden_vom_laser.jpg}
 \caption{Eigenmodenlaser}
 \label{Eigenmoden_laser}
 \end{figure}
 
-\section{Annex}
+\section{Appendix}
 
 \textcolor{red}{Annex noch besser beschriften, Wikipediaquelle}
 
@@ -351,9 +388,19 @@ In the following figure \ref{Eigenmoden_laser} we observe that between the peaks
 
 \subsection{Pythoncode}
 
-\verbatimimput{matrizenoptik.py} %hier gibts Probleme
+\begin{comment}	
+\begin{listing}
+	\inputminted[bgclolor=LighGray, fontsize=\scriptsize, lineos]{python
+{matrizenoptik.py}
+	\caption{Caption}
+	\label{listing:matrizenoptik}
+\end{listing}
+\end{comment}
+
+%\verbatimimput{matrizenoptik.py} %hier gibts Probleme
 \verbatiminput{Strahlprofil_a.py}
 \verbatiminput{Strahlprofil_b.py}
-\verbatimimput{Optical_resonator.py}
+%\verbatimimput{Optical_resonator.py}
+\textcolor{red}{fix code darstellung}
 
 \end{document}
