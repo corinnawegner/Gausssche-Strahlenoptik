@@ -9,8 +9,9 @@
 
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
 \usepackage{graphicx}
-\usepackage{natbib}
+\usepackage{listings}
 \usepackage{float}
+\usepackage{url}
 \usepackage{verbatim}
 \usepackage{multirow}
 \usepackage{comment}
@@ -67,9 +68,7 @@ photodiode.
 
 Though we used a voltmeter, but an Oscilloscope with a known measuring resistance $R_m$ can just as well be used. With the measured voltage $V_m$ one can conclude the photocurrent $I_p = V_m \cdot R_m$. To ensure an accurate measurement, we would want $R_m >>R_i$ since\\
 
-
 $\frac{1}{R_{total}}= \frac{1}{R_m}+\frac{1}{R_i}$\\
-
 
 and for sufficiently large $R_i$:\\
 $\hspace{3cm}$\\
@@ -79,11 +78,11 @@ $\frac{1}{R_{total}} \approx \frac{1}{R_m} \rightarrow R_{total} = R_m$\\
 \paragraph{Calculating the power from the voltage}
 
 When the beam hits the diode, the multimeter detects a voltage $U$. For photodiodes, the relation between the power and light current ist given by 
+\cite{Quantenausbeute} 
 \begin{equation} 
 P = \frac{hfI}{e\eta}
 \end{equation}
-\textcolor{red}{Wie zitieren?}
-\cite{Quantenausbeute} .  
+.  
 Here, $h = 6.62607015*10^{-34} Js$ is the planck constant, $e = 1.602176634*10^{-19} C$ the charge of an electron, $I$ is the current and $\eta = 0.75$ the quantum efficiency of the photodiode. We can replace the frequency $f$ in the formula by the corresponding wavelength $\lambda = 632.8 nm$ of the laser using $c= \lambda f$, with the vacuum speed of light  $c = 299792458 \frac{m}{s}$. Using ohm's law $ U= R \cdot I$ we eliminate the current $I$ and obtain 
 \begin{equation}
 P = \frac{hcU}{\lambda Re \eta}
@@ -180,13 +179,13 @@ $5.0cm$ & 0.003761871655984494 & 4.766691950975467 \\
 
  For $Distance razor blade - fibre end = 11.0 cm$ the waist is negative, which is impossible and therefore we left this value out in the calculation of the average waist. Since this measurement series was taken at the furthest point from the beam origin, we assume that generally the influence of error sources are much higher than for measurements taken close to the beam origin.\\
 
- The average waist is then $(3.3\pm 1.4) mm$. From that we also calculated the rayleigh length 
+The average waist is then $(3.3\pm 1.4) mm$. From that we also calculated the rayleigh length 
 \begin{equation}
 z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda} 
 \label{rayleighlength}
 \end{equation}
 at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ is the refraction index of the medium (air) and the wavelength of the laser is $\lambda =632.8 nm$. The resulting rayleigh length is:
-$65 \pm 48) mm$\\
+$65 \pm 48) mm$.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{part a: cross section profile of collimated beam.png}
@@ -194,7 +193,7 @@ $65 \pm 48) mm$\\
 \label{part_a_fig} %Man kann mit \ref{part_a_fig} auf dieses Bild verweisen
 \end{figure}
 
-The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see \ref{part_a_fig}).
+The first two measurements of the series with $Distance razor blade - fibre end = 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure \ref{part_a_fig}).
 
 The relatively high errors can be explained by the strong fluctuations of the multimeter display, making it hard to measure the voltage. This can be seen when looking at the following figure, where the measurement points differ quite a lot from the fit curves. However, one can see that the shapes of the fit curves look similar. Another problem of the experiment was that there could be scattering light from the ambient or laser, which influences the photodiode. Furthermore the razor did not really suit the transversal intensity profile of the beam. It only cuts off the beam from one direction, leaving the other direction always open. Therefore there is a systematic error in the experiment. Using an apperture would have been a better way to measure the beam profile. Also, in order to measure at certain distances from the fibre end, we had to put the razor mount into a place between the threads where you can fix the mount on the table. This could lead to a non orthogonal angle between razor and beam, which would mean that you have to turn the micrometer screw more to get the same decrease of intensity. Besides, at the edge of the razor there is diffraction happening, as we have examined in a previous practical. This could also falsify the measurements. At last it was hard to measure the distances in the $z$-direction having only a ruler. The experiment was very barred by the coupler and other optical instruments, so a caliper would have helped to increase the quality of those measurements.
 
@@ -258,20 +257,11 @@ As in the previous part, we see that the standard deviations of $\omega_{0}$ and
 In the last part we constructed an optical resonator and detected the periodic signal of the beam that went through it with an oscilloscope. To do this we focused the beam on a lens 1 ($f=100mm$). Then we focused that on the movable reflector 1 with radius $r = 50mm$. In a distance $L=r$ (confocal arrangement) behind it we then positioned reflector 2 (same radius). The distance between lens 1 and reflector 1 is at first 50mm, so that the focal point of lens 1 lies exactly in the center of the optical resonator. At last we focused the beam into the center of a lens 2 and then into the photodiode with $R=100k\Omega$ (such that the signal is stronger), which we connected to the oscilloscope.
 
 \paragraph{Determining the transmission of the two reflectors}
-The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror. The transmitted amplitude $E_{t}$ of the interferometer is given by:
-\begin{equation}
-E_{t} = E_{in}\cdot \frac{T}{1-Re^{i\varphi}}
-\end{equation}
+The mirrors of the Fabry-Perot-interferometer both let some of the incoming beam intensity pass and reflect some. A small amount might also be absorbed by the material of the mirror.\\
 
-Here, $E_{in}$ is the incoming amplitude of the light. The intensity $I_{t}$ of the light is then proportional to $E_{t}^{2}$. In general, the intensity is given by the power divided by the area A ($I=\frac{P}{A}$). The electric power is proportional to the voltage ($P=UI$), where $I$ is the current. In total we obtain the relation:
-
+The transmittivity is then the intensity of the transmitted light divided by the intensity of the incoming light:
 \begin{equation}
-\abs{I_{t}} \propto \abs{E_{t}}^{2} \propto U^{2}
-\end{equation}
-
-The transmittivity is then defined as the intensity of the transmitted light divided by the intensity of the incoming light:
-\begin{equation}
-T = \frac{I_{t}}{I_{in}} = \frac{U_{t}^{2}}{U_{in}^{2}}
+T = \frac{U_{t}}{U_{in}}
 \label{transmittivitybyvoltage}
 \end{equation}
 
@@ -296,26 +286,24 @@ From that we obtain \\
 Measurement & ... & Value \\
 \hline
 \multirow{1}{*}{Transmissivity}
-        &Total Transmission & $T= 0.003774956908934214 \pm 2.6083278256172736e-05$\\
-        &Transmission of first mirror & $T_{1}= 0.013578174375179546 \pm 2.6083278256172736e-05$\\
-        &Transmission of second mirror & $T_{2}= 0.009497989083596666 \pm 2.6083278256172736e-05$\\
-        &Total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.01135629129560471 \pm 2.6083278256172736e-05$\\
+        &Total Transmission & $T= T= 0.06144067796610169 \pm 0.00021226391960195743$\\
+        &Transmission of first mirror & $T_{1}= 0.11652542372881355 \pm 0.00021226391960195743$\\
+        &Transmission of second mirror & $T_{2}= 0.09745762711864406 \pm 0.00021226391960195743$\\
+        &Total Transmission from $T_{1}$ and $T_{2}$& $T' = 0.10656590118609569 \pm 0.00021226391960195743$\\
 \hline
 \multirow{1}{*}{Reflectivity ($R=1-T$)}
-        & R  &$R=  0.9962250430910657 \pm 2.6083278256172736e-05$\\
-        & R' &$R'=  0.9886437087043953 \pm 4.173750866526565e-09$\\
-        & Reflectivity of the first mirror &$ R1=  0.9864218256248205 \pm 4.970926171216084e-05$\\
-        & Reflectivity of the second mirror  &$R2=  0.9905020109164033 \pm 4.149125384224495e-05$\\
+        & R  &$R=  0.9385593220338984 \pm 0.00021226391960195743$\\
+        & R' &$R'=  0.8934340988139043 \pm 1.724414796502769e-06$\\
+        & Reflectivity of the first mirror &$ R1=  0.8834745762711864 \pm 0.00021329792298309015$\\
+        & Reflectivity of the second mirror  &$R2=  0.902542372881356 \pm 0.00021286817188630018$\\
 \hline
 \multirow{1}{*}{Finesse}
-        & Finesse from total R & $F= 830.6471925693128$\\
-        & Finesse from Rp & $Fp = 275.0636820971334$ \\
+        & Finesse from total R & $F= 49.5364337247994$\\
+        & Finesse from R' & $F' = 27.865245432916524$ \\
 \hline
 \end{tabular}
 \end{table}
- 
-
-\textcolor{red}{Fehler der Finesse einfügen, Messfehler vielleicht erhöhen, Tabelle fixen} %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
+%https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 
 \textcolor{red}{
 Pythoncode einbringen
@@ -325,49 +313,49 @@ Welcher Resonatorkonfiguration entspricht diese Anordnung? Welchen Strahlparamet
 Zunächst: Was erwarten Sie für eine Transmissionsfunktion für einen Resonator, der aus Planspiegeln aufgebaut wird und auf den eine monochromatische Lichtwelle trifft? Wie erklären Sie sich das Auftreten von mehr als einem Transmissionsmaximum bei dem gerade aufgebauten Resonator? \\
 In einer Periode sollten jetzt nur noch zwei beinahe identische Transmissionsmaxima sichtbar sein. Warum? Drucken Sie das Oszilloskopbild aus. Schätzen Sie das Verhältnis des freien Spektralbereichs zur Linienbreite ab, welche Finesse ergibt sich auf diese Weise? Passen die berechneten T aus Gesamt und einzelnen zusammen?}\\
 
-From the signal detected by the oszilloscope \ref{Osz1} we can also determine the Finesse $F$. The full width at half maximum $\Delta\omega_{FWHM}$ and the free spectral range $\Delta\omega_{FSR}$, which is the distance of two peaks, are related by 
+From the signal detected by the oszilloscope (figure \ref{Osz1}) we can also determine the Finesse $F$. The full width at half maximum $\Delta\omega_{FWHM}$ and the free spectral range $\Delta\omega_{FSR}$, which is the distance of two peaks, are related by 
 \begin{equation}
 \Delta\omega_{FWHM} = \frac{\Delta\omega_{FSR}}{F}
 \label{FinesseOszilloskopbild}
 \end{equation}
 Using the cursors, we see that the full width at half maximum is $\Delta\omega_{FWHM} =3 \pm 1$ units of the oszilloscope pattern. For the free spectral range we see that it is $\Delta\omega_{FSR} = 10 \pm 1$ units wide. Therefore we get a Finesse:\\
-$F_{fig} = 3.3333333333333335 \pm 1.11665284679121$
-
-\textcolor{red}{das ist sehr schlecht und weicht stark von der Finesse ab...}
+$F_{fig} = 3.3 \pm 1.1$\\
+This is a very low value compared to the calculated values. As typical finesses are from 10 to up to 100000 \cite{optres} we expect the calculated values to be more accurate. Zooming into the peak of the oscilloscope would probably improve the resolution of the peak and thus lead to a better reading of the signal.\\
 
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild.jpg}
-\caption{Osz1}
+\caption{Oscilloscope image}
 \label{Osz1}
 \end{figure}
 
 \begin{comment}
-The next figure shows another oscilloscope signal from which we 
-\begin{figure}[h!]
-\includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
-\caption{Osz2}
-\label{Osz2}
-\end{figure}
-\end{comment}
-
 The next figure \ref{Osz3} shows the oscilloscope signal of one single peak:
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild 3.jpg}
 \caption{Osz3}
 \label{Osz3}
 \end{figure}
+\end{comment}
 
-In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:\\
-\textcolor{red}{Macht das Sinn? Warum sind nicht die Bilder unter den Beschreibungen? und Annex wird komplett ignoriert...}
+In the following figure \ref{Eigenmoden_laser} we observe that between the peaks of the modes there are smaller modes which presumably depict the eigenmodes of the laser:
+\textcolor{red}{Macht das Sinn?} \\
+
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{oszilloskopbild_mit_eigenmoden_vom_laser.jpg}
-\caption{Eigenmodenlaser}
+\caption{Other oscilloscope image}
 \label{Eigenmoden_laser}
 \end{figure}
 
-\section{Appendix}
+Figure \ref{Osz2} shows another oscilloscope signal that we took.
+\begin{figure}[h!]
+\includegraphics[width=\textwidth]{oszilloskopbild 2.jpg}
+\caption{Third signal image}
+\label{Osz2}
+\end{figure}
 
-\textcolor{red}{Annex noch besser beschriften, Wikipediaquelle}
+We were also asked to check if the relation $T = \sqrt{T_{1}T_{2}}$ is valid. In the table above one can read the output values from the calculation program (see appendix). Comparing the Transmission: $T \approx (6.14 \pm 0.02) \cdot 10^{-2}$ with the Transmission from $T_{1}$ and $T_{2}$: $T' \approx (10.66 \pm 0.02) \cdot 10^{-2}$ we see that the difference is quite high and the margins of error do not overlap. Still, we assume that the relation can be confirmed. First, the errors were calculated from only the readoff-errors of the voltage (with Gauß' propagation of uncertainty law). However, there are more potential error sources as we have discussed in the previous lab report. Also, the values are close to another, compared to other measurements taken in the experiment. Some of the difference between the values can also be coming from the absorption of the reflector material, but we assume it is negligibly small.
+
+\section{Appendix}
 
 \subsection{Measurements}
 
@@ -385,16 +373,43 @@ In the following figure \ref{Eigenmoden_laser} we observe that between the peaks
 \end{listing}
 \end{comment}
 
+
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {ã}{{\~a}}1 {ẽ}{{\~e}}1 {ĩ}{{\~i}}1 {õ}{{\~o}}1 {ũ}{{\~u}}1
+  {Ã}{{\~A}}1 {Ẽ}{{\~E}}1 {Ĩ}{{\~I}}1 {Õ}{{\~O}}1 {Ũ}{{\~U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1 {¡}{{!`}}1 
+}
+\paragraph{Problems in the practical notes}
+%\textcolor{red}{notes}
+\lstinputlisting[language=python]{matrizenoptik.py}
+
 %\verbatimimput{matrizenoptik.py} %hier gibts Probleme
-\verbatiminput{Strahlprofil_a.py}
-\verbatiminput{Strahlprofil_b.py}
-%\verbatimimput{Optical_resonator.py}
-\textcolor{red}{fix code darstellung}
+\paragraph{Measuring the beam profile}
+%\textcolor{red}{beamprofilea}
+\lstinputlisting[language=python]{Strahlprofil_a.py}
+%\textcolor{red}{beamprofileb}
+\lstinputlisting[language=python]{Strahlprofil_b.py}
+\paragraph{Optical resonator}
+%\textcolor{red}{optres}
+\lstinputlisting[language=python]{optical_resonator_if_PpropU.py}
 
 \subsection{References}
 
 \begin{thebibliography}{9}
-\bibitem{Quantenausbeute} Wikipedia "Quantenausbeute", \emph{https://de.wikipedia.org/wiki/Quantenausbeute} 
+\bibitem{Quantenausbeute} Wikipedia "Quantenausbeute", \url{https://de.wikipedia.org/wiki/Quantenausbeute} 
+\bibitem{optres} Wikipedia "Optischer Resonator", \url{https://de.wikipedia.org/wiki/Optischer_Resonator}
 \end{thebibliography}
 
 \end{document}
