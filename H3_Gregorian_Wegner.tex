@@ -9,6 +9,7 @@
 
 \usepackage{xcolor} %Hier wird ein Paket eingefügt, welches Text farbig machen kann
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{verbatim}
 \usepackage{multirow}
 \usepackage{comment}
@@ -305,7 +306,9 @@ $U_o = (472\pm1)mV$ voltage without mirrors\\
 
 From that we obtain \\
 
-\begin{tabular}{|p{3cm}|p{3cm}|p{6cm}|}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{2cm}|p{3cm}|p{6cm}|}
 \hline
 Measurement & ... & Value \\
 \hline
@@ -325,7 +328,9 @@ Measurement & ... & Value \\
         & Finesse from total R & $F= 830.6471925693128$\\
         & Finesse from Rp & $Fp = 275.0636820971334$ \\
 \hline
-\end{tabular} %Warum meckert er da rum und warum ist die Tabelle so hässlich?
+\end{tabular}
+\end{table}
+ 
 
 \textcolor{red}{Fehler der Finesse einfügen, Messfehler vielleicht erhöhen, Tabelle fixen} %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 
