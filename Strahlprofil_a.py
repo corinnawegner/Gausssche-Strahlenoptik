@@ -26,12 +26,16 @@ wvl = 632.8*10**(-9)
 e = 1.602176634*10**(-19)
 distLS = 15.5 #Distance lens-fibre end (Source of laser beam)
 Rd = 10**4 #Resistance of the photodiode in ohm
+x = np.linspace(-10,10, 100)
 
+#the positions must be arranged symmetrically around zero (zero-centered):
+v1 = 12.8 #Verschiebung für rot
+v2 = 1.2 #Verschiebung für blau
+v3 = 6.9 # Verschiebung für grün
 #normalized micrometer positions:
-x72 = a_72.values[0]-a_72.values[0][0] 
-x72new = a_72.values[0]-a_72.values[0][2]
-x45 = a_45.values[0]-a_45.values[0][0]
-x105 = a_105.values[0]-a_105.values[0][0]
+x72 = a_72.values[0]-v1 
+x45 = a_45.values[0]-v2
+x105 = a_105.values[0]-v3
 
 maxints = []
 omegas = []
@@ -53,31 +57,31 @@ plt.plot(x45, P(a_45.values[1], Rd), 'bo', label="11,0 +- 0,2 cm")
 plt.plot(x105, P(a_105.values[1], Rd), 'go', label="5,0 +- 0,2 cm")
 
 #8,3cm fit
-popt, cov = curve_fit(gaussint, x72, P(a_72.values[1], Rd))
+popt, cov = curve_fit(gaussint, x72, P(a_72.values[1], Rd), bounds=(0, 15))
 maxintensity, omega = popt
-plt.plot(x72, gaussint(x72, maxintensity, omega), 'r--') #Die ersten beiden Werte sind schlecht
-popt, cov = curve_fit(gaussint, x72new[2:], P((a_72.values[1]), Rd)[2:])
-maxintensity, omega = popt
+plt.plot(x, gaussint(x, maxintensity, omega), 'r') 
+#popt, cov = curve_fit(gaussint, x72new[2:], P((a_72.values[1]), Rd)[2:])
+#maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas.append(omega)
-plt.plot(x72[2:], gaussint(x72new[2:], maxintensity, omega), 'r')
+#plt.plot(x72[2:], gaussint(x72new[2:], maxintensity, omega), 'r')
 print("8,3cm:\n", "I_0:", maxintensity, "Strahltaille:", omega)
 
 #11cm fit
-popt, cov = curve_fit(gaussint, x45, P(a_45.values[1], Rd))
+popt, cov = curve_fit(gaussint, x45, P(a_45.values[1], Rd), bounds=(0, 15))
 maxintensity, omega = popt
-plt.plot(x45, gaussint(x45, maxintensity, omega), 'b')
+plt.plot(x, gaussint(x, maxintensity, omega), 'b')
 print("11cm:\n", "I_0:", maxintensity, "Strahltaille:", omega)
 
 #5,0cm fit
-popt, cov = curve_fit(gaussint, x105, P(a_105.values[1], Rd))
+popt, cov = curve_fit(gaussint, x105, P(a_105.values[1], Rd), bounds=(0, 15))
 maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas.append(omega)
-plt.plot(x105, gaussint(x105, maxintensity, omega), 'g')
+plt.plot(x, gaussint(x, maxintensity, omega), 'g')
 print("5,0cm:\n", "I_0:", maxintensity, "Strahltaille:", omega)
 
-plt.xlabel("x-x_0 in mm (normalized micrometer position)")
+plt.xlabel("x-x_0 in mm (zero-centered micrometer position)")
 plt.ylabel("power in mW") #Milli weil die Spannungen in mV angegeben sind
 plt.legend(title="Distance razor blade - fibre end")
 plt.title("cross section profile of collimated beam")
