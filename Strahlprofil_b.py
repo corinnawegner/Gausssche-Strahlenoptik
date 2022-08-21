@@ -58,6 +58,11 @@ for d in data:
     omegas.append(omega)
     print("I_0:", maxintensity, "Strahltaille:", omega)
 
+#zero-centering 
+v1 = 12.8 #Verschiebung für rot
+v2 = 1.2 #Verschiebung für blau
+v3 = 6.9 # Verschiebung für grün
+
 #nahe z=0
 plt.plot(b_10.values[0]-b_10.values[0][0], P(b_10.values[1], Rd), 'ro', label="0,0 cm")
 plt.plot(b_9.values[0]-b_9.values[0][0], P(b_9.values[1], Rd), 'bo', label="-1,0 cm")
