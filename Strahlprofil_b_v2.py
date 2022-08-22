@@ -99,8 +99,8 @@ plt.legend()
 plt.xlabel("x-x_0 in mm")
 plt.ylabel("Power in mW") 
 plt.title("Cross section profile focused beam (near focal point)")
-plt.savefig("Cross section profile focused beam (near focal point).png", dpi=400)
-plt.clf()
+#plt.savefig("Cross section profile focused beam (near focal point).png", dpi=400)
+#plt.clf()
 
 #gelber fit
 popt, cov = curve_fit(gaussint, b_6.values[0]-v4 , P(b_6.values[1], Rd), bounds=(0,10))
@@ -108,7 +108,7 @@ maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas[-4] = omega
 print("Gelb: I_0:", maxintensity, "Strahltaille:", omega)
-plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'y')
+#plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'y')
 
 #türkiser fit
 popt, cov = curve_fit(gaussint, b_3.values[0]-v5 , P(b_3.values[1], Rd), bounds=(0,10))
@@ -116,7 +116,7 @@ maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas[-7] = omega
 print("türkis: I_0:", maxintensity, "Strahltaille:", omega)
-plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'c')
+#plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'c')
 
 #magenta fit
 popt, cov = curve_fit(gaussint, b_14.values[0]-v6 , P(b_14.values[1], Rd), bounds=(0,10))
@@ -124,7 +124,7 @@ maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas[4.3] = omega
 print("magenta: I_0:", maxintensity, "Strahltaille:", omega)
-plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'm')
+#plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'm')
 
 #schwarzer fit
 popt, cov = curve_fit(gaussint, b_17.values[0]-v7 , P(b_17.values[1], Rd), bounds=(0,10))
@@ -132,36 +132,36 @@ maxintensity, omega = popt
 maxints.append(maxintensity)
 omegas[7] = omega
 print("schwarz: I_0:", maxintensity, "Strahltaille:", omega)
-plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'k')
+#plt.plot(lin2, gaussint(lin2, maxintensity, omega), 'k')
 
-plt.plot(b_6.values[0]-v4, P(b_6.values[1], Rd), 'yo', label="-4,0 cm")
-plt.plot(b_3.values[0]-v5, P(b_3.values[1], Rd), 'co', label="-7,0 cm")
-plt.plot(b_14.values[0]-v6, P(b_14.values[1], Rd), 'mo', label="4,3 cm")
-plt.plot(b_17.values[0]-v7, P(b_17.values[1], Rd), 'ko', label="7,0 cm")
-plt.legend()
-plt.xlabel("x-x_0 (zero-centered values) in mm")
-plt.ylabel("Power in mW") 
-plt.title("Cross section profile focused beam (far from focal point)")
-plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
-plt.clf()
+#plt.plot(b_6.values[0]-v4, P(b_6.values[1], Rd), 'yo', label="-4,0 cm")
+#plt.plot(b_3.values[0]-v5, P(b_3.values[1], Rd), 'co', label="-7,0 cm")
+#plt.plot(b_14.values[0]-v6, P(b_14.values[1], Rd), 'mo', label="4,3 cm")
+#plt.plot(b_17.values[0]-v7, P(b_17.values[1], Rd), 'ko', label="7,0 cm")
+#plt.legend()
+#plt.xlabel("x-x_0 (zero-centered values) in mm")
+#plt.ylabel("Power in mW") 
+#plt.title("Cross section profile focused beam (far from focal point)")
+#plt.savefig("Cross section profile focused beam (far from focal point).png", dpi=400)
+#plt.clf()
 
 ##waist bestimmen
 z = sorted(omegas)
 o = [omegas[i] for i in z]
 popt, err = curve_fit(localwaist, z, o, absolute_sigma="True") #fitted localwaist an die z-Werte zusammen mit den dazugehörigen omegas
 waist, zR = popt
-plt.plot(z, o, 'ro', label="data")
+#plt.plot(z, o, 'ro', label="data")
 #localwaist(z, omega_0, rayleigh)
 for i in z:
     localwaists.append(localwaist(i, waist, zR)) 
 #plt.plot(z, localwaist(z, o)) 
-plt.plot(z, localwaists, 'b', label = "fit")
-plt.vlines(0, 0, 1.7, 'y', '--', label="focal position")
-plt.xlabel("z in cm")
-plt.ylabel("omega(z) in mm")
-plt.legend()
-title = "beam waist against razor position from focal point"
-plt.title(title)
-plt.savefig("beam waist against razor position from focal point.png", dpi=400)
+#plt.plot(z, localwaists, 'b', label = "fit")
+#plt.vlines(0, 0, 1.7, 'y', '--', label="focal position")
+#plt.xlabel("z in cm")
+#plt.ylabel("omega(z) in mm")
+#plt.legend()
+#title = "beam waist against razor position from focal point"
+#plt.title(title)
+#plt.savefig("beam waist against razor position from focal point.png", dpi=400)
 print("waist: (", waist, "+-", np.sqrt(err[0,0]), ") mm")
 print("rayleigh length: (", zR, "+-", np.sqrt(err[1,1]), ") mm") 

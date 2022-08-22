@@ -30,7 +30,7 @@
 \maketitle
 \section{Abstract} 
 %Wenn ich \subsection* schreibe (mit *), kommt diese Überschrift nicht in die Gliederung
-Warum neu gemacht
+In the original document, the resulting fit had many issues such as unphysical waist results and very uncharacteristic fit shapes. To correct, we added several measures to ensure a more accurate fit. Since we already know what to expect from the shape of the intensity function, we added the boundary condition (the power cannot be negative) in the fit that ensure the characteristic plateaus at the minimum and maximum intensities. Due to undersampling, these plateaus would not be accurately modeled otherwise. To further improve our model, the normalized micrometer positions were centered at zero to properly capture the expected (anti-)symmetry of the fit. Finally, bounds were also included to ensure that no negative values for waist could be calculated, as was a result without bounds since this would be an unphysical result.
 
 \section{Measuring the beam profile}
 
@@ -46,7 +46,11 @@ P(x) = \int_x^\infty\mathrm{d}x' I_0 \mathrm{e}^{-\frac{2(x'-x_0)^2}{\omega^2}}.
 
 \paragraph{Measuring the cross section profile without focusing the beam}
 
-To calculate the beam radius $\omega (z)$ we fitted the data of our measurement a (see appendix) to eq. \ref{powerintegral}. In order to do this we calculated the power from the voltage using eq. \ref{powerfromvoltage}. \\
+To calculate the beam radius $\omega (z)$ we fitted the data of our measurement a (see appendix) to eq. \ref{powerintegral}. In order to do this we calculated the power from the voltage using:
+\begin{equation}
+P = \frac{hcU}{\lambda Re \eta}
+\label{powerfromvoltage}
+\end{equation} \\
 
 The output parameters of the fit are:
 
@@ -80,7 +84,7 @@ z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda}
 \label{rayleighlength}
 \end{equation}
 at which the beam radius is $\sqrt{2}\omega_{0}$. In our case, $n=1$ is the refraction index of the medium (air) and the wavelength of the laser is $\lambda =632.8 nm$. The resulting rayleigh length is:
-$( \pm ) mm$.\\
+$(3.4 \pm 0.4) mm$.\\
 
 \begin{figure}
 \includegraphics[width=\textwidth]{cross section profile of collimated beam.png}
