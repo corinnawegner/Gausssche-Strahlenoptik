@@ -54,15 +54,6 @@ P = \frac{hcU}{\lambda Re \eta}
 
 The output parameters of the fit are:
 
-$8,3cm:
- I_0: 0.008777106036129446 Strahltaille: 0.8825862418640391
-11cm:
- I_0: 0.007991921587422922 Strahltaille: 1.0121807477924682
-5,0cm:
- I_0: 0.010111526698723994 Strahltaille: 0.7755253848409015
-waist: ( 0.8290558133524704 +- 0.053530428511568806 ) mm
-rayleigh length: ( 3.4265554046505233 +- 0.4406541724660673 ) mm$
-
 \begin{tabular}{ccc}
 \hline
 Label & $I_{0}$ (mW)& waist (mm) \\ 
@@ -76,9 +67,8 @@ $5.0cm$ & $10.111526698723994$ & $0.7755253848409015$\\
 %\label{part_a_results}
 \end{tabular}
 
-\textcolor{red}{Überarbeiten, neu interpretieren}
-\textcolor{red}{Neue Werte eingeben}
-The average waist is then $(\pm ) mm$. From that we also calculated the rayleigh length 
+
+The average waist is then $(0.83\pm 0.06 ) mm$. From that we also calculated the rayleigh length 
 \begin{equation}
 z_{R} = \frac{\pi\omega_{0}^2 n}{\lambda} 
 \label{rayleighlength}
@@ -92,10 +82,9 @@ $(3.4 \pm 0.4) mm$.\\
 \label{part_a_fig} %Man kann mit \ref{part_a_fig} auf dieses Bild verweisen
 \end{figure}
 
-\textcolor{red}{Überarbeiten}
-The first two measurements of the series with Distance razor blade - fibre end $= 8.3 cm$ seemed to fall out of line. When doing the fit, the curve (red dashed) also looked inappropiate. Presumably we measured these points too early, namely not at the point right before the power falls off (i.e. the maximum). Therefore we decided to leave them out of the fitting, which lead to a much better result (see figure \ref{part_a_fig}).
+Viewing figure 1, it becomes apparent, that conceivably a different curve could also fit that has higher intensity, which however could only be tested with more samples at the tail ends of the intensity. As expected, the waist value doesn't vary very much relatively to when measured when focused using a lens (see table below). It is also in line with expectations that the waist increases slightly with increasing distance, since this is consistant with the fact that the beam wouldn't have been perfectly collimated through scatter for example.
 
-The relatively high errors can be explained by the strong fluctuations of the multimeter display, making it hard to measure the voltage. This can be seen when looking at the next figure, where the measurement points differ quite a lot from the fit curves. However, one can see that the shapes of the fit curves look similar. Another problem of the experiment was that there could be scattering light from the ambient or laser, which influences the photodiode. Furthermore the razor did not really fit the radial intensity profile of the beam. It only cuts off the beam from one direction, leaving the other direction always open. Therefore there is a systematic error in the experiment. Using an apperture would have been a better way to measure the beam profile. Also, in order to measure at certain distances from the fibre end, we had to put the razor mount into a place between the threads where you can fix the mount on the table. This could lead to a non orthogonal angle between razor and beam, which would mean that you have to turn the micrometer screw more to get the same decrease of intensity. Besides, at the edge of the razor there is diffraction happening, as we have examined in a previous practical. This could also skew the measurements. Finally it was hard to measure the distances in the $z$-direction having only a ruler. The experiment was very barred by the coupler and other optical instruments, so a caliper would have helped to increase the quality of those measurements.
+A source of error is that the razor did perfectly fit the radial intensity profile of the beam. It only cuts off the beam from one direction, leaving the other direction always open. Therefore there is a systematic error in the experiment. Using an apperture would have been a better way to measure the beam profile. Also, in order to measure at certain distances from the fibre end, we had to put the razor mount into a place between the threads where you can fix the mount on the table. This could lead to a non orthogonal angle between razor and beam, which would mean that you have to turn the micrometer screw more to get the same decrease of intensity. Besides, at the edge of the razor there is diffraction happening, as we have examined in a previous practical. This could also skew the measurements. Finally it was hard to measure the distances in the $z$-direction having only a ruler. The experiment was very barred by the coupler and other optical instruments, so a caliper would have helped to increase the quality of those measurements.
 
 \paragraph{Measuring the cross section profile with lens ($f=100mm$)}
 
@@ -107,13 +96,6 @@ We measured the beam profile using the razor blade technique at seven distances 
 
 The razorblade positions z from which we measured the beam profile are $-(7.0\pm 0.2)cm, -(4.0\pm 0.2)cm, -(1.0\pm 0.2)cm, (0.0\pm 0.2)cm, (1.0\pm 0.2)cm, (4.3\pm 0.2) cm$ and $(7.0\pm 0.2)cm$, where $z=0$ is the focal point. For illustration purposes we plotted the data near focal point in an extra plot. The plots show the calculated powers (equation \ref{powerfromvoltage}) from the measuring data along with the corresponding fit to the gaussian integral (equation \ref{powerintegral}). From the fit we obtained $I_{0}$ and $\omega(z)$:
 
-$Rot: I_0: 0.0314677004624013 Strahltaille: 0.21386318820116362
-Blau: I_0: 0.07270445083092966 Strahltaille: 0.0774080737868041
-Grun: I_0: 0.029874937606379274 Strahltaille: 0.15819545705252225
-Gelb: I_0: 0.015763387087890192 Strahltaille: 0.37413622790241946
-turkis: I_0: 0.06136075469487003 Strahltaille: 0.08303635608624456
-magenta: I_0: 0.06379644469561196 Strahltaille: 0.08349636759598762
-schwarz: I_0: 0.004440113074039632 Strahltaille: 1.549232366989364$
 
 \begin{tabular}{ccc} 
   \hline
@@ -135,8 +117,6 @@ schwarz: I_0: 0.004440113074039632 Strahltaille: 1.549232366989364$
   \hline 
 %\label{part_b_results}
 \end{tabular}
-
-\textcolor{red}{Überarbeiten, interpretieren, warum ein Wert extrem...}
 
 Again, we fitted the measurement series for each razor-lens-distance $z$ to eq. \ref{powerintegral} and obtained the local $\omega(z)$. Then we fitted these together with the corresponding $z$ to eq. \ref{omegaofz}.
 From that we obtained the waist\\ 
@@ -164,8 +144,9 @@ $z_{R} =  ( 1 \pm 7 ) mm $\\
 \label{beam_waist}
 \end{figure}
 
-\textcolor{red}{Überarbeiten}
-As in the previous part, we see that the standard deviations of $\omega_{0}$ and $z_{R}$ are relatively high. This time for the rayleigh length is is even higher than the value itself, which is illogical because it includes negative values within the error range. Since the experiments are very similar, the discussed error sources apply as well here. Furthermore, we observed extreme fluctuations on the multimeter display especially when measuring near the focal point. A reason for this could be that the waist is so small such that even the tiniest micrometer screw turn makes a lot of difference. In fact, sometimes only contact with the table changed the displayed value by about 20 mV. To avoid abberations we made sure the beam enters the plano-convex lens on its curved surface, such that the refraction takes place on both surfaces of the lens. Nevertheless we could only approximately determine the center of the lens and thereby abberations can not be excluded totally.
+
+
+Unexpectadly, the waist is not minimized at the focal length. As seen in Figure 4, the expected minimum around z = 0 is not there. Particularly the data points around z = 4 and z= -6 are significant outliers in the expected trend. As in the previous part, we see that the standard deviations of $\omega_{0}$ and $z_{R}$ are relatively high. This time for the rayleigh length is is even higher than the value itself, which is illogical because it includes negative values within the error range. Since the experiments are very similar, the discussed error sources apply as well here. Furthermore, it again becomes apparent that there is significant undersampling  used to fit the waist. One can already see and imagine that alternative curves also would look reasonable given the data point. This, together with the fact that the measuring apparatus was very sensitive, especially around the focal length, lends itself to a high error which is reflected in the high error bars of the waist and rayleigh length. With a small waist, smaller deviations in the micrometer will play an increasing role in producing errors. With many more samples a more accurate curve can be determined and we would expect these errors to be lessened. To avoid abberations we made sure the beam enters the plano-convex lens on its curved surface, such that the refraction takes place on both surfaces of the lens. Nevertheless we could only approximately determine the center of the lens and thereby abberations can not be excluded totally.
 
 \section{Appendix}
 
